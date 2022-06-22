@@ -20,7 +20,7 @@ function getPosition(lat, lng){
  * @param {Function} content (MarkerObj[Keys]): String
  */
 function createMarker(MarkerObj, map, content){
-    
+
     let markers = [];
     let infoWindows = [];
 
@@ -103,4 +103,36 @@ function createMarker(MarkerObj, map, content){
     }
 }
 
-export {createMap, getPosition, createMarker}
+function changeAddressToPositionByGeocode(address) {
+    return new Promise((resolve, reject) =>{
+
+        naver.maps.Service.geocode(
+            {
+              query: address,
+            },
+            function (status, response) {
+              if (status === naver.maps.Service.Status.ERROR) {
+                reject("Something Wrong!");
+              }
+        
+              if (response.v2.meta.totalCount === 0) {
+                reject("totalCount" + response.v2.meta.totalCount);
+              }
+        
+              const
+                item = response.v2.addresses[0],
+                position = new naver.maps.Point(item.x, item.y);
+        
+              //   infoWindows.push(infoWindow.open(map, point))
+              resolve(position);
+        
+            }
+          );
+
+    })
+    
+}
+  
+
+export {createMap, getPosition, createMarker,
+    changeAddressToPositionByGeocode}

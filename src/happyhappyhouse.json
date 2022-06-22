@@ -1,0 +1,70 @@
+[{
+    "houseSn": "1",
+    "name": "강남센트럴아이파크(개나리4차)",
+    "sells": [
+        {
+            "m2": 52.34,
+            "Classes": "52",
+            "totalPrice": 277960000,
+            "monthPay": 360000,
+            "priorSupplyCnt": 4,
+            "generalSupplyCnt": 3
+        },
+        {
+            "m2": 59.95,
+            "Classes": "59",
+            "totalPrice": 332600000,
+            "monthPay": 431000,
+            "priorSupplyCnt": 19,
+            "generalSupplyCnt": 18
+        }
+    ],
+    "address": "서울특별시 강남구 역삼동 712-3 "
+},
+{
+    "houseSn": "2",
+    "name": "건대프라하임3차",
+    "sells": [
+        {
+            "m2": 27.01,
+            "Classes": "27",
+            "totalPrice": 104640000,
+            "monthPay": 138000,
+            "priorSupplyCnt": 2,
+            "generalSupplyCnt": 1
+        },
+        {
+            "m2": 38.28,
+            "Classes": "38",
+            "totalPrice": 152780000,
+            "monthPay": 201500,
+            "priorSupplyCnt": 1,
+            "generalSupplyCnt": 1
+        }
+    ],
+    "address": "서울특별시 광진구 화양동 94-9 "
+},
+{
+    "houseSn": "3",
+    "name": "다온타워",
+    "sells": [
+        {
+            "m2": 22.83,
+            "Classes": "22",
+            "totalPrice": 69300000,
+            "monthPay": 91500,
+            "priorSupplyCnt": 1,
+            "generalSupplyCnt": 1
+        },
+        {
+            "m2": 29.41,
+            "Classes": "29",
+            "totalPrice": 91980000,
+            "monthPay": 121500,
+            "priorSupplyCnt": 1,
+            "generalSupplyCnt": 1
+        }
+    ],
+    "address": "서울특별시 관악구 신림동 1420-6 "
+}
+]
