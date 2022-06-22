@@ -1,70 +1,676 @@
-[{
+[
+  {
     "houseSn": "1",
     "name": "강남센트럴아이파크(개나리4차)",
     "sells": [
-        {
-            "m2": 52.34,
-            "Classes": "52",
-            "totalPrice": 277960000,
-            "monthPay": 360000,
-            "priorSupplyCnt": 4,
-            "generalSupplyCnt": 3
-        },
-        {
-            "m2": 59.95,
-            "Classes": "59",
-            "totalPrice": 332600000,
-            "monthPay": 431000,
-            "priorSupplyCnt": 19,
-            "generalSupplyCnt": 18
-        }
+      {
+        "m2": 52.34,
+        "Classes": "52",
+        "totalPrice": 277960000,
+        "monthPay": 360000,
+        "priorSupplyCnt": 4,
+        "generalSupplyCnt": 3
+      },
+      {
+        "m2": 59.95,
+        "Classes": "59",
+        "totalPrice": 332600000,
+        "monthPay": 431000,
+        "priorSupplyCnt": 19,
+        "generalSupplyCnt": 18
+      }
     ],
     "address": "서울특별시 강남구 역삼동 712-3 "
-},
-{
+  },
+  {
     "houseSn": "2",
     "name": "건대프라하임3차",
     "sells": [
-        {
-            "m2": 27.01,
-            "Classes": "27",
-            "totalPrice": 104640000,
-            "monthPay": 138000,
-            "priorSupplyCnt": 2,
-            "generalSupplyCnt": 1
-        },
-        {
-            "m2": 38.28,
-            "Classes": "38",
-            "totalPrice": 152780000,
-            "monthPay": 201500,
-            "priorSupplyCnt": 1,
-            "generalSupplyCnt": 1
-        }
+      {
+        "m2": 27.01,
+        "Classes": "27",
+        "totalPrice": 104640000,
+        "monthPay": 138000,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      },
+      {
+        "m2": 38.28,
+        "Classes": "38",
+        "totalPrice": 152780000,
+        "monthPay": 201500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      }
     ],
     "address": "서울특별시 광진구 화양동 94-9 "
-},
-{
+  },
+  {
     "houseSn": "3",
     "name": "다온타워",
     "sells": [
-        {
-            "m2": 22.83,
-            "Classes": "22",
-            "totalPrice": 69300000,
-            "monthPay": 91500,
-            "priorSupplyCnt": 1,
-            "generalSupplyCnt": 1
-        },
-        {
-            "m2": 29.41,
-            "Classes": "29",
-            "totalPrice": 91980000,
-            "monthPay": 121500,
-            "priorSupplyCnt": 1,
-            "generalSupplyCnt": 1
-        }
+      {
+        "m2": 22.83,
+        "Classes": "22",
+        "totalPrice": 69300000,
+        "monthPay": 91500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      },
+      {
+        "m2": 29.41,
+        "Classes": "29",
+        "totalPrice": 91980000,
+        "monthPay": 121500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      }
     ],
     "address": "서울특별시 관악구 신림동 1420-6 "
-}
+  },
+  {
+    "houseSn": "4",
+    "name": "리오파크",
+    "sells": [
+      {
+        "m2": 21.24,
+        "Classes": "21",
+        "totalPrice": 74440000,
+        "monthPay": 95000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 영등포구 영등포동2가 300-1 "
+  },
+  {
+    "houseSn": "5",
+    "name": "마포더클래시",
+    "sells": [
+      {
+        "m2": 32.89,
+        "Classes": "32",
+        "totalPrice": 132800000,
+        "monthPay": 178000,
+        "priorSupplyCnt": 6,
+        "generalSupplyCnt": 5
+      },
+      {
+        "m2": 49.87,
+        "Classes": "49",
+        "totalPrice": 207800000,
+        "monthPay": 279000,
+        "priorSupplyCnt": 12,
+        "generalSupplyCnt": 11
+      },
+      {
+        "m2": 54.65,
+        "Classes": "54",
+        "totalPrice": 238200000,
+        "monthPay": 319000,
+        "priorSupplyCnt": 12,
+        "generalSupplyCnt": 11
+      }
+    ],
+    "address": "서울특별시 마포구 아현동 664-1 "
+  },
+  {
+    "houseSn": "6",
+    "name": "상봉태솔",
+    "sells": [],
+    "address": "서울특별시 중랑구 상봉동 105-97 "
+  },
+  {
+    "houseSn": "7",
+    "name": "서대문푸르지오센트럴파크(홍제1)",
+    "sells": [
+      {
+        "m2": 34.9,
+        "Classes": "34-청년",
+        "totalPrice": 122640000,
+        "monthPay": 156000,
+        "priorSupplyCnt": 15,
+        "generalSupplyCnt": 15
+      },
+      {
+        "m2": 49.5,
+        "Classes": "49",
+        "totalPrice": 187900000,
+        "monthPay": 239500,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 서대문구 홍제동 57-5 "
+  },
+  {
+    "houseSn": "8",
+    "name": "용마산모아엘가파크포레(면목4)",
+    "sells": [],
+    "address": "서울특별시 중랑구 면목동 55-14 "
+  },
+  {
+    "houseSn": "9",
+    "name": "초행지붕-수유",
+    "sells": [
+      {
+        "m2": 20.02,
+        "Classes": "20",
+        "totalPrice": 74760000,
+        "monthPay": 95000,
+        "priorSupplyCnt": 5,
+        "generalSupplyCnt": 4
+      },
+      {
+        "m2": 27.39,
+        "Classes": "27",
+        "totalPrice": 99420000,
+        "monthPay": 126500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 강북구 수유동 290-11 "
+  },
+  {
+    "houseSn": "10",
+    "name": "초행지붕-쌍문",
+    "sells": [
+      {
+        "m2": 20.16,
+        "Classes": "20",
+        "totalPrice": 68720000,
+        "monthPay": 92000,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 2
+      },
+      {
+        "m2": 22.32,
+        "Classes": "22",
+        "totalPrice": 79160000,
+        "monthPay": 106000,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 도봉구 쌍문동 460-45 "
+  },
+  {
+    "houseSn": "11",
+    "name": "강동리엔파크 11단지",
+    "sells": [
+      {
+        "m2": 17.97,
+        "Classes": "17-청년",
+        "totalPrice": 75200000,
+        "monthPay": 106000,
+        "priorSupplyCnt": 25,
+        "generalSupplyCnt": 25
+      },
+      {
+        "m2": 36.22,
+        "Classes": "36-청년",
+        "totalPrice": 153260000,
+        "monthPay": 215500,
+        "priorSupplyCnt": 0,
+        "generalSupplyCnt": 35
+      }
+    ],
+    "address": "서울특별시 강동구 상일동 36-3 "
+  },
+  {
+    "houseSn": "12",
+    "name": "강동리엔파크 14단지",
+    "sells": [
+      {
+        "m2": 17.81,
+        "Classes": "17-청년",
+        "totalPrice": 75200000,
+        "monthPay": 106000,
+        "priorSupplyCnt": 27,
+        "generalSupplyCnt": 26
+      }
+    ],
+    "address": "서울특별시 강동구 상일동 28 "
+  },
+  {
+    "houseSn": "13",
+    "name": "강일리버파크11(강일11단지)",
+    "sells": [
+      {
+        "m2": 29.96,
+        "Classes": "29-청년",
+        "totalPrice": 82140000,
+        "monthPay": 115500,
+        "priorSupplyCnt": 36,
+        "generalSupplyCnt": 35
+      },
+      {
+        "m2": 29.96,
+        "Classes": "29S",
+        "totalPrice": 86720000,
+        "monthPay": 122000,
+        "priorSupplyCnt": 5,
+        "generalSupplyCnt": 4
+      }
+    ],
+    "address": "서울특별시 강동구 강일동 689 "
+  },
+  {
+    "houseSn": "14",
+    "name": "고덕아르테온",
+    "sells": [
+      {
+        "m2": 59.98,
+        "Classes": "59",
+        "totalPrice": 196000000,
+        "monthPay": 276000,
+        "priorSupplyCnt": 0,
+        "generalSupplyCnt": 21
+      }
+    ],
+    "address": "서울특별시 강동구 상일동 519 "
+  },
+  {
+    "houseSn": "15",
+    "name": "디에이치 아너힐즈(개포주공3)",
+    "sells": [
+      {
+        "m2": 49.4,
+        "Classes": "49",
+        "totalPrice": 273600000,
+        "monthPay": 348000,
+        "priorSupplyCnt": 4,
+        "generalSupplyCnt": 3
+      }
+    ],
+    "address": "서울특별시 강남구 개포동 1281 "
+  },
+  {
+    "houseSn": "16",
+    "name": "래미안리오센트(신반포 18,24차)",
+    "sells": [
+      {
+        "m2": 48.48,
+        "Classes": "48",
+        "totalPrice": 278500000,
+        "monthPay": 348500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      },
+      {
+        "m2": 59.95,
+        "Classes": "59",
+        "totalPrice": 344500000,
+        "monthPay": 430500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 서초구 잠원동 161 "
+  },
+  {
+    "houseSn": "17",
+    "name": "래미안블레스티지(개포주공2단지)",
+    "sells": [
+      {
+        "m2": 59.97,
+        "Classes": "59",
+        "totalPrice": 324200000,
+        "monthPay": 413000,
+        "priorSupplyCnt": 4,
+        "generalSupplyCnt": 3
+      }
+    ],
+    "address": "서울특별시 강남구 개포동 1280 "
+  },
+  {
+    "houseSn": "18",
+    "name": "르엘대치(대치제2지구)",
+    "sells": [
+      {
+        "m2": 35.96,
+        "Classes": "35-청년",
+        "totalPrice": 184800000,
+        "monthPay": 240000,
+        "priorSupplyCnt": 3,
+        "generalSupplyCnt": 2
+      }
+    ],
+    "address": "서울특별시 강남구 대치동 977 "
+  },
+  {
+    "houseSn": "19",
+    "name": "반포 래미안 아이파크(서초한양)",
+    "sells": [
+      {
+        "m2": 49.84,
+        "Classes": "49",
+        "totalPrice": 269900000,
+        "monthPay": 337500,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 서초구 반포동 1341 "
+  },
+  {
+    "houseSn": "20",
+    "name": "반포센트럴푸르지오 써밋",
+    "sells": [
+      {
+        "m2": 49.8,
+        "Classes": "49",
+        "totalPrice": 274100000,
+        "monthPay": 342500,
+        "priorSupplyCnt": 0,
+        "generalSupplyCnt": 13
+      }
+    ],
+    "address": "서울특별시 서초구 반포동 1342 "
+  },
+  {
+    "houseSn": "21",
+    "name": "송파파크데일3(마천3)",
+    "sells": [
+      {
+        "m2": 21.92,
+        "Classes": "21-청년",
+        "totalPrice": 65780000,
+        "monthPay": 80500,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      },
+      {
+        "m2": 31.98,
+        "Classes": "31",
+        "totalPrice": 96320000,
+        "monthPay": 118000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 송파구 마천동 605 "
+  },
+  {
+    "houseSn": "22",
+    "name": "송파헬리오시티(가락시영)",
+    "sells": [
+      {
+        "m2": 39.1,
+        "Classes": "39-청년",
+        "totalPrice": 177320000,
+        "monthPay": 217000,
+        "priorSupplyCnt": 11,
+        "generalSupplyCnt": 10
+      }
+    ],
+    "address": "서울특별시 송파구 가락동 479 "
+  },
+  {
+    "houseSn": "23",
+    "name": "수락리버타운",
+    "sells": [
+      {
+        "m2": 21.92,
+        "Classes": "21S",
+        "totalPrice": 53620000,
+        "monthPay": 70500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      },
+      {
+        "m2": 21.92,
+        "Classes": "31",
+        "totalPrice": 74320000,
+        "monthPay": 98000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 노원구 상계동 1316 "
+  },
+  {
+    "houseSn": "24",
+    "name": "숲에리움",
+    "sells": [
+      {
+        "m2": 16.99,
+        "Classes": "16",
+        "totalPrice": 76780000,
+        "monthPay": 99500,
+        "priorSupplyCnt": 6,
+        "generalSupplyCnt": 6
+      }
+    ],
+    "address": "서울특별시 구로구 오류동 359 "
+  },
+  {
+    "houseSn": "25",
+    "name": "신내3지구 4단지도시형생활주택",
+    "sells": [
+      {
+        "m2": 21.96,
+        "Classes": "21-청년",
+        "totalPrice": 51180000,
+        "monthPay": 61500,
+        "priorSupplyCnt": 5,
+        "generalSupplyCnt": 4
+      },
+      {
+        "m2": 21.96,
+        "Classes": "21S",
+        "totalPrice": 54040000,
+        "monthPay": 65000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 중랑구 신내동 831 "
+  },
+  {
+    "houseSn": "26",
+    "name": "신내 글로리움",
+    "sells": [
+      {
+        "m2": 44.76,
+        "Classes": "44S",
+        "totalPrice": 118080000,
+        "monthPay": 142000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 중랑구 신내동 640 "
+  },
+  {
+    "houseSn": "27",
+    "name": "신정 파크샤인",
+    "sells": [
+      {
+        "m2": 26.5,
+        "Classes": "26S",
+        "totalPrice": 120200000,
+        "monthPay": 164000,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      }
+    ],
+    "address": "서울특별시 양천구 신정동 163-36 "
+  },
+  {
+    "houseSn": "28",
+    "name": "역촌 헤르미온",
+    "sells": [
+      {
+        "m2": 15.64,
+        "Classes": "16",
+        "totalPrice": 38080000,
+        "monthPay": 51000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 은평구 역촌동 44-2 "
+  },
+  {
+    "houseSn": "29",
+    "name": "정릉 하늘마루(청신호)",
+    "sells": [
+      {
+        "m2": 19.7,
+        "Classes": "19",
+        "totalPrice": 76600000,
+        "monthPay": 94000,
+        "priorSupplyCnt": 2,
+        "generalSupplyCnt": 1
+      },
+      {
+        "m2": 22.26,
+        "Classes": "22",
+        "totalPrice": 91620000,
+        "monthPay": 112500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 1
+      },
+      {
+        "m2": 36.33,
+        "Classes": "36",
+        "totalPrice": 149740000,
+        "monthPay": 183500,
+        "priorSupplyCnt": 3,
+        "generalSupplyCnt": 3
+      },
+      {
+        "m2": 26.15,
+        "Classes": "26S",
+        "totalPrice": 113780000,
+        "monthPay": 139500,
+        "priorSupplyCnt": 4,
+        "generalSupplyCnt": 4
+      }
+    ],
+    "address": "서울특별시 성북구 정릉동 1054 "
+  },
+  {
+    "houseSn": "30",
+    "name": "천왕연지마을1",
+    "sells": [
+      {
+        "m2": 20.57,
+        "Classes": "20-청년",
+        "totalPrice": 45740000,
+        "monthPay": 59500,
+        "priorSupplyCnt": 4,
+        "generalSupplyCnt": 3
+      },
+      {
+        "m2": 35.21,
+        "Classes": "35",
+        "totalPrice": 77800000,
+        "monthPay": 101000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 구로구 천왕동 14-116 "
+  },
+  {
+    "houseSn": "31",
+    "name": "천왕연지마을2",
+    "sells": [
+      {
+        "m2": 22.23,
+        "Classes": "22S",
+        "totalPrice": 55440000,
+        "monthPay": 72000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 구로구 천왕동 산 13-13 "
+  },
+  {
+    "houseSn": "32",
+    "name": "천왕지구 8단지",
+    "sells": [
+      {
+        "m2": 29.38,
+        "Classes": "29-청년",
+        "totalPrice": 63200000,
+        "monthPay": 82000,
+        "priorSupplyCnt": 10,
+        "generalSupplyCnt": 10
+      },
+      {
+        "m2": 45.77,
+        "Classes": "45",
+        "totalPrice": 110200000,
+        "monthPay": 143000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 13
+      }
+    ],
+    "address": "서울특별시 구로구 천왕동 산 19-1 "
+  },
+  {
+    "houseSn": "33",
+    "name": "초행지붕-미아-3",
+    "sells": [
+      {
+        "m2": 54.9,
+        "Classes": "53",
+        "totalPrice": 166000000,
+        "monthPay": 230000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 강북구 미아동 791-1960 "
+  },
+  {
+    "houseSn": "34",
+    "name": "포레나노원",
+    "sells": [
+      {
+        "m2": 49.96,
+        "Classes": "49",
+        "totalPrice": 143500000,
+        "monthPay": 189500,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 노원구 상계동 680 "
+  },
+  {
+    "houseSn": "35",
+    "name": "항동(항동 하버라인 9,10,11단지)",
+    "sells": [
+      {
+        "m2": 29.69,
+        "Classes": "29-청년",
+        "totalPrice": 70960000,
+        "monthPay": 92000,
+        "priorSupplyCnt": 7,
+        "generalSupplyCnt": 7
+      }
+    ],
+    "address": "서울특별시 구로구 항동 136-5 /135-57/184"
+  },
+  {
+    "houseSn": "36",
+    "name": "힐스테이트 신촌",
+    "sells": [
+      {
+        "m2": 37.97,
+        "Classes": "37",
+        "totalPrice": 127200000,
+        "monthPay": 150000,
+        "priorSupplyCnt": 1,
+        "generalSupplyCnt": 0
+      }
+    ],
+    "address": "서울특별시 서대문구 북아현동 1-954 "
+  }
 ]
