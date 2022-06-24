@@ -17,11 +17,11 @@ function App() {
       <NaverMap
         mapDivId={'maps-getting-started-uncontrolled'} // default: react-naver-map
         style={{
-          width: '600px',
-          height: '400px',
+          width: '100%',
+          height: '100vw',
         }}
         defaultCenter={{ lat: 37.3595704, lng: 127.105399 }}
-        defaultZoom={10}
+        defaultZoom={12}
         naverRef={nRef}
       >
         <Suspense fallback={<p>사용자 정보 로딩중...</p>}>

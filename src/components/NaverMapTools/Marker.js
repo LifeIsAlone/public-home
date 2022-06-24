@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react';
 import * as NAVER from '../../helpers/naverMapHelper';
-import { useHomesState, useHomesDispatch, getHomes } from './../../context/HomeContext';
+import { useHomesState, useHomesDispatch} from './../../context/HomeContext';
 // export function renderContent({ data }) {
 //     const sells = data.sells;
 //   return (
@@ -26,12 +26,6 @@ export default function Marker() {
     const addCommas = (n) => {
         return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     };
-    useEffect(() => {
-        (async () => {
-            getHomes(dispatch);
-            console.log(state);
-        })();
-    }, [dispatch]);
 
     const { loading, data, error } = state.homes;
 
