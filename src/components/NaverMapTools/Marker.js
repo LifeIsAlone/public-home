@@ -1,53 +1,48 @@
+import { useEffect } from "react";
+import ReactDOMServer from "react-dom/server";
+import styled from "styled-components";
+import * as NAVER from "../../helpers/naverMapHelper";
+import { useHomesState, useHomesDispatch } from "./../../context/HomeContext";
 
-import { useEffect } from 'react';
-import * as NAVER from '../../helpers/naverMapHelper';
-import { useHomesState, useHomesDispatch} from './../../context/HomeContext';
-// export function renderContent({ data }) {
-//     const sells = data.sells;
-//   return (
-//     <div>
-//       <h3>{data.name}</h3>
-//       {sells.map((sell) => {
-//         return (
-//           <div>
-//             <p>주택유형: {sell.Classes}</p>
-//             <p>최대보증금: {sell.totalPrice}</p>
-//             <p>최소월세: {sell.monthPay}</p>
-//           </div>
-//         );
-//       })}
-//     </div>
-//   );
-// }
+export function RenderInfowindowContent({ homeInfo }) {
+  const sells = homeInfo.sells;
+  return (
+    <InfowindowDiv>
+      <div>
+        <h3>{homeInfo.name}</h3>
+        {sells.map((sell) => {
+          return (
+            <ul>
+              <li>주택정보: {sell.classes}</li>
+              <li>최대전환 보증금: {sell.totalPrice}</li>
+              <li>최소전환 월세: {sell.monthPay}</li>
+            </ul>
+          );
+        })}
+      </div>
+    </InfowindowDiv>
+  );
+}
 
 export default function Marker() {
-    const state = useHomesState();
-    const dispatch = useHomesDispatch();
-    const addCommas = (n) => {
-        return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    };
+  const state = useHomesState();
+  const dispatch = useHomesDispatch();
+  const addCommas = (n) => {
+    return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
 
-    const { loading, data, error } = state.homes;
+  const { loading, data, error } = state.homes;
 
-    NAVER.createMarker(data, state.map.data, (props) => {
-        // console.log(data[0]);
-        // console.log(props);
-        const sells = props.sells;
-        // return <renderContent data={props}></renderContent>;
-        return `<div style="width:300px;text-align:left;padding:10px;">
-                <h3>${props.name}</h3>
-                ${sells.map((sell) => {
-            return `
-                    <ul>
-                      <li>주택유형: ${sell.Classes}</li>
-                      <li>최대보증금: ${addCommas(
-                sell.totalPrice / 10000
-            )}만원</li>
-                      <li>최소월세: ${addCommas(sell.monthPay / 10000)}만원</li>
-                      </p>
-                    </ul>
-                    `;
-        })}
-            </div>`;
-    });
+  NAVER.createMarker(data, state.map.data, (props) => {
+    const htmlString = ReactDOMServer.renderToStaticMarkup(
+      <RenderInfowindowContent homeInfo={props}></RenderInfowindowContent>
+    );
+    return htmlString;
+  });
 }
+
+const InfowindowDiv = styled.div`
+  width: 300px;
+  text-align: left;
+  padding: 10px;
+`;

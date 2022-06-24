@@ -1,676 +1,945 @@
 [
   {
-    "houseSn": "1",
-    "name": "강남센트럴아이파크(개나리4차)",
+    "name": "동대문장안동(진성홈타운)",
     "sells": [
       {
-        "m2": 52.34,
-        "Classes": "52",
-        "totalPrice": 277960000,
-        "monthPay": 360000,
-        "priorSupplyCnt": 4,
-        "generalSupplyCnt": 3
+        "classes": "남성전용 101동 201호 59㎡",
+        "totalPrice": "10,430만원",
+        "monthPay": "341,470원"
       },
       {
-        "m2": 59.95,
-        "Classes": "59",
-        "totalPrice": 332600000,
-        "monthPay": 431000,
-        "priorSupplyCnt": 19,
-        "generalSupplyCnt": 18
-      }
-    ],
-    "address": "서울특별시 강남구 역삼동 712-3 "
-  },
-  {
-    "houseSn": "2",
-    "name": "건대프라하임3차",
-    "sells": [
-      {
-        "m2": 27.01,
-        "Classes": "27",
-        "totalPrice": 104640000,
-        "monthPay": 138000,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
+        "classes": "남성전용 101동 203호 45㎡",
+        "totalPrice": "7,940만원",
+        "monthPay": "258,510원"
       },
       {
-        "m2": 38.28,
-        "Classes": "38",
-        "totalPrice": 152780000,
-        "monthPay": 201500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
-      }
-    ],
-    "address": "서울특별시 광진구 화양동 94-9 "
-  },
-  {
-    "houseSn": "3",
-    "name": "다온타워",
-    "sells": [
-      {
-        "m2": 22.83,
-        "Classes": "22",
-        "totalPrice": 69300000,
-        "monthPay": 91500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
+        "classes": "여성전용 102동 401호 42㎡",
+        "totalPrice": "7,830만원",
+        "monthPay": "254,490원"
       },
       {
-        "m2": 29.41,
-        "Classes": "29",
-        "totalPrice": 91980000,
-        "monthPay": 121500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
+        "classes": "여성전용 102동 503호 10㎡",
+        "totalPrice": "5,650만원",
+        "monthPay": "181,720원"
       }
     ],
-    "address": "서울특별시 관악구 신림동 1420-6 "
+    "address": "서울특별시 동대문구 답십리로68길 92"
   },
   {
-    "houseSn": "4",
-    "name": "리오파크",
+    "name": "강동성내동(주함해븐빌)",
     "sells": [
       {
-        "m2": 21.24,
-        "Classes": "21",
-        "totalPrice": 74440000,
-        "monthPay": 95000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
+        "classes": "남여공용 제6동 501호 45㎡",
+        "totalPrice": "12,060만원",
+        "monthPay": "395,400원"
       }
     ],
-    "address": "서울특별시 영등포구 영등포동2가 300-1 "
+    "address": "서울특별시 강동구 양재대로97길 17"
   },
   {
-    "houseSn": "5",
-    "name": "마포더클래시",
+    "name": "중랑중화동(주함해븐빌)",
     "sells": [
       {
-        "m2": 32.89,
-        "Classes": "32",
-        "totalPrice": 132800000,
-        "monthPay": 178000,
-        "priorSupplyCnt": 6,
-        "generalSupplyCnt": 5
+        "classes": "남성전용 105동 601호 50㎡",
+        "totalPrice": "8,950만원",
+        "monthPay": "291,850원"
       },
       {
-        "m2": 49.87,
-        "Classes": "49",
-        "totalPrice": 207800000,
-        "monthPay": 279000,
-        "priorSupplyCnt": 12,
-        "generalSupplyCnt": 11
+        "classes": "여성전용 102동 301호 50㎡",
+        "totalPrice": "8,810만원",
+        "monthPay": "287,150원"
       },
       {
-        "m2": 54.65,
-        "Classes": "54",
-        "totalPrice": 238200000,
-        "monthPay": 319000,
-        "priorSupplyCnt": 12,
-        "generalSupplyCnt": 11
-      }
-    ],
-    "address": "서울특별시 마포구 아현동 664-1 "
-  },
-  {
-    "houseSn": "6",
-    "name": "상봉태솔",
-    "sells": [],
-    "address": "서울특별시 중랑구 상봉동 105-97 "
-  },
-  {
-    "houseSn": "7",
-    "name": "서대문푸르지오센트럴파크(홍제1)",
-    "sells": [
-      {
-        "m2": 34.9,
-        "Classes": "34-청년",
-        "totalPrice": 122640000,
-        "monthPay": 156000,
-        "priorSupplyCnt": 15,
-        "generalSupplyCnt": 15
+        "classes": "여성전용 102동 302호 49㎡",
+        "totalPrice": "8,660만원",
+        "monthPay": "282,680원"
       },
       {
-        "m2": 49.5,
-        "Classes": "49",
-        "totalPrice": 187900000,
-        "monthPay": 239500,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
+        "classes": "남성전용 105동 401호 50㎡",
+        "totalPrice": "8,810만원",
+        "monthPay": "287,280원"
       }
     ],
-    "address": "서울특별시 서대문구 홍제동 57-5 "
+    "address": "서울특별시 중랑구 중랑천로 109"
   },
   {
-    "houseSn": "8",
-    "name": "용마산모아엘가파크포레(면목4)",
-    "sells": [],
-    "address": "서울특별시 중랑구 면목동 55-14 "
-  },
-  {
-    "houseSn": "9",
-    "name": "초행지붕-수유",
+    "name": "의정부가능동(드림)",
     "sells": [
       {
-        "m2": 20.02,
-        "Classes": "20",
-        "totalPrice": 74760000,
-        "monthPay": 95000,
-        "priorSupplyCnt": 5,
-        "generalSupplyCnt": 4
+        "classes": "남여공용 201호 49㎡",
+        "totalPrice": "3,860만원",
+        "monthPay": "122,750원"
+      }
+    ],
+    "address": "경기도 의정부시 호국로1067번길 29"
+  },
+  {
+    "name": "송파삼전동(삼전파크빌)",
+    "sells": [
+      {
+        "classes": "남여공용 502호 44㎡",
+        "totalPrice": "11,050만원",
+        "monthPay": "362,160원"
       },
       {
-        "m2": 27.39,
-        "Classes": "27",
-        "totalPrice": 99420000,
-        "monthPay": 126500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 강북구 수유동 290-11 "
-  },
-  {
-    "houseSn": "10",
-    "name": "초행지붕-쌍문",
-    "sells": [
-      {
-        "m2": 20.16,
-        "Classes": "20",
-        "totalPrice": 68720000,
-        "monthPay": 92000,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 2
+        "classes": "남여공용 503호 37㎡",
+        "totalPrice": "9,980만원",
+        "monthPay": "326,360원"
       },
       {
-        "m2": 22.32,
-        "Classes": "22",
-        "totalPrice": 79160000,
-        "monthPay": 106000,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
-      }
-    ],
-    "address": "서울특별시 도봉구 쌍문동 460-45 "
-  },
-  {
-    "houseSn": "11",
-    "name": "강동리엔파크 11단지",
-    "sells": [
-      {
-        "m2": 17.97,
-        "Classes": "17-청년",
-        "totalPrice": 75200000,
-        "monthPay": 106000,
-        "priorSupplyCnt": 25,
-        "generalSupplyCnt": 25
+        "classes": "남여공용 203호 38㎡",
+        "totalPrice": "9,780만원",
+        "monthPay": "319,350원"
       },
       {
-        "m2": 36.22,
-        "Classes": "36-청년",
-        "totalPrice": 153260000,
-        "monthPay": 215500,
-        "priorSupplyCnt": 0,
-        "generalSupplyCnt": 35
-      }
-    ],
-    "address": "서울특별시 강동구 상일동 36-3 "
-  },
-  {
-    "houseSn": "12",
-    "name": "강동리엔파크 14단지",
-    "sells": [
-      {
-        "m2": 17.81,
-        "Classes": "17-청년",
-        "totalPrice": 75200000,
-        "monthPay": 106000,
-        "priorSupplyCnt": 27,
-        "generalSupplyCnt": 26
-      }
-    ],
-    "address": "서울특별시 강동구 상일동 28 "
-  },
-  {
-    "houseSn": "13",
-    "name": "강일리버파크11(강일11단지)",
-    "sells": [
-      {
-        "m2": 29.96,
-        "Classes": "29-청년",
-        "totalPrice": 82140000,
-        "monthPay": 115500,
-        "priorSupplyCnt": 36,
-        "generalSupplyCnt": 35
+        "classes": "남여공용 303호 38㎡",
+        "totalPrice": "9,780만원",
+        "monthPay": "319,350원"
       },
       {
-        "m2": 29.96,
-        "Classes": "29S",
-        "totalPrice": 86720000,
-        "monthPay": 122000,
-        "priorSupplyCnt": 5,
-        "generalSupplyCnt": 4
-      }
-    ],
-    "address": "서울특별시 강동구 강일동 689 "
-  },
-  {
-    "houseSn": "14",
-    "name": "고덕아르테온",
-    "sells": [
-      {
-        "m2": 59.98,
-        "Classes": "59",
-        "totalPrice": 196000000,
-        "monthPay": 276000,
-        "priorSupplyCnt": 0,
-        "generalSupplyCnt": 21
-      }
-    ],
-    "address": "서울특별시 강동구 상일동 519 "
-  },
-  {
-    "houseSn": "15",
-    "name": "디에이치 아너힐즈(개포주공3)",
-    "sells": [
-      {
-        "m2": 49.4,
-        "Classes": "49",
-        "totalPrice": 273600000,
-        "monthPay": 348000,
-        "priorSupplyCnt": 4,
-        "generalSupplyCnt": 3
-      }
-    ],
-    "address": "서울특별시 강남구 개포동 1281 "
-  },
-  {
-    "houseSn": "16",
-    "name": "래미안리오센트(신반포 18,24차)",
-    "sells": [
-      {
-        "m2": 48.48,
-        "Classes": "48",
-        "totalPrice": 278500000,
-        "monthPay": 348500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
+        "classes": "남여공용 404호 36㎡",
+        "totalPrice": "9,590만원",
+        "monthPay": "313,260원"
       },
       {
-        "m2": 59.95,
-        "Classes": "59",
-        "totalPrice": 344500000,
-        "monthPay": 430500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 서초구 잠원동 161 "
-  },
-  {
-    "houseSn": "17",
-    "name": "래미안블레스티지(개포주공2단지)",
-    "sells": [
-      {
-        "m2": 59.97,
-        "Classes": "59",
-        "totalPrice": 324200000,
-        "monthPay": 413000,
-        "priorSupplyCnt": 4,
-        "generalSupplyCnt": 3
-      }
-    ],
-    "address": "서울특별시 강남구 개포동 1280 "
-  },
-  {
-    "houseSn": "18",
-    "name": "르엘대치(대치제2지구)",
-    "sells": [
-      {
-        "m2": 35.96,
-        "Classes": "35-청년",
-        "totalPrice": 184800000,
-        "monthPay": 240000,
-        "priorSupplyCnt": 3,
-        "generalSupplyCnt": 2
-      }
-    ],
-    "address": "서울특별시 강남구 대치동 977 "
-  },
-  {
-    "houseSn": "19",
-    "name": "반포 래미안 아이파크(서초한양)",
-    "sells": [
-      {
-        "m2": 49.84,
-        "Classes": "49",
-        "totalPrice": 269900000,
-        "monthPay": 337500,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
-      }
-    ],
-    "address": "서울특별시 서초구 반포동 1341 "
-  },
-  {
-    "houseSn": "20",
-    "name": "반포센트럴푸르지오 써밋",
-    "sells": [
-      {
-        "m2": 49.8,
-        "Classes": "49",
-        "totalPrice": 274100000,
-        "monthPay": 342500,
-        "priorSupplyCnt": 0,
-        "generalSupplyCnt": 13
-      }
-    ],
-    "address": "서울특별시 서초구 반포동 1342 "
-  },
-  {
-    "houseSn": "21",
-    "name": "송파파크데일3(마천3)",
-    "sells": [
-      {
-        "m2": 21.92,
-        "Classes": "21-청년",
-        "totalPrice": 65780000,
-        "monthPay": 80500,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
+        "classes": "남여공용 204호 36㎡",
+        "totalPrice": "9,590만원",
+        "monthPay": "313,250원"
       },
       {
-        "m2": 31.98,
-        "Classes": "31",
-        "totalPrice": 96320000,
-        "monthPay": 118000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 송파구 마천동 605 "
-  },
-  {
-    "houseSn": "22",
-    "name": "송파헬리오시티(가락시영)",
-    "sells": [
-      {
-        "m2": 39.1,
-        "Classes": "39-청년",
-        "totalPrice": 177320000,
-        "monthPay": 217000,
-        "priorSupplyCnt": 11,
-        "generalSupplyCnt": 10
-      }
-    ],
-    "address": "서울특별시 송파구 가락동 479 "
-  },
-  {
-    "houseSn": "23",
-    "name": "수락리버타운",
-    "sells": [
-      {
-        "m2": 21.92,
-        "Classes": "21S",
-        "totalPrice": 53620000,
-        "monthPay": 70500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
+        "classes": "남여공용 304호 36㎡",
+        "totalPrice": "9,590만원",
+        "monthPay": "313,250원"
       },
       {
-        "m2": 21.92,
-        "Classes": "31",
-        "totalPrice": 74320000,
-        "monthPay": 98000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
-      }
-    ],
-    "address": "서울특별시 노원구 상계동 1316 "
-  },
-  {
-    "houseSn": "24",
-    "name": "숲에리움",
-    "sells": [
-      {
-        "m2": 16.99,
-        "Classes": "16",
-        "totalPrice": 76780000,
-        "monthPay": 99500,
-        "priorSupplyCnt": 6,
-        "generalSupplyCnt": 6
-      }
-    ],
-    "address": "서울특별시 구로구 오류동 359 "
-  },
-  {
-    "houseSn": "25",
-    "name": "신내3지구 4단지도시형생활주택",
-    "sells": [
-      {
-        "m2": 21.96,
-        "Classes": "21-청년",
-        "totalPrice": 51180000,
-        "monthPay": 61500,
-        "priorSupplyCnt": 5,
-        "generalSupplyCnt": 4
+        "classes": "남여공용 202호 35㎡",
+        "totalPrice": "9,300만원",
+        "monthPay": "304,020원"
       },
       {
-        "m2": 21.96,
-        "Classes": "21S",
-        "totalPrice": 54040000,
-        "monthPay": 65000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
-      }
-    ],
-    "address": "서울특별시 중랑구 신내동 831 "
-  },
-  {
-    "houseSn": "26",
-    "name": "신내 글로리움",
-    "sells": [
-      {
-        "m2": 44.76,
-        "Classes": "44S",
-        "totalPrice": 118080000,
-        "monthPay": 142000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 중랑구 신내동 640 "
-  },
-  {
-    "houseSn": "27",
-    "name": "신정 파크샤인",
-    "sells": [
-      {
-        "m2": 26.5,
-        "Classes": "26S",
-        "totalPrice": 120200000,
-        "monthPay": 164000,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
-      }
-    ],
-    "address": "서울특별시 양천구 신정동 163-36 "
-  },
-  {
-    "houseSn": "28",
-    "name": "역촌 헤르미온",
-    "sells": [
-      {
-        "m2": 15.64,
-        "Classes": "16",
-        "totalPrice": 38080000,
-        "monthPay": 51000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 은평구 역촌동 44-2 "
-  },
-  {
-    "houseSn": "29",
-    "name": "정릉 하늘마루(청신호)",
-    "sells": [
-      {
-        "m2": 19.7,
-        "Classes": "19",
-        "totalPrice": 76600000,
-        "monthPay": 94000,
-        "priorSupplyCnt": 2,
-        "generalSupplyCnt": 1
+        "classes": "남여공용 302호 35㎡",
+        "totalPrice": "9,300만원",
+        "monthPay": "304,020원"
       },
       {
-        "m2": 22.26,
-        "Classes": "22",
-        "totalPrice": 91620000,
-        "monthPay": 112500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 1
+        "classes": "남여공용 403호 34㎡",
+        "totalPrice": "8,980만원",
+        "monthPay": "292,890원"
       },
       {
-        "m2": 36.33,
-        "Classes": "36",
-        "totalPrice": 149740000,
-        "monthPay": 183500,
-        "priorSupplyCnt": 3,
-        "generalSupplyCnt": 3
+        "classes": "남여공용 501호 31㎡",
+        "totalPrice": "8,600만원",
+        "monthPay": "280,280원"
       },
       {
-        "m2": 26.15,
-        "Classes": "26S",
-        "totalPrice": 113780000,
-        "monthPay": 139500,
-        "priorSupplyCnt": 4,
-        "generalSupplyCnt": 4
-      }
-    ],
-    "address": "서울특별시 성북구 정릉동 1054 "
-  },
-  {
-    "houseSn": "30",
-    "name": "천왕연지마을1",
-    "sells": [
-      {
-        "m2": 20.57,
-        "Classes": "20-청년",
-        "totalPrice": 45740000,
-        "monthPay": 59500,
-        "priorSupplyCnt": 4,
-        "generalSupplyCnt": 3
+        "classes": "남여공용 201호 31㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "276,700원"
       },
       {
-        "m2": 35.21,
-        "Classes": "35",
-        "totalPrice": 77800000,
-        "monthPay": 101000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 구로구 천왕동 14-116 "
-  },
-  {
-    "houseSn": "31",
-    "name": "천왕연지마을2",
-    "sells": [
-      {
-        "m2": 22.23,
-        "Classes": "22S",
-        "totalPrice": 55440000,
-        "monthPay": 72000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
-      }
-    ],
-    "address": "서울특별시 구로구 천왕동 산 13-13 "
-  },
-  {
-    "houseSn": "32",
-    "name": "천왕지구 8단지",
-    "sells": [
-      {
-        "m2": 29.38,
-        "Classes": "29-청년",
-        "totalPrice": 63200000,
-        "monthPay": 82000,
-        "priorSupplyCnt": 10,
-        "generalSupplyCnt": 10
+        "classes": "남여공용 301호 31㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "276,700원"
       },
       {
-        "m2": 45.77,
-        "Classes": "45",
-        "totalPrice": 110200000,
-        "monthPay": 143000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 13
+        "classes": "남여공용 401호 31㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "276,700원"
+      },
+      {
+        "classes": "남여공용 402호 32㎡",
+        "totalPrice": "8,460만원",
+        "monthPay": "276,130원"
       }
     ],
-    "address": "서울특별시 구로구 천왕동 산 19-1 "
+    "address": "서울특별시 송파구 삼전로4길 3-13"
   },
   {
-    "houseSn": "33",
-    "name": "초행지붕-미아-3",
+    "name": "강남역삼동(아르테빌)",
     "sells": [
       {
-        "m2": 54.9,
-        "Classes": "53",
-        "totalPrice": 166000000,
-        "monthPay": 230000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
+        "classes": "남여공용 501호 26㎡",
+        "totalPrice": "10,380만원",
+        "monthPay": "339,360원"
       }
     ],
-    "address": "서울특별시 강북구 미아동 791-1960 "
+    "address": "서울특별시 강남구 도곡로33길 13"
   },
   {
-    "houseSn": "34",
-    "name": "포레나노원",
+    "name": "송파방이동(굿모닝빌)",
     "sells": [
       {
-        "m2": 49.96,
-        "Classes": "49",
-        "totalPrice": 143500000,
-        "monthPay": 189500,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
+        "classes": "남여공용 501호 45㎡",
+        "totalPrice": "10,070만원",
+        "monthPay": "329,510원"
+      },
+      {
+        "classes": "남여공용 402호 32㎡",
+        "totalPrice": "8,230만원",
+        "monthPay": "268,070원"
+      },
+      {
+        "classes": "남여공용 401호 28㎡",
+        "totalPrice": "7,170만원",
+        "monthPay": "232,710원"
+      },
+      {
+        "classes": "남여공용 303호 26㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "215,650원"
+      },
+      {
+        "classes": "남여공용 203호 26㎡",
+        "totalPrice": "6,560만원",
+        "monthPay": "212,490원"
+      },
+      {
+        "classes": "남여공용 302호 25㎡",
+        "totalPrice": "6,410만원",
+        "monthPay": "207,500원"
+      },
+      {
+        "classes": "남여공용 202호 25㎡",
+        "totalPrice": "6,340만원",
+        "monthPay": "205,250원"
+      },
+      {
+        "classes": "남여공용 304호 23㎡",
+        "totalPrice": "6,060만원",
+        "monthPay": "196,000원"
+      },
+      {
+        "classes": "남여공용 204호 23㎡",
+        "totalPrice": "5,970만원",
+        "monthPay": "192,840원"
+      },
+      {
+        "classes": "남여공용 301호 22㎡",
+        "totalPrice": "5,780만원",
+        "monthPay": "186,370원"
+      },
+      {
+        "classes": "남여공용 201호 22㎡",
+        "totalPrice": "5,730만원",
+        "monthPay": "185,040원"
       }
     ],
-    "address": "서울특별시 노원구 상계동 680 "
+    "address": "서울특별시 송파구 가락로39길 32-1"
   },
   {
-    "houseSn": "35",
-    "name": "항동(항동 하버라인 9,10,11단지)",
+    "name": "성북종암동(해밀하우스)",
     "sells": [
       {
-        "m2": 29.69,
-        "Classes": "29-청년",
-        "totalPrice": 70960000,
-        "monthPay": 92000,
-        "priorSupplyCnt": 7,
-        "generalSupplyCnt": 7
+        "classes": "여성전용 B동 401호 59㎡",
+        "totalPrice": "10,010만원",
+        "monthPay": "327,660원"
+      },
+      {
+        "classes": "여성전용 B동 201호 57㎡",
+        "totalPrice": "9,720만원",
+        "monthPay": "317,410원"
+      },
+      {
+        "classes": "여성전용 C동 402호 55㎡",
+        "totalPrice": "9,470만원",
+        "monthPay": "309,350원"
+      },
+      {
+        "classes": "여성전용 B동 501호 43㎡",
+        "totalPrice": "7,570만원",
+        "monthPay": "245,700원"
       }
     ],
-    "address": "서울특별시 구로구 항동 136-5 /135-57/184"
+    "address": "서울특별시 성북구 종암로22길 34-2"
   },
   {
-    "houseSn": "36",
-    "name": "힐스테이트 신촌",
+    "name": "양주덕정동(자이빌)",
     "sells": [
       {
-        "m2": 37.97,
-        "Classes": "37",
-        "totalPrice": 127200000,
-        "monthPay": 150000,
-        "priorSupplyCnt": 1,
-        "generalSupplyCnt": 0
+        "classes": "남여공용 102동 101호 43㎡",
+        "totalPrice": "3,110만원",
+        "monthPay": "97,760원"
       }
     ],
-    "address": "서울특별시 서대문구 북아현동 1-954 "
+    "address": "경기도 양주시 덕정14길 23"
+  },
+  {
+    "name": "강남개포동(T&K개포)",
+    "sells": [
+      {
+        "classes": "남여공용 502호 32㎡",
+        "totalPrice": "9,280만원",
+        "monthPay": "303,110원"
+      },
+      {
+        "classes": "남여공용 501호 31㎡",
+        "totalPrice": "8,940만원",
+        "monthPay": "291,570원"
+      },
+      {
+        "classes": "남여공용 302호 31㎡",
+        "totalPrice": "8,780만원",
+        "monthPay": "286,630원"
+      },
+      {
+        "classes": "남여공용 303호 31㎡",
+        "totalPrice": "8,780만원",
+        "monthPay": "286,630원"
+      },
+      {
+        "classes": "남여공용 202호 31㎡",
+        "totalPrice": "8,600만원",
+        "monthPay": "280,290원"
+      },
+      {
+        "classes": "남여공용 203호 31㎡",
+        "totalPrice": "8,600만원",
+        "monthPay": "280,290원"
+      },
+      {
+        "classes": "남여공용 403호 30㎡",
+        "totalPrice": "8,510만원",
+        "monthPay": "277,380원"
+      },
+      {
+        "classes": "남여공용 401호 30㎡",
+        "totalPrice": "8,440만원",
+        "monthPay": "275,130원"
+      },
+      {
+        "classes": "남여공용 304호 28㎡",
+        "totalPrice": "7,970만원",
+        "monthPay": "259,610원"
+      },
+      {
+        "classes": "남여공용 301호 28㎡",
+        "totalPrice": "7,900만원",
+        "monthPay": "257,360원"
+      },
+      {
+        "classes": "남여공용 204호 28㎡",
+        "totalPrice": "7,830만원",
+        "monthPay": "255,110원"
+      },
+      {
+        "classes": "남여공용 201호 28㎡",
+        "totalPrice": "7,740만원",
+        "monthPay": "251,940원"
+      },
+      {
+        "classes": "남여공용 402호 26㎡",
+        "totalPrice": "7,410만원",
+        "monthPay": "241,080원"
+      }
+    ],
+    "address": "서울특별시 강남구 논현로12길 23-5"
+  },
+  {
+    "name": "성북장위동(시온아트빌)",
+    "sells": [
+      {
+        "classes": "여성전용 502호 59㎡",
+        "totalPrice": "8,780만원",
+        "monthPay": "286,160원"
+      },
+      {
+        "classes": "여성전용 202호 57㎡",
+        "totalPrice": "8,200만원",
+        "monthPay": "266,940원"
+      }
+    ],
+    "address": "서울특별시 성북구 장위로19길 7-8"
+  },
+  {
+    "name": "서초방배동",
+    "sells": [
+      {
+        "classes": "남여공용 301호 29㎡",
+        "totalPrice": "8,610만원",
+        "monthPay": "280,720원"
+      },
+      {
+        "classes": "남여공용 302호 26㎡",
+        "totalPrice": "7,430만원",
+        "monthPay": "241,380원"
+      },
+      {
+        "classes": "남여공용 505호 24㎡",
+        "totalPrice": "7,010만원",
+        "monthPay": "227,310원"
+      }
+    ],
+    "address": "서울특별시 서초구 방배중앙로23길 31"
+  },
+  {
+    "name": "성북석관동(다원캐슬)",
+    "sells": [
+      {
+        "classes": "여성전용 301동 402호 49㎡",
+        "totalPrice": "8,330만원",
+        "monthPay": "271,300원"
+      },
+      {
+        "classes": "여성전용 301동 204호 43㎡",
+        "totalPrice": "7,000만원",
+        "monthPay": "227,280원"
+      },
+      {
+        "classes": "여성전용 A동 202호 35㎡",
+        "totalPrice": "6,210만원",
+        "monthPay": "200,780원"
+      },
+      {
+        "classes": "여성전용 301동 201호 35㎡",
+        "totalPrice": "6,000만원",
+        "monthPay": "193,830원"
+      }
+    ],
+    "address": "서울특별시 성북구 화랑로32길 131-3"
+  },
+  {
+    "name": "영등포영등포동(여의도써밋)",
+    "sells": [
+      {
+        "classes": "남여공용 1202호 23㎡",
+        "totalPrice": "8,130만원",
+        "monthPay": "264,800원"
+      },
+      {
+        "classes": "남여공용 1207호 18㎡",
+        "totalPrice": "6,720만원",
+        "monthPay": "217,600원"
+      },
+      {
+        "classes": "남여공용 1204호 19㎡",
+        "totalPrice": "6,710만원",
+        "monthPay": "217,410원"
+      }
+    ],
+    "address": "서울특별시 영등포구 국회대로54길 17"
+  },
+  {
+    "name": "중랑면목동(힐하우스)",
+    "sells": [
+      {
+        "classes": "여성전용 401호 41㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "263,710원"
+      },
+      {
+        "classes": "여성전용 203호 41㎡",
+        "totalPrice": "8,040만원",
+        "monthPay": "261,570원"
+      }
+    ],
+    "address": "서울특별시 중랑구 용마산로94길 4-3"
+  },
+  {
+    "name": "강동성내동(엘림하우스)",
+    "sells": [
+      {
+        "classes": "남여공용 401호 35㎡",
+        "totalPrice": "7,790만원",
+        "monthPay": "253,570원"
+      },
+      {
+        "classes": "남여공용 402호 36㎡",
+        "totalPrice": "7,710만원",
+        "monthPay": "250,540원"
+      }
+    ],
+    "address": "서울특별시 강동구 성안로13길 32"
+  },
+  {
+    "name": "중랑망우동(빌드아르떼)",
+    "sells": [
+      {
+        "classes": "남여공용 501호 45㎡",
+        "totalPrice": "7,380만원",
+        "monthPay": "240,090원"
+      },
+      {
+        "classes": "남여공용 601호 29㎡",
+        "totalPrice": "5,650만원",
+        "monthPay": "181,790원"
+      }
+    ],
+    "address": "서울특별시 중랑구 상봉로20길 81"
+  },
+  {
+    "name": "광진중곡동(제이앤빌)",
+    "sells": [
+      {
+        "classes": "여성전용 303호 46㎡",
+        "totalPrice": "7,270만원",
+        "monthPay": "236,100원"
+      }
+    ],
+    "address": "서울특별시 광진구 긴고랑로3길 12"
+  },
+  {
+    "name": "서초서초동(아이리스예당)",
+    "sells": [
+      {
+        "classes": "남여공용 205호 22㎡",
+        "totalPrice": "7,270만원",
+        "monthPay": "236,010원"
+      }
+    ],
+    "address": "서울특별시 서초구 남부순환로315길 34-9"
+  },
+  {
+    "name": "노원상계동",
+    "sells": [
+      {
+        "classes": "남여공용 201호 40㎡",
+        "totalPrice": "7,270만원",
+        "monthPay": "235,790원"
+      }
+    ],
+    "address": "서울특별시 노원구 동일로237나길 17"
+  },
+  {
+    "name": "영등포대림동(파크에비뉴)",
+    "sells": [
+      {
+        "classes": "남여공용 201호 29㎡",
+        "totalPrice": "7,170만원",
+        "monthPay": "232,820원"
+      },
+      {
+        "classes": "남여공용 203호 28㎡",
+        "totalPrice": "7,110만원",
+        "monthPay": "231,000원"
+      },
+      {
+        "classes": "남여공용 202호 24㎡",
+        "totalPrice": "6,050만원",
+        "monthPay": "195,540원"
+      },
+      {
+        "classes": "남여공용 302호 24㎡",
+        "totalPrice": "6,050만원",
+        "monthPay": "195,540원"
+      }
+    ],
+    "address": "서울특별시 영등포구 대림로27나길 19"
+  },
+  {
+    "name": "강북수유동(은행빌라)",
+    "sells": [
+      {
+        "classes": "남여공용 301호 35㎡",
+        "totalPrice": "6,910만원",
+        "monthPay": "224,150원"
+      }
+    ],
+    "address": "서울특별시 강북구 삼양로114길 3"
+  },
+  {
+    "name": "영등포대림동(데에이치대림4차)",
+    "sells": [
+      {
+        "classes": "남여공용 102동 202호 28㎡",
+        "totalPrice": "6,670만원",
+        "monthPay": "216,070원"
+      },
+      {
+        "classes": "남여공용 101동 502호 21㎡",
+        "totalPrice": "4,850만원",
+        "monthPay": "155,470원"
+      }
+    ],
+    "address": "서울특별시 영등포구 대림로29가길 10"
+  },
+  {
+    "name": "광진중곡동(삼화에코빌)",
+    "sells": [
+      {
+        "classes": "남여공용 203호 34㎡",
+        "totalPrice": "6,510만원",
+        "monthPay": "211,100원"
+      }
+    ],
+    "address": "서울특별시 광진구 긴고랑로2길 15"
+  },
+  {
+    "name": "강북미아동(청운미가)",
+    "sells": [
+      {
+        "classes": "남여공용 102동 302호 30㎡",
+        "totalPrice": "6,420만원",
+        "monthPay": "207,970원"
+      }
+    ],
+    "address": "서울특별시 강북구 덕릉로30길 49"
+  },
+  {
+    "name": "동대문회기동(히든백하우스)",
+    "sells": [
+      {
+        "classes": "남여공용 1106호 17㎡",
+        "totalPrice": "6,350만원",
+        "monthPay": "205,810원"
+      },
+      {
+        "classes": "남여공용 907호 18㎡",
+        "totalPrice": "5,100만원",
+        "monthPay": "163,590원"
+      },
+      {
+        "classes": "남여공용 803호 18㎡",
+        "totalPrice": "5,100만원",
+        "monthPay": "163,390원"
+      },
+      {
+        "classes": "남여공용 1002호 17㎡",
+        "totalPrice": "4,930만원",
+        "monthPay": "157,730원"
+      }
+    ],
+    "address": "서울특별시 동대문구 이문로 17"
+  },
+  {
+    "name": "중랑묵동(그린캐슬1차)",
+    "sells": [
+      {
+        "classes": "남여공용 402호 28㎡",
+        "totalPrice": "6,300만원",
+        "monthPay": "204,010원"
+      },
+      {
+        "classes": "남여공용 502호 28㎡",
+        "totalPrice": "6,300만원",
+        "monthPay": "204,010원"
+      },
+      {
+        "classes": "남여공용 602호 28㎡",
+        "totalPrice": "6,300만원",
+        "monthPay": "204,010원"
+      },
+      {
+        "classes": "남여공용 302호 28㎡",
+        "totalPrice": "6,240만원",
+        "monthPay": "201,840원"
+      },
+      {
+        "classes": "남여공용 202호 28㎡",
+        "totalPrice": "6,190만원",
+        "monthPay": "199,740원"
+      }
+    ],
+    "address": "서울특별시 중랑구 동일로146길 29"
+  },
+  {
+    "name": "성북석관동(다우아트빌)",
+    "sells": [
+      {
+        "classes": "남여공용 402호 28㎡",
+        "totalPrice": "6,280만원",
+        "monthPay": "202,800원"
+      }
+    ],
+    "address": "서울특별시 성북구 돌곶이로9가길 26-7"
+  },
+  {
+    "name": "마포공덕동(공덕헤리지움)",
+    "sells": [
+      {
+        "classes": "남여공용 903호 24㎡",
+        "totalPrice": "6,200만원",
+        "monthPay": "200,620원"
+      },
+      {
+        "classes": "남여공용 1403호 17㎡",
+        "totalPrice": "4,760만원",
+        "monthPay": "152,820원"
+      }
+    ],
+    "address": "서울특별시 마포구 만리재로 96"
+  },
+  {
+    "name": "광진중곡동(와이위드미)",
+    "sells": [
+      {
+        "classes": "남여공용 405호 17㎡",
+        "totalPrice": "6,160만원",
+        "monthPay": "199,030원"
+      },
+      {
+        "classes": "남여공용 704호 14㎡",
+        "totalPrice": "5,660만원",
+        "monthPay": "182,400원"
+      },
+      {
+        "classes": "남여공용 701호 14㎡",
+        "totalPrice": "5,620만원",
+        "monthPay": "180,750원"
+      },
+      {
+        "classes": "남여공용 801호 14㎡",
+        "totalPrice": "5,560만원",
+        "monthPay": "179,160원"
+      }
+    ],
+    "address": "서울특별시 광진구 능동로39길 5"
+  },
+  {
+    "name": "노원월계동(라인빌)",
+    "sells": [
+      {
+        "classes": "여성전용 202호 50㎡",
+        "totalPrice": "6,120만원",
+        "monthPay": "197,890원"
+      }
+    ],
+    "address": "서울특별시 노원구 월계로44나길 7-6"
+  },
+  {
+    "name": "중랑망우동(위성힐하우스)",
+    "sells": [
+      {
+        "classes": "남여공용 A동 301호 29㎡",
+        "totalPrice": "6,100만원",
+        "monthPay": "196,980원"
+      }
+    ],
+    "address": "서울특별시 중랑구 상봉로18길 14"
+  },
+  {
+    "name": "성북정릉동(형지리버빌)",
+    "sells": [
+      {
+        "classes": "여성전용 201호 34㎡",
+        "totalPrice": "5,880만원",
+        "monthPay": "189,350원"
+      },
+      {
+        "classes": "여성전용 204호 29㎡",
+        "totalPrice": "5,090만원",
+        "monthPay": "163,640원"
+      }
+    ],
+    "address": "서울특별시 성북구 정릉로21길 62-4"
+  },
+  {
+    "name": "강서화곡동(SJ라벨라)",
+    "sells": [
+      {
+        "classes": "남여공용 1613호 20㎡",
+        "totalPrice": "5,190만원",
+        "monthPay": "166,470원"
+      },
+      {
+        "classes": "남여공용 317호 20㎡",
+        "totalPrice": "4,990만원",
+        "monthPay": "160,490원"
+      },
+      {
+        "classes": "남여공용 312호 20㎡",
+        "totalPrice": "4,710만원",
+        "monthPay": "150,340원"
+      },
+      {
+        "classes": "남여공용 820호 18㎡",
+        "totalPrice": "4,290만원",
+        "monthPay": "136,850원"
+      }
+    ],
+    "address": "서울특별시 강서구 화곡로 350"
+  },
+  {
+    "name": "은평대조동(초원그린빌)",
+    "sells": [
+      {
+        "classes": "남여공용 401호 27㎡",
+        "totalPrice": "5,010만원",
+        "monthPay": "161,110원"
+      },
+      {
+        "classes": "남여공용 501호 27㎡",
+        "totalPrice": "4,890만원",
+        "monthPay": "156,700원"
+      }
+    ],
+    "address": "서울특별시 은평구 역말로9가길 4"
+  },
+  {
+    "name": "동대문장안동(장안센텀)",
+    "sells": [
+      {
+        "classes": "남여공용 604호 18㎡",
+        "totalPrice": "4,690만원",
+        "monthPay": "149,730원"
+      }
+    ],
+    "address": "서울특별시 동대문구 한천로2길 84"
+  },
+  {
+    "name": "강서화곡동",
+    "sells": [
+      {
+        "classes": "남여공용 103호 17㎡",
+        "totalPrice": "4,470만원",
+        "monthPay": "142,750원"
+      },
+      {
+        "classes": "남여공용 402호 18㎡",
+        "totalPrice": "3,610만원",
+        "monthPay": "114,040원"
+      },
+      {
+        "classes": "남여공용 302호 14㎡",
+        "totalPrice": "3,460만원",
+        "monthPay": "108,860원"
+      },
+      {
+        "classes": "남여공용 101호 18㎡",
+        "totalPrice": "3,360만원",
+        "monthPay": "105,730원"
+      },
+      {
+        "classes": "남여공용 402호 14㎡",
+        "totalPrice": "3,180만원",
+        "monthPay": "99,780원"
+      }
+    ],
+    "address": "서울특별시 강서구 월정로24길 16-2"
+  },
+  {
+    "name": "영등포영등포동(명남더블레스)",
+    "sells": [
+      {
+        "classes": "남여공용 706호 18㎡",
+        "totalPrice": "4,240만원",
+        "monthPay": "135,250원"
+      },
+      {
+        "classes": "남여공용 508호 18㎡",
+        "totalPrice": "4,150만원",
+        "monthPay": "131,680원"
+      }
+    ],
+    "address": "서울특별시 영등포구 경인로108길 6"
+  },
+  {
+    "name": "도봉도봉동(허브빌)",
+    "sells": [
+      {
+        "classes": "남여공용 A동 304호 19㎡",
+        "totalPrice": "4,170만원",
+        "monthPay": "132,860원"
+      },
+      {
+        "classes": "남여공용 A동 502호 20㎡",
+        "totalPrice": "4,170만원",
+        "monthPay": "132,380원"
+      }
+    ],
+    "address": "서울특별시 도봉구 시루봉로25길 31"
+  },
+  {
+    "name": "종로숭인동(시티플러스)",
+    "sells": [
+      {
+        "classes": "남여공용 207호 18㎡",
+        "totalPrice": "4,090만원",
+        "monthPay": "130,050원"
+      }
+    ],
+    "address": "서울특별시 종로구 종로56길 23"
+  },
+  {
+    "name": "중랑상봉동(청운명가프라임)",
+    "sells": [
+      {
+        "classes": "남여공용 311호 20㎡",
+        "totalPrice": "3,820만원",
+        "monthPay": "121,400원"
+      }
+    ],
+    "address": "서울특별시 중랑구 봉우재로41길 6"
+  },
+  {
+    "name": "강북미아동",
+    "sells": [
+      {
+        "classes": "남여공용 301호 15㎡",
+        "totalPrice": "3,770만원",
+        "monthPay": "119,750원"
+      }
+    ],
+    "address": "서울특별시 강북구 삼양로41길 14"
+  },
+  {
+    "name": "도봉창동",
+    "sells": [
+      {
+        "classes": "남여공용 502호 14㎡",
+        "totalPrice": "3,170만원",
+        "monthPay": "99,820원"
+      }
+    ],
+    "address": "서울특별시 도봉구 덕릉로60길 7-21"
+  },
+  {
+    "name": "강서공항동",
+    "sells": [
+      {
+        "classes": "남여공용 301호 19㎡",
+        "totalPrice": "2,970만원",
+        "monthPay": "93,060원"
+      }
+    ],
+    "address": "서울특별시 강서구 송정로4길 3"
+  },
+  {
+    "name": "양천신월동",
+    "sells": [
+      {
+        "classes": "남여공용 102호 17㎡",
+        "totalPrice": "2,570만원",
+        "monthPay": "79,410원"
+      }
+    ],
+    "address": "서울특별시 양천구 곰달래로1길 1"
+  },
+  {
+    "name": "성북장위동",
+    "sells": [
+      {
+        "classes": "남여공용 305호 14㎡",
+        "totalPrice": "2,390만원",
+        "monthPay": "73,370원"
+      }
+    ],
+    "address": "서울특별시 성북구 장위로21나길 63"
+  },
+  {
+    "name": "금천독산동",
+    "sells": [
+      {
+        "classes": "남여공용 401호 16㎡",
+        "totalPrice": "2,090만원",
+        "monthPay": "63,450원"
+      },
+      {
+        "classes": "남여공용 501호 16㎡",
+        "totalPrice": "2,070만원",
+        "monthPay": "62,350원"
+      }
+    ],
+    "address": "서울특별시 금천구 독산로70길 72-5"
+  },
+  {
+    "name": "동작대방동(보라매센트럴타운)",
+    "sells": [
+      {
+        "classes": "남여공용 1108호 17㎡",
+        "totalPrice": "미정",
+        "monthPay": "미정"
+      }
+    ],
+    "address": "서울특별시 동작구 여의대방로 200"
   }
 ]
