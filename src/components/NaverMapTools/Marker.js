@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react';
-import * as NAVER from '../../service/naverMapHelper';
-import { useHomesState, useHomesDispatch, getHomes } from './HomeContext';
+import * as NAVER from '../../helpers/naverMapHelper';
+import { useHomesState, useHomesDispatch, getHomes } from './../../context/HomeContext';
 
 
 export default function Marker() {
@@ -9,10 +9,6 @@ export default function Marker() {
     const state = useHomesState();
     const dispatch = useHomesDispatch();
 
-    useEffect(()=>{
-        (async()=>{getHomes(dispatch);
-        console.log(state);})()
-    },[dispatch])
 
     const {loading, data, error} = state.homes;
 

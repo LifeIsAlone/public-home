@@ -1,35 +1,10 @@
-import { useRef, useContext, useEffect, Suspense, useState } from 'react'
+import { useRef, useEffect, useState, Suspense, ErrorBoundary } from 'react'
 import {NaverMap} from 'react-naver-maps'
 import Marker from './components/NaverMapTools/Marker';
 import './App.css';
-import * as NAVER from './service/naverMapHelper';
-import './components/NaverMapTools/HomeContext';
-import {HomesProvider} from './components/NaverMapTools/HomeContext';
+import {HomesProvider, initData} from './context/HomeContext';
 
 
-const MockData = [
-  {
-    name: "강남센트럴아이파크(개나리4차)",
-    address: "서울특별시 강남구 역삼동 712-3",
-  },
-  {
-    name: "건대프라하임3차(하양동 94-9)",
-    address: "서울특별시 광진구 화양동 94-9",
-  },
-  {
-    name: "다온타워(신림동 1420-6)",
-    address: "서울특별시 관악구 신림동 1420-6",
-  },
-];
-async function convertMockData($MockData){
-  const result = await Promise.all( $MockData.map(async({name, address}) =>{
-    const position = await NAVER.changeAddressToPositionByGeocode(address);
-    return {name, position}
-  }))
-  return result;
-}
-
-let result;
 
 function App() {
   const nRef = useRef(null);
@@ -41,6 +16,7 @@ function App() {
 
   return (
     <div className="App">
+
         <NaverMap
           mapDivId={'maps-getting-started-uncontrolled'} // default: react-naver-map
           style={{
@@ -51,11 +27,14 @@ function App() {
           defaultZoom={10}
           naverRef={nRef}
         >
-
-          {nMap && <HomesProvider map={nMap}>
-              <Marker />
-          </HomesProvider>}
+        <Suspense fallback={<p>사용자 정보 로딩중...</p>}>
+          <HomesProvider resource={initData(nMap)}>
+            <Marker />
+          </HomesProvider>
+        </Suspense>
         </NaverMap>
+
+
     </div>
   );
 }

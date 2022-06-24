@@ -2,7 +2,7 @@
 const naver = window.naver;
 
 
-console.log('HELPER EXECUTE');
+console.log('NAVER HELPER EXECUTE');
 
  function createMap(position){
     return new naver.maps.Map('map', {center: position, zoom: 13})

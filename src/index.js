@@ -7,7 +7,6 @@ import { RenderAfterNavermapsLoaded } from 'react-naver-maps';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <RenderAfterNavermapsLoaded
        clientId={"83bfuniegk"}
        error={<p>Maps Load Error</p>}
@@ -15,7 +14,6 @@ root.render(
        >
     <App />
     </RenderAfterNavermapsLoaded>
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
