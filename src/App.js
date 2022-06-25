@@ -1,8 +1,8 @@
-import { useRef, useEffect, useState, Suspense, ErrorBoundary } from 'react'
-import { NaverMap } from 'react-naver-maps'
-import Marker from './components/NaverMapTools/Marker';
-import './App.css';
-import { HomesProvider, initData } from './context/HomeContext';
+import { useRef, useEffect, useState, Suspense, ErrorBoundary } from "react";
+import { NaverMap } from "react-naver-maps";
+import Marker from "./components/NaverMapTools/Marker";
+import "./App.css";
+import { HomesProvider, initData } from "./context/HomeContext";
 
 function App() {
   const nRef = useRef(null);
@@ -15,12 +15,12 @@ function App() {
   return (
     <div className="App">
       <NaverMap
-        mapDivId={'maps-getting-started-uncontrolled'} // default: react-naver-map
+        mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
-          width: '100%',
-          height: '100vw',
+          width: "100%",
+          height: "100vh",
         }}
-        defaultCenter={{ lat: 37.3595704, lng: 127.105399 }}
+        defaultCenter={{ lat: 37.5665734, lng: 126.978179 }}
         defaultZoom={12}
         naverRef={nRef}
       >
