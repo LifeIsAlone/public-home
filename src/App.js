@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div className="App">
-      <Spinner /> 
 
       <NaverMap
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
@@ -28,7 +27,6 @@ function App() {
       >
         <Suspense fallback={<p>행복주택 정보 로딩중...</p>}>
           <HomesProvider resource={initData(nMap)}>
-            <Header/>
             <Marker />
           </HomesProvider>
         </Suspense>
