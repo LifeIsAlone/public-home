@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/public-home/static/css/main.073c9b0a.css",
-    "main.js": "/public-home/static/js/main.46736c86.js",
-    "static/js/787.b8082fcc.chunk.js": "/public-home/static/js/787.b8082fcc.chunk.js",
-    "index.html": "/public-home/index.html",
-    "main.073c9b0a.css.map": "/public-home/static/css/main.073c9b0a.css.map",
-    "main.46736c86.js.map": "/public-home/static/js/main.46736c86.js.map",
-    "787.b8082fcc.chunk.js.map": "/public-home/static/js/787.b8082fcc.chunk.js.map"
+    "main.css": "/LifeIsAlone/PublicHome/static/css/main.073c9b0a.css",
+    "main.js": "/LifeIsAlone/PublicHome/static/js/main.bba717dd.js",
+    "static/js/787.983f5abf.chunk.js": "/LifeIsAlone/PublicHome/static/js/787.983f5abf.chunk.js",
+    "index.html": "/LifeIsAlone/PublicHome/index.html",
+    "main.073c9b0a.css.map": "/LifeIsAlone/PublicHome/static/css/main.073c9b0a.css.map",
+    "main.bba717dd.js.map": "/LifeIsAlone/PublicHome/static/js/main.bba717dd.js.map",
+    "787.983f5abf.chunk.js.map": "/LifeIsAlone/PublicHome/static/js/787.983f5abf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.46736c86.js"
+    "static/js/main.bba717dd.js"
   ]
 }
