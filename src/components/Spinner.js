@@ -28,7 +28,7 @@ export default function Spinner({text}) {
     <SpinLoader>
         <SpinContents>
             <HashLoader color={"#000000"} loading={true} css={override} size={200} />
-            <p style={{fontSize:50}}>"loading.."</p>
+            <p style={{fontSize:40, fontWeight:500}}>{text}</p>
         </SpinContents>
     </SpinLoader>
   )

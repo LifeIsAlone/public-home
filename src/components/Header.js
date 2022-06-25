@@ -5,7 +5,6 @@ export default function Header() {
   return (
     <StyledHeader>
         <div className="App-logo">
-
         </div>
         <div className="contents">
         </div>
@@ -22,5 +21,6 @@ const StyledHeader = styled.div`
   width: 100%;
   height: 3.4rem;
   background: #fff;
-  opacity: 65%;
+  opacity: 67%;
+  z-index:99999;
 `
