@@ -18,7 +18,7 @@ function App() {
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
           width: "100%",
-          height: "100vh",
+          height: "100vw",
         }}
         defaultCenter={{ lat: 37.5665734, lng: 126.978179 }}
         defaultZoom={12}
