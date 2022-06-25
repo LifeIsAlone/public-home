@@ -1,19 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { RenderAfterNavermapsLoaded } from 'react-naver-maps';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { RenderAfterNavermapsLoaded } from "react-naver-maps";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const API_KEY = process.env.REACT_APP_NAVER_MAP_API_KEY;
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <RenderAfterNavermapsLoaded
-       clientId={"83bfuniegk"}
-       error={<p>Maps Load Error</p>}
-       loading={<p>Maps Loading</p>}
-       >
+  <RenderAfterNavermapsLoaded
+    clientId={API_KEY}
+    error={<p>Maps Load Error</p>}
+    loading={<p>Maps Loading</p>}
+  >
     <App />
-    </RenderAfterNavermapsLoaded>
+  </RenderAfterNavermapsLoaded>
 );
 
 // If you want to start measuring performance in your app, pass a function
