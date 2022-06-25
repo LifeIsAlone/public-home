@@ -1,6 +1,9 @@
-import { useRef, useEffect, useState, Suspense, ErrorBoundary } from "react";
+import { useRef, useEffect, useState, Suspense} from "react";
 import { NaverMap } from "react-naver-maps";
 import Marker from "./components/NaverMapTools/Marker";
+import Spinner from "./components/Spinner";
+import Header from "./components/Header";
+
 import "./App.css";
 import { HomesProvider, initData } from "./context/HomeContext";
 
@@ -9,12 +12,13 @@ function App() {
   const [nMap, setNMap] = useState(null);
   //nRef.current.map
   useEffect(() => {
+    if(nRef.current?.map)
     setNMap(nRef.current?.map);
   }, [nRef]);
 
   return (
     <div className="App">
-
+     <Header/>
       <NaverMap
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
@@ -25,7 +29,8 @@ function App() {
         defaultZoom={12}
         naverRef={nRef}
       >
-        <Suspense fallback={<p>행복주택 정보 로딩중...</p>}>
+   
+        <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."}/></>}>
           <HomesProvider resource={initData(nMap)}>
             <Marker />
           </HomesProvider>
