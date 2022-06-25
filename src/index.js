@@ -9,7 +9,7 @@ const API_KEY = process.env.REACT_APP_NAVER_MAP_API_KEY;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <RenderAfterNavermapsLoaded
-    clientId={"83bfuniegk"}
+    clientId={API_KEY}
     error={<p>Maps Load Error</p>}
     loading={<p>Maps Loading</p>}
   >
