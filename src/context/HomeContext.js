@@ -1,7 +1,9 @@
 import React, { createContext, useContext, useReducer } from 'react'
 import HOME from '../happyhappyhouse.json';
+import { createFuzzyMatcher } from '../helpers/fuzzyMather';
 import * as NAVER from '../helpers/naverMapHelper';
 import * as pend from '../helpers/suspendingHelper';
+ 
 console.log(HOME);
 
 const initialState = {
@@ -14,6 +16,9 @@ const initialState = {
     loading: false,
     data: null,
     error: null
+  },
+  filteredHomes:{
+    data: null
   }
 }
 
@@ -66,6 +71,12 @@ function HomeReducer(state, action) {
       return {
         ...state,
         map: error(action.error)
+      }
+    case 'SEARCH_HOMES':
+      const search = action.payload;
+      return{
+        ...state,
+        filteredHomes: state.homes.data.filter(data => createFuzzyMatcher(search).test(data.address))
       }
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
@@ -149,4 +160,8 @@ export function useHomesDispatch() {
     throw new Error('Cannot fin HomesProvider')
   }
   return dispatch;
+}
+
+export function searchHomesAddress(dispatch, search){
+  dispatch({type: 'SEARCH_HOMES', payload: search});
 }

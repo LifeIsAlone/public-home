@@ -2,7 +2,7 @@ import { useRef, useEffect, useState, Suspense} from "react";
 import { NaverMap } from "react-naver-maps";
 import Marker from "./components/NaverMapTools/Marker";
 import Spinner from "./components/Spinner";
-import Header from "./components/Header";
+import Aside from "./components/Aside";
 
 import "./App.css";
 import { HomesProvider, initData } from "./context/HomeContext";
@@ -17,8 +17,7 @@ function App() {
   }, [nRef]);
 
   return (
-    <div className="App">
-     <Header/>
+    <div>
       <NaverMap
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
@@ -32,6 +31,7 @@ function App() {
    
         <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."}/></>}>
           <HomesProvider resource={initData(nMap)}>
+            <Aside/>
             <Marker />
           </HomesProvider>
         </Suspense>
