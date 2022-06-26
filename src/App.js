@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState, Suspense} from "react";
+import { useRef, useEffect, useState, Suspense } from "react";
 import { NaverMap } from "react-naver-maps";
 import Marker from "./components/NaverMapTools/Marker";
 import Spinner from "./components/Spinner";
@@ -12,8 +12,8 @@ function App() {
   const [nMap, setNMap] = useState(null);
   //nRef.current.map
   useEffect(() => {
-    if(nRef.current?.map)
-    setNMap(nRef.current?.map);
+    if (nRef.current?.map)
+      setNMap(nRef.current?.map);
   }, [nRef]);
 
   return (
@@ -28,10 +28,10 @@ function App() {
         defaultZoom={12}
         naverRef={nRef}
       >
-   
-        <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."}/></>}>
+
+        <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."} /></>}>
           <HomesProvider resource={initData(nMap)}>
-            <Aside/>
+            <Aside />
             <Marker />
           </HomesProvider>
         </Suspense>

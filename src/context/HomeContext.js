@@ -3,7 +3,7 @@ import HOME from '../happyhappyhouse.json';
 import { createFuzzyMatcher } from '../helpers/fuzzyMather';
 import * as NAVER from '../helpers/naverMapHelper';
 import * as pend from '../helpers/suspendingHelper';
- 
+
 console.log(HOME);
 
 const initialState = {
@@ -17,7 +17,7 @@ const initialState = {
     data: null,
     error: null
   },
-  filteredHomes:{
+  filteredHomes: {
     data: null
   }
 }
@@ -74,7 +74,7 @@ function HomeReducer(state, action) {
       }
     case 'SEARCH_HOMES':
       const search = action.payload;
-      return{
+      return {
         ...state,
         filteredHomes: state.homes.data.filter(data => createFuzzyMatcher(search).test(data.address))
       }
@@ -115,32 +115,32 @@ export function HomesProvider({ resource, children }) {
   )
 }
 
-function getInitHomesData(){
-  const promise = Promise.all(HOME.map(async(data) => {
-    try{
+function getInitHomesData() {
+  const promise = Promise.all(HOME.map(async (data) => {
+    try {
       const position = await NAVER.changeAddressToPositionByGeocode(data.address);
-      if(position){
-        return{...data, position}
+      if (position) {
+        return { ...data, position }
       }
-    }catch(e){
+    } catch (e) {
       new Error(`${data.address} 오류발생됨 ${e}`);
     }
   }))
   return pend.wrapPromise(promise);
 }
 
-function waitNaverMap(nMap){
-  return pend.wrapPromise(new Promise((resole, reject)=>{
-    if(nMap){
+function waitNaverMap(nMap) {
+  return pend.wrapPromise(new Promise((resole, reject) => {
+    if (nMap) {
       resole(nMap)
-    }else{
+    } else {
       reject("NaverMap이 없습니다.")
     }
   }))
 }
 
-export function initData(nMap){
-  return{
+export function initData(nMap) {
+  return {
     map: waitNaverMap(nMap),
     homes: getInitHomesData()
   };
@@ -162,6 +162,6 @@ export function useHomesDispatch() {
   return dispatch;
 }
 
-export function searchHomesAddress(dispatch, search){
-  dispatch({type: 'SEARCH_HOMES', payload: search});
+export function searchHomesAddress(dispatch, search) {
+  dispatch({ type: 'SEARCH_HOMES', payload: search });
 }

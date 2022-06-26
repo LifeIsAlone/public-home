@@ -23,13 +23,13 @@ const SpinContents = styled.div`
     transform:translate(-50%, -50%)
 `
 
-export default function Spinner({text}) {
+export default function Spinner({ text }) {
   return (
     <SpinLoader>
-        <SpinContents>
-            <HashLoader color={"#000000"} loading={true} css={override} size={200} />
-            <p style={{fontSize:40, fontWeight:500}}>{text}</p>
-        </SpinContents>
+      <SpinContents>
+        <HashLoader color={"#000000"} loading={true} css={override} size={200} />
+        <p style={{ fontSize: 40, fontWeight: 500 }}>{text}</p>
+      </SpinContents>
     </SpinLoader>
   )
 }

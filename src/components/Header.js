@@ -4,10 +4,10 @@ import styled from 'styled-components'
 export default function Header() {
   return (
     <StyledHeader>
-        <div className="App-logo">
-        </div>
-        <div className="contents">
-        </div>
+      <div className="App-logo">
+      </div>
+      <div className="contents">
+      </div>
     </StyledHeader>
   )
 }

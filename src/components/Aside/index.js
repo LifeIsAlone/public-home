@@ -1,84 +1,84 @@
-import React, {useState, useRef, useEffect} from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import styled from 'styled-components'
 
 import icon from '../../images/happy2.png'
-import { useHomesState, useHomesDispatch,searchHomesAddress } from "./../../context/HomeContext";
+import { useHomesState, useHomesDispatch, searchHomesAddress } from "./../../context/HomeContext";
 
-function IconImage(){
-    return <img style={{width:"3.5rem"}}src={icon}/>
+function IconImage() {
+  return <img style={{ width: "3.5rem" }} src={icon} />
 }
 
 export default function Index() {
-    const inputRef = useRef(null);
-    const state = useHomesState();
-    const dispatch = useHomesDispatch();
+  const inputRef = useRef(null);
+  const state = useHomesState();
+  const dispatch = useHomesDispatch();
 
-    const [visibility, setVisibility] = useState(false);
+  const [visibility, setVisibility] = useState(false);
 
-    const [search, setSearch] = useState('');
-    const [searching, setSearching] = useState(false);
-    const [searchedData, setSearchData] = useState([]);
+  const [search, setSearch] = useState('');
+  const [searching, setSearching] = useState(false);
+  const [searchedData, setSearchData] = useState([]);
 
-    useEffect(()=>{
-      if(searching && search){
-        console.log("SEARCH EXECUTE")
+  useEffect(() => {
+    if (searching && search) {
+      console.log("SEARCH EXECUTE")
 
-        setSearching(false);
-        searchHomesAddress(dispatch, search);
-      }
-      if(searching && !search){
-        setSearchData("");
-      }        
-    },[search])
+      setSearching(false);
+      searchHomesAddress(dispatch, search);
+    }
+    if (searching && !search) {
+      setSearchData("");
+    }
+  }, [search])
 
 
-    useEffect(()=>{
-      if(state.filteredHomes && state.filteredHomes.length > 0){
-        console.log("STATE EXECUTE")
-        setSearchData(state.filteredHomes.map(filteredItems));
+  useEffect(() => {
+    if (state.filteredHomes && state.filteredHomes.length > 0) {
+      console.log("STATE EXECUTE")
+      setSearchData(state.filteredHomes.map(filteredItems));
     }
 
-    },[state])
+  }, [state])
 
-    
-    const onChangeHandler = e => {
-      setSearching(true);
-      setSearch(e.target.value);
-    }
-    
-    const visibleHandler =() => {
-        setVisibility(f=>!f);
-    }
 
-    function filteredItems(homes){
-      const {address, name, sells} = homes;
-      return <li key={name}>
-        <p>{address}</p>
-        <p>주택 이름: {name}</p>
-        <p>주택 수 : {sells.length}</p>
-        <hr/>
-      </li>
+  const onChangeHandler = e => {
+    setSearching(true);
+    setSearch(e.target.value);
+  }
 
-    }
+  const visibleHandler = () => {
+    setVisibility(f => !f);
+  }
+
+  function filteredItems(homes) {
+    const { address, name, sells } = homes;
+    return <li key={name}>
+      <p>{address}</p>
+      <p>주택 이름: {name}</p>
+      <p>주택 수 : {sells.length}</p>
+      <hr />
+    </li>
+
+  }
   return (
     <AsidePosition>
-        <div  className={!visibility?'appear-trigger':'disappear'} onClick={visibleHandler}><IconImage /></div>
-        <div className={visibility?'appear-contents':'disappear'}>
-            <AsideSearch>
-                <form action="">
-                    <label for="address" onClick={visibleHandler}>
-                        <IconImage/>
-                    </label>
-                    <input ref={inputRef} type="text" value={search} onChange={onChangeHandler}/>
-                    <input type="submit" value="검색" />
-                </form>
-            </AsideSearch>
-            <AsideContents>
-              <ul>
-              {searchedData}
-              </ul>
-            </AsideContents>
-        </div>
+      <div className={!visibility ? 'appear-trigger' : 'disappear'} onClick={visibleHandler}><IconImage /></div>
+      <div className={visibility ? 'appear-contents' : 'disappear'}>
+        <AsideSearch>
+          <form action="">
+            <label for="address" onClick={visibleHandler}>
+              <IconImage />
+            </label>
+            <input ref={inputRef} type="text" value={search} onChange={onChangeHandler} />
+            <input type="submit" value="검색" />
+          </form>
+        </AsideSearch>
+        <AsideContents>
+          <ul>
+            {searchedData}
+          </ul>
+        </AsideContents>
+      </div>
     </AsidePosition>
   )
 }

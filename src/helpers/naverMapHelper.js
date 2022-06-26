@@ -4,11 +4,11 @@ const naver = window.naver;
 
 console.log('NAVER HELPER EXECUTE');
 
- function createMap(position){
-    return new naver.maps.Map('map', {center: position, zoom: 13})
+function createMap(position) {
+    return new naver.maps.Map('map', { center: position, zoom: 13 })
 }
 
-function getPosition(lat, lng){
+function getPosition(lat, lng) {
     return new naver.maps.LatLng(lat, lng);
 }
 
@@ -19,14 +19,14 @@ function getPosition(lat, lng){
  * @param {Naver.map} map  createMap으로 생성된 Map 
  * @param {Function} content (MarkerObj[Keys]): String
  */
-function createMarker(MarkerObj, map, content){
+function createMarker(MarkerObj, map, content) {
 
     let markers = [];
     let infoWindows = [];
 
 
-    for(let key in MarkerObj){
-        
+    for (let key in MarkerObj) {
+
         const markerOption = setMarkerOption(map, MarkerObj[key].position, MarkerObj[key].title);
         const markerInfoWindow = setMarkerInfoWindow(content(MarkerObj[key]))
 
@@ -34,17 +34,17 @@ function createMarker(MarkerObj, map, content){
         infoWindows.push(markerInfoWindow);
     }
 
-    naver.maps.Event.addListener(map, 'idle', function() {
+    naver.maps.Event.addListener(map, 'idle', function () {
         updateMarkers(map, markers);
     });
 
 
-    for (var i=0, ii=markers.length; i<ii; i++) {
+    for (var i = 0, ii = markers.length; i < ii; i++) {
         naver.maps.Event.addListener(markers[i], 'click', getClickHandler(i));
     }
-    
+
     /** Functions  **/
-    function setMarkerOption(map, position, title, ...props){
+    function setMarkerOption(map, position, title, ...props) {
         return new naver.maps.Marker({
             map,
             position,
@@ -53,21 +53,21 @@ function createMarker(MarkerObj, map, content){
             ...props
         });
     }
-    
-    function setMarkerInfoWindow(content){
-        return new naver.maps.InfoWindow({content})
+
+    function setMarkerInfoWindow(content) {
+        return new naver.maps.InfoWindow({ content })
     }
 
     function updateMarkers(map, markers) {
 
         var mapBounds = map.getBounds();
         var marker, position;
-    
+
         for (var i = 0; i < markers.length; i++) {
-    
+
             marker = markers[i]
             position = marker.getPosition();
-    
+
             if (mapBounds.hasLatLng(position)) {
                 showMarker(map, marker);
             } else {
@@ -75,25 +75,25 @@ function createMarker(MarkerObj, map, content){
             }
         }
     }
-    
+
     function showMarker(map, marker) {
-    
+
         if (marker.setMap()) return;
         marker.setMap(map);
     }
-    
+
     function hideMarker(map, marker) {
-    
+
         if (!marker.setMap()) return;
         marker.setMap(null);
     }
-    
+
     // 해당 마커의 인덱스를 seq라는 클로저 변수로 저장하는 이벤트 핸들러를 반환합니다.
     function getClickHandler(seq) {
-        return function(e) {
+        return function (e) {
             var marker = markers[seq],
                 infoWindow = infoWindows[seq];
-    
+
             if (infoWindow.getMap()) {
                 infoWindow.close();
             } else {
@@ -104,35 +104,37 @@ function createMarker(MarkerObj, map, content){
 }
 
 function changeAddressToPositionByGeocode(address) {
-    return new Promise((resolve, reject) =>{
+    return new Promise((resolve, reject) => {
 
         naver.maps.Service.geocode(
             {
-              query: address,
+                query: address,
             },
             function (status, response) {
-              if (status === naver.maps.Service.Status.ERROR) {
-                reject("Something Wrong!");
-              }
-        
-              if (response.v2.meta.totalCount === 0) {
-                reject("totalCount" + response.v2.meta.totalCount);
-              }
-        
-              const
-                item = response.v2.addresses[0],
-                position = new naver.maps.Point(item.x, item.y);
-        
-              //   infoWindows.push(infoWindow.open(map, point))
-              resolve(position);
-        
+                if (status === naver.maps.Service.Status.ERROR) {
+                    reject("Something Wrong!");
+                }
+
+                if (response.v2.meta.totalCount === 0) {
+                    reject("totalCount" + response.v2.meta.totalCount);
+                }
+
+                const
+                    item = response.v2.addresses[0],
+                    position = new naver.maps.Point(item.x, item.y);
+
+                //   infoWindows.push(infoWindow.open(map, point))
+                resolve(position);
+
             }
-          );
+        );
 
     })
-    
-}
-  
 
-export {createMap, getPosition, createMarker,
-    changeAddressToPositionByGeocode}
+}
+
+
+export {
+    createMap, getPosition, createMarker,
+    changeAddressToPositionByGeocode
+}
