@@ -1,24 +1,19 @@
-import { useRef, useEffect, useState, Suspense} from "react";
-import { NaverMap } from "react-naver-maps";
+import { useState, Suspense } from "react";
 import Marker from "./components/NaverMapTools/Marker";
 import Spinner from "./components/Spinner";
 import Header from "./components/Header";
 
 import "./App.css";
 import { HomesProvider, initData } from "./context/HomeContext";
+import { NaverMap } from "./components/NaverMapTools/NaverMap";
 
 function App() {
-  const nRef = useRef(null);
   const [nMap, setNMap] = useState(null);
-  //nRef.current.map
-  useEffect(() => {
-    if(nRef.current?.map)
-    setNMap(nRef.current?.map);
-  }, [nRef]);
+
 
   return (
-    <div className="App">
-     <Header/>
+    <div>
+      <Header />
       <NaverMap
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
@@ -27,16 +22,13 @@ function App() {
         }}
         defaultCenter={{ lat: 37.5665734, lng: 126.978179 }}
         defaultZoom={12}
-        naverRef={nRef}
-      >
-   
-        <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."}/></>}>
-          <HomesProvider resource={initData(nMap)}>
-            <Marker />
-          </HomesProvider>
-        </Suspense>
-      </NaverMap>
-
+        mapState={(map) => setNMap(map)}
+      />
+      <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."} /></>}>
+        <HomesProvider resource={initData(nMap)}>
+          <Marker />
+        </HomesProvider>
+      </Suspense>
     </div>
   );
 }

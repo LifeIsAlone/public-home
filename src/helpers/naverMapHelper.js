@@ -2,8 +2,8 @@ const naver = window.naver;
 
 console.log("NAVER HELPER EXECUTE");
 
-function createMap(position) {
-  return new naver.maps.Map("map", { center: position, zoom: 13 });
+function createMap(id, position, zoom) {
+  return new naver.maps.Map(id, { center: position, zoom: zoom });
 }
 
 function getPosition(lat, lng) {
