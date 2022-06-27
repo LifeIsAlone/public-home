@@ -1,23 +1,19 @@
-import { useRef, useEffect, useState, Suspense } from "react";
-import { NaverMap } from "react-naver-maps";
+import { useState, Suspense } from "react";
 import Marker from "./components/NaverMapTools/Marker";
 import Spinner from "./components/Spinner";
 import Aside from "./components/Aside";
 
 import "./App.css";
 import { HomesProvider, initData } from "./context/HomeContext";
+import { NaverMap } from "./components/NaverMapTools/NaverMap";
 
 function App() {
-  const nRef = useRef(null);
   const [nMap, setNMap] = useState(null);
-  //nRef.current.map
-  useEffect(() => {
-    if (nRef.current?.map)
-      setNMap(nRef.current?.map);
-  }, [nRef]);
+
 
   return (
     <div>
+      <Header />
       <NaverMap
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
