@@ -1,7 +1,9 @@
-import React, { createContext, useContext, useReducer } from 'react'
+import React, { createContext, useContext, useReducer, useState, useEffect } from 'react'
 import HOME from '../happyhappyhouse.json';
+import { createFuzzyMatcher } from '../helpers/fuzzyMather';
 import * as NAVER from '../helpers/naverMapHelper';
 import * as pend from '../helpers/suspendingHelper';
+
 console.log(HOME);
 
 const initialState = {
@@ -14,6 +16,9 @@ const initialState = {
     loading: false,
     data: null,
     error: null
+  },
+  filteredHomes: {
+    data: null
   }
 }
 
@@ -67,6 +72,12 @@ function HomeReducer(state, action) {
         ...state,
         map: error(action.error)
       }
+    case 'SEARCH_HOMES':
+      const search = action.payload;
+      return {
+        ...state,
+        filteredHomes: state.homes.data.filter(data => createFuzzyMatcher(search).test(data.address))
+      }
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
   }
@@ -76,10 +87,18 @@ const HomeStateContext = createContext(null);
 const HomeDispatchContext = createContext(null);
 
 export function HomesProvider({ resource, children }) {
-  console.log('map', resource);
+
+  const [isRender, setIsRender] = useState(false);
+  useEffect(() => () => setIsRender(true));
+  useEffect(() => {
+    setIsRender(false);
+  }, [isRender])
 
   const map = resource.map.read();
   const homes = resource.homes.read();
+
+
+
 
   const initMap = {
     ...initialState,
@@ -119,6 +138,7 @@ function getInitHomesData() {
 }
 
 function waitNaverMap(nMap) {
+  console.log("Execute Waiter", nMap);
   return pend.wrapPromise(new Promise((resole, reject) => {
     if (nMap) {
       resole(nMap)
@@ -149,4 +169,8 @@ export function useHomesDispatch() {
     throw new Error('Cannot fin HomesProvider')
   }
   return dispatch;
+}
+
+export function searchHomesAddress(dispatch, search) {
+  dispatch({ type: 'SEARCH_HOMES', payload: search });
 }
