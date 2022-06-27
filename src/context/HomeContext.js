@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useReducer } from 'react'
+import React, { createContext, useContext, useReducer, useState, useEffect } from 'react'
 import HOME from '../happyhappyhouse.json';
 import { createFuzzyMatcher } from '../helpers/fuzzyMather';
 import * as NAVER from '../helpers/naverMapHelper';
@@ -87,10 +87,18 @@ const HomeStateContext = createContext(null);
 const HomeDispatchContext = createContext(null);
 
 export function HomesProvider({ resource, children }) {
-  console.log('map', resource);
+
+  const [isRender, setIsRender] = useState(false);
+  useEffect(() => () => setIsRender(true));
+  useEffect(() => {
+    setIsRender(false);
+  }, [isRender])
 
   const map = resource.map.read();
   const homes = resource.homes.read();
+
+
+
 
   const initMap = {
     ...initialState,
@@ -130,6 +138,7 @@ function getInitHomesData() {
 }
 
 function waitNaverMap(nMap) {
+  console.log("Execute Waiter", nMap);
   return pend.wrapPromise(new Promise((resole, reject) => {
     if (nMap) {
       resole(nMap)

@@ -1,4 +1,4 @@
-import { useState, Suspense } from "react";
+import { useState, Suspense, useEffect } from "react";
 import Marker from "./components/NaverMapTools/Marker";
 import Spinner from "./components/Spinner";
 import Aside from "./components/Aside";
@@ -9,7 +9,6 @@ import { NaverMap } from "./components/NaverMapTools/NaverMap";
 
 function App() {
   const [nMap, setNMap] = useState(null);
-
 
   return (
     <div>

@@ -128,7 +128,7 @@ function changeAddressToPositionByGeocode(address) {
 
 function setCenterByPosition(map, position) {
   console.log('Move Point');
-  map.panTo(position);
+  map.setCenter(position);
   map.setZoom(16, true);
 }
 

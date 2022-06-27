@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
 import styled from 'styled-components'
 import { setCenterByPosition } from '../../helpers/naverMapHelper';
-
-import icon from '../../images/happy2.png'
 import { useHomesState, useHomesDispatch, searchHomesAddress } from "./../../context/HomeContext";
+
+import FilteredHomes from './FilteredHomes'
+import icon from '../../images/happy2.png'
+
 
 function IconImage() {
   return <img style={{ width: "3.5rem" }} src={icon} />
@@ -34,9 +36,8 @@ export default function Index() {
 
   useEffect(() => {
     if (state.filteredHomes && state.filteredHomes.length > 0) {
-      setSearchData(state.filteredHomes.map(filteredItems));
+      setSearchData(<FilteredHomes />);
     }
-
   }, [state])
 
 
@@ -48,27 +49,12 @@ export default function Index() {
   const visibleHandler = () => {
     setVisibility(f => !f);
   }
-
-  function filteredItems(homes) {
-    const { address, name, sells, position } = homes;
-    const handleClick = (e) => {
-      console.log(position);
-      setCenterByPosition(state.map.data, position);
-    }
-    return <li key={name} onClick={handleClick}>
-      <p>{address}</p>
-      <p>주택 이름: {name}</p>
-      <p>주택 수 : {sells.length}</p>
-      <hr />
-    </li>
-
-  }
   return (
     <AsidePosition>
       <div className={!visibility ? 'appear-trigger' : 'disappear'} onClick={visibleHandler}><IconImage /></div>
       <div className={visibility ? 'appear-contents' : 'disappear'}>
         <AsideSearch>
-          <form action="">
+          <form onSubmit={(e) => e.preventDefault()}>
             <label for="address" onClick={visibleHandler}>
               <IconImage />
             </label>
@@ -77,9 +63,7 @@ export default function Index() {
           </form>
         </AsideSearch>
         <AsideContents>
-          <ul>
-            {searchedData}
-          </ul>
+          {searchedData}
         </AsideContents>
       </div>
     </AsidePosition>
@@ -132,7 +116,6 @@ const AsidePosition = styled.div`
 `
 const AsideSearch = styled.div`
   padding: .7rem .5rem;
-  margin-bottom: 3rem;
   
 
   & > form{
