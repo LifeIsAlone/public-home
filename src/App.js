@@ -13,7 +13,6 @@ function App() {
 
   return (
     <div>
-      <Header />
       <NaverMap
         mapDivId={"maps-getting-started-uncontrolled"} // default: react-naver-map
         style={{
@@ -22,9 +21,8 @@ function App() {
         }}
         defaultCenter={{ lat: 37.5665734, lng: 126.978179 }}
         defaultZoom={12}
-        naverRef={nRef}
+        mapState={(map) => setNMap(map)}
       >
-
         <Suspense fallback={<><Spinner text={"행복주택 데이터 수집중..."} /></>}>
           <HomesProvider resource={initData(nMap)}>
             <Aside />
@@ -32,7 +30,6 @@ function App() {
           </HomesProvider>
         </Suspense>
       </NaverMap>
-
     </div>
   );
 }

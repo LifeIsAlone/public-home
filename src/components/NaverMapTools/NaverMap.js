@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { createMap, getPosition } from "../../helpers/naverMapHelper";
 
-export function NaverMap({ mapDivId, style, defaultCenter, defaultZoom, mapState }) {
+export function NaverMap({ mapDivId, style, defaultCenter, defaultZoom, mapState, children }) {
 
     const [map, setMap] = useState(undefined);
     const [isRender, setIsRender] = useState(false);
@@ -22,6 +22,7 @@ export function NaverMap({ mapDivId, style, defaultCenter, defaultZoom, mapState
     return (
         <>
             <div style={style} id={mapDivId}></div>
+            {children}
         </>
     )
 

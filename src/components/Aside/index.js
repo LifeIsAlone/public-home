@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import styled from 'styled-components'
+import { setCenterByPosition } from '../../helpers/naverMapHelper';
 
 import icon from '../../images/happy2.png'
 import { useHomesState, useHomesDispatch, searchHomesAddress } from "./../../context/HomeContext";
@@ -21,7 +22,6 @@ export default function Index() {
 
   useEffect(() => {
     if (searching && search) {
-      console.log("SEARCH EXECUTE")
 
       setSearching(false);
       searchHomesAddress(dispatch, search);
@@ -34,7 +34,6 @@ export default function Index() {
 
   useEffect(() => {
     if (state.filteredHomes && state.filteredHomes.length > 0) {
-      console.log("STATE EXECUTE")
       setSearchData(state.filteredHomes.map(filteredItems));
     }
 
@@ -51,8 +50,12 @@ export default function Index() {
   }
 
   function filteredItems(homes) {
-    const { address, name, sells } = homes;
-    return <li key={name}>
+    const { address, name, sells, position } = homes;
+    const handleClick = (e) => {
+      console.log(position);
+      setCenterByPosition(state.map.data, position);
+    }
+    return <li key={name} onClick={handleClick}>
       <p>{address}</p>
       <p>주택 이름: {name}</p>
       <p>주택 수 : {sells.length}</p>

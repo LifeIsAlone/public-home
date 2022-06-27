@@ -126,9 +126,16 @@ function changeAddressToPositionByGeocode(address) {
   });
 }
 
+function setCenterByPosition(map, position) {
+  console.log('Move Point');
+  map.panTo(position);
+  map.setZoom(16, true);
+}
+
 export {
   createMap,
   getPosition,
   createMarker,
   changeAddressToPositionByGeocode,
+  setCenterByPosition
 };
