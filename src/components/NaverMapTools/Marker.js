@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import ReactDOMServer from "react-dom/server";
 import styled from "styled-components";
-import * as NAVER from "../../helpers/naverMapHelper";
-import { useHomesState, useHomesDispatch } from "./../../context/HomeContext";
+import * as NAVER from "../../util/naverMapHelper";
+import { useHomesState, useHomesDispatch } from "./../../provider/HomeContext";
 
 export function InfoWindowContent({ homeInfo }) {
   const sells = homeInfo.sells;

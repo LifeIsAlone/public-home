@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { createMap, getPosition } from "../../helpers/naverMapHelper";
+import { createMap, getPosition } from "../../util/naverMapHelper";
 
 export function NaverMap({ mapDivId, style, defaultCenter, defaultZoom, mapState, children }) {
 

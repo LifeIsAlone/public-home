@@ -1,10 +1,10 @@
 import { useState, Suspense, useEffect } from "react";
 import Marker from "./components/NaverMapTools/Marker";
-import Spinner from "./components/Spinner";
-import Aside from "./components/Aside";
+import Spinner from "./components/common/Spinner";
+import Aside from "./components/common/Aside";
 
 import "./App.css";
-import { HomesProvider, initData } from "./context/HomeContext";
+import { HomesProvider, initData } from "./provider/HomeContext";
 import { NaverMap } from "./components/NaverMapTools/NaverMap";
 
 function App() {
