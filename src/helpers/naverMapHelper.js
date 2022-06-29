@@ -127,9 +127,22 @@ function changeAddressToPositionByGeocode(address) {
 }
 
 function setCenterByPosition(map, position) {
-  console.log('Move Point');
-  map.setCenter(position);
-  map.setZoom(16, true);
+  console.log("Move Point");
+  const [lng, lat] = position
+    .toString()
+    .slice(1, -1)
+    .split(",")
+    .map((e) => Number(e));
+
+  map.panToBounds(
+    new naver.maps.LatLngBounds(
+      new naver.maps.LatLng(lat - 0.003, lng - 0.01),
+      new naver.maps.LatLng(lat + 0.003, lng + 0.01)
+    )
+  );
+  // 상준님이 한 부분
+  // map.setCenter(position);
+  // map.setZoom(16, true);
 }
 
 export {
@@ -137,5 +150,5 @@ export {
   getPosition,
   createMarker,
   changeAddressToPositionByGeocode,
-  setCenterByPosition
+  setCenterByPosition,
 };
