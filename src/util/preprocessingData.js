@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+const { readFileSync, writeFileSync } = require("fs");
 
 const convertToNumber = (string) => {
   return parseInt(string.replace(/(,|개|원)/g, ""));
@@ -55,6 +55,12 @@ const calPrice = (monthPayPercent, transInterestRate, totalPrice, monthPay) => {
   return [newTotalPay, newMonthPay];
 };
 
+const getAddress = (addr) => {
+  const re =
+    /(([가-힣A-Za-z·\d~\-\.]{2,}(로|길).[\d|-\d]+)|([가-힣A-Za-z·\d~\-\.]+(읍|동)\s)[\d]+)/;
+  return re.exec(addr)[0];
+};
+
 const preprocessingSH = () => {
   const homesStr = readFileSync(`publichome/src/util/rawDataSH.txt`, "utf-8");
   const homesList = homesStr.split("\n");
@@ -87,7 +93,13 @@ const preprocessingSH = () => {
     );
     // console.log(monthPay);
     return {
-      address: line[0].split(",")[0].split("(")[0].trimEnd(),
+      address: line[0],
+      //   .split(" ")
+      //   .slice(0, 2)
+      //   .map((e) => e.split("구")[0])
+      //   .join(" ") +
+      // "구 " +
+      // getAddress(line[0]),
       name,
       classes:
         (line[2] === "-"
@@ -120,6 +132,7 @@ const preprocessingSH = () => {
     const Obj = homesReuslt.filter((e) => e.name === name)[0];
     Obj.gov = "SH";
     Obj.address = address;
+    console.log(address);
     Obj.sells.push({ classes, totalPrice, monthPay });
   });
   console.log(homesObj[homesObj.length - 1]);
@@ -132,3 +145,6 @@ console.log(shList.length);
 console.log(lhList.length);
 const result = shList.concat(lhList);
 console.log(result.length);
+
+const obj = JSON.stringify(result);
+writeFileSync("publichome/src/happyhappyhouse2.json", obj, "utf-8");
