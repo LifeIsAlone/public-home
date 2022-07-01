@@ -102,6 +102,9 @@ function createMarker(MarkerObj, map, content) {
 }
 
 function changeAddressToPositionByGeocode(address) {
+  if (address.includes("응암에코타운")) {
+    address = "서울특별시 은평구 응암동 72-6";
+  }
   return new Promise((resolve, reject) => {
     naver.maps.Service.geocode(
       {
@@ -115,7 +118,12 @@ function changeAddressToPositionByGeocode(address) {
         if (response.v2.meta.totalCount === 0) {
           reject("totalCount" + response.v2.meta.totalCount);
         }
-
+        if (response.v2.addresses.length === 0) {
+          console.log(address);
+          console.log(response.v2.addresses);
+        }
+        // response.v2.addresses.testAddr = address;
+        // console.log(response.v2.addresses);
         const item = response.v2.addresses[0],
           position = new naver.maps.Point(item.x, item.y);
 
