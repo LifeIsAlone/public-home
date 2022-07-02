@@ -1,3 +1,8 @@
+const IMG = {
+  LH: "https://i.ibb.co/f0k0wk9/homeLH.png",
+  SH: "https://i.ibb.co/cL3pwtk/homeSH.png",
+};
+
 const naver = window.naver;
 
 console.log("NAVER HELPER EXECUTE");
@@ -22,10 +27,12 @@ function createMarker(MarkerObj, map, content) {
   let infoWindows = [];
 
   for (let key in MarkerObj) {
+    const gov = MarkerObj[key].gov;
     const markerOption = setMarkerOption(
       map,
       MarkerObj[key].position,
-      MarkerObj[key].title
+      MarkerObj[key].title,
+      IMG[gov]
     );
     const markerInfoWindow = setMarkerInfoWindow(content(MarkerObj[key]));
 
@@ -42,14 +49,14 @@ function createMarker(MarkerObj, map, content) {
   }
 
   /** Functions  **/
-  function setMarkerOption(map, position, title, ...props) {
+  function setMarkerOption(map, position, title, img, ...props) {
     return new naver.maps.Marker({
       map,
       position,
       title,
       zIndex: 100,
       icon: {
-        url: "https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1603-house_4x.png&highlight=FFD600,ff000000&scale=2.0",
+        url: img,
         scaledSize: new naver.maps.Size(20, 20),
       },
       ...props,
@@ -102,6 +109,9 @@ function createMarker(MarkerObj, map, content) {
 }
 
 function changeAddressToPositionByGeocode(address) {
+  if (address.includes("응암에코타운")) {
+    address = "서울특별시 은평구 응암동 72-6";
+  }
   return new Promise((resolve, reject) => {
     naver.maps.Service.geocode(
       {
@@ -115,7 +125,12 @@ function changeAddressToPositionByGeocode(address) {
         if (response.v2.meta.totalCount === 0) {
           reject("totalCount" + response.v2.meta.totalCount);
         }
-
+        if (response.v2.addresses.length === 0) {
+          console.log(address);
+          console.log(response.v2.addresses);
+        }
+        // response.v2.addresses.testAddr = address;
+        // console.log(response.v2.addresses);
         const item = response.v2.addresses[0],
           position = new naver.maps.Point(item.x, item.y);
 
