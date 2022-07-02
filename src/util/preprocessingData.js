@@ -132,10 +132,10 @@ const preprocessingSH = () => {
     const Obj = homesReuslt.filter((e) => e.name === name)[0];
     Obj.gov = "SH";
     Obj.address = address;
-    console.log(address);
+    // console.log(address);
     Obj.sells.push({ classes, totalPrice, monthPay });
   });
-  console.log(homesObj[homesObj.length - 1]);
+  //   console.log(homesObj[homesObj.length - 1]);
   return homesReuslt;
 };
 
@@ -147,4 +147,4 @@ const result = shList.concat(lhList);
 console.log(result.length);
 
 const obj = JSON.stringify(result);
-writeFileSync("publichome/src/happyhappyhouse2.json", obj, "utf-8");
+writeFileSync("publichome/src/happyhappyhouse.json", obj, "utf-8");
