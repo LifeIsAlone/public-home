@@ -40,7 +40,7 @@ const preprocessingLH = () => {
 
   homesObj.forEach(({ address, classes, monthPay, name, totalPrice }) => {
     const Obj = homesReuslt.filter((e) => e.name === name.split("-")[0])[0];
-    Obj.gov = "LH";
+    Obj.gov = "LH 청년매입";
     Obj.address = address;
     Obj.sells.push({ classes, totalPrice, monthPay });
   });
@@ -136,7 +136,7 @@ const preprocessingSH = () => {
 
   homesObj.forEach(({ address, classes, monthPay, name, totalPrice }) => {
     const Obj = homesReuslt.filter((e) => e.name === name)[0];
-    Obj.gov = "SH";
+    Obj.gov = "SH 청년매입";
     Obj.address = address;
     // console.log(address);
     Obj.sells.push({ classes, totalPrice, monthPay });
