@@ -47,11 +47,16 @@ const preprocessingLH = () => {
   return homesReuslt;
 };
 
+const roundDown = (e) => parseInt(e / 100000) * 100000;
 const calPrice = (monthPayPercent, transInterestRate, totalPrice, monthPay) => {
-  const newTotalPay = Math.floor(monthPay * monthPayPercent * 200 + totalPrice);
-  const newMonthPay = Math.round(
-    monthPay - ((newTotalPay - totalPrice) * transInterestRate) / 12
-  );
+  const newTotalPay = roundDown(monthPay * monthPayPercent * 200) + totalPrice;
+  // const newTotalPay = parseInt(_newTotalPay / 100000) * 100000;
+  const newMonthPay =
+    monthPay -
+    Math.round(((newTotalPay - totalPrice) * transInterestRate) / 12);
+  // console.log(newTotalPay, totalPrice);
+  // console.log((newTotalPay - totalPrice) * transInterestRate);
+
   return [newTotalPay, newMonthPay];
 };
 
@@ -91,6 +96,7 @@ const preprocessingSH = () => {
       _totalPrice,
       _monthPay
     );
+    // console.log(name, totalPrice, monthPay);
     // console.log(monthPay);
     return {
       address: line[0],
