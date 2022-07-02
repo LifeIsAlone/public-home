@@ -10,17 +10,21 @@ export function InfoWindowContent({ homeInfo }) {
     <InfoWindowDiv>
       <InfoWindowScroll>
         <div>
-          <h3>{homeInfo.name}</h3>
-          <p>임대조건(2,3순위 기준, 최대전환 시)</p>
-          {sells.map((sell) => {
-            return (
-              <ul>
-                <li>주택정보: {sell.classes}</li>
-                <li>보증금: {sell.totalPrice}</li>
-                <li>임대료: {sell.monthPay}</li>
-              </ul>
-            );
-          })}
+          <span class="notranslate">
+            <h3>
+              [{homeInfo.gov}] {homeInfo.name}
+            </h3>
+            <p>임대조건(2,3순위 기준, 보증금 최대전환 시)</p>
+            {sells.map((sell) => {
+              return (
+                <ul>
+                  <li>주택정보: {sell.classes}</li>
+                  <li>보증금: {sell.totalPrice}</li>
+                  <li>임대료: {sell.monthPay}</li>
+                </ul>
+              );
+            })}
+          </span>
         </div>
       </InfoWindowScroll>
     </InfoWindowDiv>
