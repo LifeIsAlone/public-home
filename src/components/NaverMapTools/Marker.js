@@ -10,8 +10,10 @@ export function InfoWindowContent({ homeInfo }) {
     <InfoWindowDiv>
       <InfoWindowScroll>
         <div>
-          <h3>{homeInfo.name}</h3>
-          <p>임대조건(2,3순위 기준, 최대전환 시)</p>
+          <h3>
+            [{homeInfo.gov}] {homeInfo.name}
+          </h3>
+          <p>임대조건(2,3순위 기준, 보증금 최대전환 시)</p>
           {sells.map((sell) => {
             return (
               <ul>
