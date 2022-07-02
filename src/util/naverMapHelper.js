@@ -1,6 +1,6 @@
 const IMG = {
-  LH: "https://i.ibb.co/f0k0wk9/homeLH.png",
-  SH: "https://i.ibb.co/cL3pwtk/homeSH.png",
+  "LH 청년매입": "https://i.ibb.co/f0k0wk9/homeLH.png",
+  "SH 청년매입": "https://i.ibb.co/cL3pwtk/homeSH.png",
 };
 
 const naver = window.naver;
