@@ -14,7 +14,7 @@ export function InfoWindowContent({ homeInfo }) {
             <h3>
               [{homeInfo.gov}] {homeInfo.name}
             </h3>
-            <p>임대조건(2,3순위 기준, 보증금 최대전환 시)</p>
+            <p>임대조건(2,3순위 청년 기준, 보증금 최대전환 시)</p>
             {sells.map((sell) => {
               return (
                 <ul>
