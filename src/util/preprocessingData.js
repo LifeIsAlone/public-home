@@ -14,8 +14,11 @@ const preprocessingLH = () => {
 
   const homesObj = homesList.map((e) => {
     const line = e.split("\t");
+    const keyAddress = getAddress(line[0]).replace(" ", "");
+    // : line[0].split("(")[0]
     return {
-      address: line[0].split("(")[0],
+      keyAddress,
+      address: line[0],
       name: line[1],
       classes:
         line[2] +
@@ -23,27 +26,30 @@ const preprocessingLH = () => {
         (line[3] ? line[3] + "동 " : "") +
         line[4] +
         "호 " +
-        line[5].split(".")[0] +
+        line[5].trim() +
         "㎡",
       totalPrice: addCommas(convertToNumber(line[6]) / 10000) + "만원",
       monthPay: line[7].trim() + "원",
     };
   });
 
-  const homesNameList = homesObj.map(({ name }) => name);
+  const homesAddrList = homesObj.map(({ keyAddress }) => keyAddress);
 
-  const homesNameSetify = Array.from(new Set(homesNameList));
+  const homesAddrSetify = Array.from(new Set(homesAddrList));
 
-  const homesReuslt = homesNameSetify.map((name) => {
-    return { name, sells: [] };
+  const homesReuslt = homesAddrSetify.map((keyAddress) => {
+    return { keyAddress, sells: [] };
   });
 
-  homesObj.forEach(({ address, classes, monthPay, name, totalPrice }) => {
-    const Obj = homesReuslt.filter((e) => e.name === name.split("-")[0])[0];
-    Obj.gov = "LH 청년매입";
-    Obj.address = address;
-    Obj.sells.push({ classes, totalPrice, monthPay });
-  });
+  homesObj.forEach(
+    ({ keyAddress, address, classes, monthPay, name, totalPrice }) => {
+      const Obj = homesReuslt.filter((e) => e.keyAddress === keyAddress)[0];
+      Obj.gov = "LH 청년매입";
+      Obj.name = name;
+      Obj.address = address;
+      Obj.sells.push({ classes, totalPrice, monthPay });
+    }
+  );
   return homesReuslt;
 };
 
@@ -66,7 +72,7 @@ const getAddress = (addr) => {
   return re.exec(addr)[0];
 };
 
-const preprocessingSH = () => {
+const _preprocessingSH = () => {
   const homesStr = readFileSync(`publichome/src/util/rawDataSH.txt`, "utf-8");
   const homesList = homesStr.split("\n");
 
@@ -145,11 +151,70 @@ const preprocessingSH = () => {
   return homesReuslt;
 };
 
+const preprocessingSH = () => {
+  const homesStr = readFileSync(`publichome/src/util/rawDataSH.txt`, "utf-8");
+  const homesList = homesStr.split("\n");
+
+  const homesObj = homesList.map((e) => {
+    const line = e.split("\t");
+    // console.log(line[1]);
+    // console.log(convertToNumber(line[6]));
+    // console.log(line[5]);
+    const keyAddress = getAddress(line[0]).replace(" ", "");
+    // line[0].split(",")[0].split("(")[0];
+    // console.log(address);
+    return {
+      keyAddress,
+      address: line[0],
+      name: line[1],
+      classes:
+        (line[2] === "-"
+          ? "남녀공용"
+          : line[2] === "남성"
+          ? "남성전용"
+          : line[2] === "여성"
+          ? "여성전용"
+          : "개발자 오픈톡 버그 신고 바랍니다.") +
+        " " +
+        (line[3] === "-" ? "" : line[3] + " ") +
+        line[4] +
+        "호 " +
+        line[5].trim() +
+        "㎡",
+      totalPrice:
+        addCommas(Math.round(convertToNumber(line[6]) / 10000)) + "만원",
+      monthPay: line[7].trim() + "원",
+    };
+  });
+
+  const homesAddrList = homesObj.map(({ keyAddress }) => keyAddress);
+
+  const homesAddrSetify = Array.from(new Set(homesAddrList));
+
+  const homesReuslt = homesAddrSetify.map((keyAddress) => {
+    return { keyAddress, sells: [] };
+  });
+
+  homesObj.forEach(
+    ({ keyAddress, address, classes, monthPay, name, totalPrice }) => {
+      const Obj = homesReuslt.filter((e) => e.keyAddress === keyAddress)[0];
+      Obj.gov = "SH 청년매입";
+      Obj.name = name.trim();
+      // console.log(address);
+      Obj.address = address;
+      Obj.sells.push({ classes, totalPrice, monthPay });
+    }
+  );
+  //   console.log(homesObj[homesObj.length - 1]);
+  return homesReuslt;
+};
+
 const shList = preprocessingSH();
 const lhList = preprocessingLH();
 console.log(shList.length);
 console.log(lhList.length);
 const result = shList.concat(lhList);
+// result = lhList;
 console.log(result.length);
 
 const obj = JSON.stringify(result);
