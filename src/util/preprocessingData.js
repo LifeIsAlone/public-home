@@ -26,7 +26,7 @@ const preprocessingLH = () => {
         (line[3] ? line[3] + "동 " : "") +
         line[4] +
         "호 " +
-        line[5].trim() +
+        Number(line[5]) +
         "㎡",
       totalPrice: addCommas(convertToNumber(line[6]) / 10000) + "만원",
       monthPay: line[7].trim() + "원",
@@ -179,7 +179,7 @@ const preprocessingSH = () => {
         (line[3] === "-" ? "" : line[3] + " ") +
         line[4] +
         "호 " +
-        line[5].trim() +
+        Number(line[5]) +
         "㎡",
       totalPrice:
         addCommas(Math.round(convertToNumber(line[6]) / 10000)) + "만원",
