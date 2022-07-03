@@ -39,6 +39,8 @@ export default function Marker() {
   };
 
   const { loading, data, error } = state.homes;
+  // console.log(`Marker`);
+  // console.log(data);
 
   NAVER.createMarker(data, state.map.data, (props) => {
     const htmlString = ReactDOMServer.renderToStaticMarkup(

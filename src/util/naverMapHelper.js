@@ -133,9 +133,12 @@ function changeAddressToPositionByGeocode(address) {
         // console.log(response.v2.addresses);
         const item = response.v2.addresses[0],
           position = new naver.maps.Point(item.x, item.y);
+        const lng = item.x;
+        const lat = item.y;
 
         //   infoWindows.push(infoWindow.open(map, point))
-        resolve(position);
+        resolve([lng, lat]);
+        // resolve(position);
       }
     );
   });
