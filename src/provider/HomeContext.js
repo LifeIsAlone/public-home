@@ -130,7 +130,7 @@ export function HomesProvider({ resource, children }) {
 function getInitHomesData() {
   const naver = window.naver;
   const promise = Promise.all(
-    HOME.map(async (data) => {
+    HOME.filter((data) => data.gov === "SH 청년매입").map(async (data) => {
       try {
         // const [lng, lat] = await NAVER.changeAddressToPositionByGeocode(
         //   data.address
