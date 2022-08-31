@@ -1,0 +1,7522 @@
+[
+  {
+    "keyAddress": "학동로20길63-6",
+    "sells": [
+      {
+        "classes": "남녀공용 29B 0202호 29.59㎡",
+        "totalPrice": "14,636만원",
+        "monthPay": "121,800원"
+      },
+      {
+        "classes": "남녀공용 29B 0203호 29.95㎡",
+        "totalPrice": "14,970만원",
+        "monthPay": "124,580원"
+      },
+      {
+        "classes": "남녀공용 29B 0204호 29.44㎡",
+        "totalPrice": "14,859만원",
+        "monthPay": "123,660원"
+      },
+      {
+        "classes": "남녀공용 29B 0302호 29.59㎡",
+        "totalPrice": "14,636만원",
+        "monthPay": "121,800원"
+      },
+      {
+        "classes": "남녀공용 29B 0303호 29.95㎡",
+        "totalPrice": "14,970만원",
+        "monthPay": "124,580원"
+      },
+      {
+        "classes": "남녀공용 29B 0304호 29.44㎡",
+        "totalPrice": "14,859만원",
+        "monthPay": "123,660원"
+      },
+      {
+        "classes": "남녀공용 39A 0401호 38.92㎡",
+        "totalPrice": "18,426만원",
+        "monthPay": "153,340원"
+      },
+      {
+        "classes": "남녀공용 39A 0402호 38.92㎡",
+        "totalPrice": "18,649만원",
+        "monthPay": "155,200원"
+      },
+      {
+        "classes": "남녀공용 29B 0501호 29.96㎡",
+        "totalPrice": "14,487만원",
+        "monthPay": "120,560원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "백년빌",
+    "address": "서울특별시 강남구 학동로20길 63-6, 백년빌 (논현동 158-26)",
+    "lng": "127.0269973",
+    "lat": "37.5094339"
+  },
+  {
+    "keyAddress": "봉은사로13길26",
+    "sells": [
+      {
+        "classes": "남녀공용 28B 0201호 29.34㎡",
+        "totalPrice": "14,710만원",
+        "monthPay": "122,420원"
+      },
+      {
+        "classes": "남녀공용 28B 0202호 29.16㎡",
+        "totalPrice": "14,599만원",
+        "monthPay": "121,500원"
+      },
+      {
+        "classes": "남녀공용 28B 0203호 27.34㎡",
+        "totalPrice": "13,855만원",
+        "monthPay": "115,300원"
+      },
+      {
+        "classes": "남녀공용 28B 0204호 27.51㎡",
+        "totalPrice": "13,930만원",
+        "monthPay": "115,920원"
+      },
+      {
+        "classes": "남녀공용 28B 0205호 26.77㎡",
+        "totalPrice": "13,819만원",
+        "monthPay": "115,000원"
+      },
+      {
+        "classes": "남녀공용 28B 0301호 29.34㎡",
+        "totalPrice": "14,859만원",
+        "monthPay": "123,660원"
+      },
+      {
+        "classes": "남녀공용 28B 0302호 29.16㎡",
+        "totalPrice": "14,747만원",
+        "monthPay": "122,720원"
+      },
+      {
+        "classes": "남녀공용 28B 0303호 27.34㎡",
+        "totalPrice": "13,968만원",
+        "monthPay": "116,240원"
+      },
+      {
+        "classes": "남녀공용 28B 0304호 27.51㎡",
+        "totalPrice": "14,042만원",
+        "monthPay": "116,860원"
+      },
+      {
+        "classes": "남녀공용 28B 0305호 26.77㎡",
+        "totalPrice": "13,968만원",
+        "monthPay": "116,240원"
+      },
+      {
+        "classes": "남녀공용 35A 0401호 34.78㎡",
+        "totalPrice": "18,500만원",
+        "monthPay": "153,960원"
+      },
+      {
+        "classes": "남녀공용 28B 0402호 27.24㎡",
+        "totalPrice": "14,338만원",
+        "monthPay": "119,320원"
+      },
+      {
+        "classes": "남녀공용 35A 0403호 35.05㎡",
+        "totalPrice": "18,611만원",
+        "monthPay": "154,880원"
+      },
+      {
+        "classes": "남녀공용 35A 0501호 34.77㎡",
+        "totalPrice": "18,313만원",
+        "monthPay": "152,400원"
+      },
+      {
+        "classes": "남녀공용 35A 0502호 37.85㎡",
+        "totalPrice": "19,726만원",
+        "monthPay": "164,160원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "백년빌",
+    "address": "서울특별시 강남구 봉은사로13길 26, 백년빌 (논현동 189-5)",
+    "lng": "127.0299629",
+    "lat": "37.5077601"
+  },
+  {
+    "keyAddress": "천호대로168다길6",
+    "sells": [
+      {
+        "classes": "남녀공용 29B 0201호 30.23㎡",
+        "totalPrice": "9,993만원",
+        "monthPay": "83,160원"
+      },
+      {
+        "classes": "남녀공용 29B 0202호 29.31㎡",
+        "totalPrice": "9,695만원",
+        "monthPay": "80,680원"
+      },
+      {
+        "classes": "남녀공용 37A 0204호 38.24㎡",
+        "totalPrice": "12,147만원",
+        "monthPay": "101,080원"
+      },
+      {
+        "classes": "남녀공용 37A 0205호 39.67㎡",
+        "totalPrice": "12,704만원",
+        "monthPay": "105,720원"
+      },
+      {
+        "classes": "남녀공용 29B 0301호 30.23㎡",
+        "totalPrice": "10,067만원",
+        "monthPay": "83,780원"
+      },
+      {
+        "classes": "남녀공용 29B 0302호 29.31㎡",
+        "totalPrice": "9,769만원",
+        "monthPay": "81,300원"
+      },
+      {
+        "classes": "남녀공용 37A 0304호 38.24㎡",
+        "totalPrice": "12,259만원",
+        "monthPay": "102,020원"
+      },
+      {
+        "classes": "남녀공용 37A 0305호 39.67㎡",
+        "totalPrice": "12,853만원",
+        "monthPay": "106,960원"
+      },
+      {
+        "classes": "남녀공용 37A 0401호 37.12㎡",
+        "totalPrice": "12,259만원",
+        "monthPay": "102,020원"
+      },
+      {
+        "classes": "남녀공용 37A 0402호 35.61㎡",
+        "totalPrice": "11,776만원",
+        "monthPay": "98,000원"
+      },
+      {
+        "classes": "남녀공용 37A 0403호 36.63㎡",
+        "totalPrice": "12,221만원",
+        "monthPay": "101,700원"
+      },
+      {
+        "classes": "남녀공용 37A 0501호 37.13㎡",
+        "totalPrice": "12,147만원",
+        "monthPay": "101,080원"
+      },
+      {
+        "classes": "남녀공용 37A 0502호 38.05㎡",
+        "totalPrice": "12,184만원",
+        "monthPay": "101,400원"
+      },
+      {
+        "classes": "남녀공용 29B 0503호 29.98㎡",
+        "totalPrice": "9,807만원",
+        "monthPay": "81,620원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "WISH희망",
+    "address": "서울특별시 강동구 천호대로168다길 6, WISH희망 (성내동 155-6)",
+    "lng": "127.1301138",
+    "lat": "37.5351368"
+  },
+  {
+    "keyAddress": "고덕로46",
+    "sells": [
+      {
+        "classes": "남녀공용 29A 0203호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0204호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0205호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0303호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0304호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0305호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0403호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0404호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0405호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0503호 29.05㎡",
+        "totalPrice": "9,659만원",
+        "monthPay": "80,380원"
+      },
+      {
+        "classes": "남녀공용 29A 0504호 29.05㎡",
+        "totalPrice": "9,659만원",
+        "monthPay": "80,380원"
+      },
+      {
+        "classes": "남녀공용 29A 0505호 29.05㎡",
+        "totalPrice": "9,659만원",
+        "monthPay": "80,380원"
+      },
+      {
+        "classes": "남녀공용 29A 0603호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0604호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 29A 0605호 29.05㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "신양그린",
+    "address": "서울특별시 강동구 고덕로 46, 신양그린 (암사동 462-22외)",
+    "lng": "127.1300908",
+    "lat": "37.5545096"
+  },
+  {
+    "keyAddress": "천중로29길27",
+    "sells": [
+      {
+        "classes": "남녀공용 29B 0201호 29㎡",
+        "totalPrice": "8,952만원",
+        "monthPay": "74,500원"
+      },
+      {
+        "classes": "남녀공용 29B 0202호 29.95㎡",
+        "totalPrice": "9,250만원",
+        "monthPay": "76,980원"
+      },
+      {
+        "classes": "남녀공용 29B 0203호 29.98㎡",
+        "totalPrice": "9,063만원",
+        "monthPay": "75,420원"
+      },
+      {
+        "classes": "남녀공용 29B 0204호 28.57㎡",
+        "totalPrice": "8,655만원",
+        "monthPay": "72,020원"
+      },
+      {
+        "classes": "남녀공용 29B 0301호 29㎡",
+        "totalPrice": "9,027만원",
+        "monthPay": "75,120원"
+      },
+      {
+        "classes": "남녀공용 29B 0302호 29.95㎡",
+        "totalPrice": "9,324만원",
+        "monthPay": "77,600원"
+      },
+      {
+        "classes": "남녀공용 29B 0303호 29.98㎡",
+        "totalPrice": "9,176만원",
+        "monthPay": "76,360원"
+      },
+      {
+        "classes": "남녀공용 29B 0304호 28.57㎡",
+        "totalPrice": "8,729만원",
+        "monthPay": "72,640원"
+      },
+      {
+        "classes": "남녀공용 29B 0401호 28.96㎡",
+        "totalPrice": "9,138만원",
+        "monthPay": "76,040원"
+      },
+      {
+        "classes": "남녀공용 29B 0402호 29.98㎡",
+        "totalPrice": "9,324만원",
+        "monthPay": "77,600원"
+      },
+      {
+        "classes": "남녀공용 29B 0403호 29.91㎡",
+        "totalPrice": "9,510만원",
+        "monthPay": "79,140원"
+      },
+      {
+        "classes": "남녀공용 29B 0501호 28.97㎡",
+        "totalPrice": "9,027만원",
+        "monthPay": "75,120원"
+      },
+      {
+        "classes": "남녀공용 29B 0502호 27.3㎡",
+        "totalPrice": "8,433만원",
+        "monthPay": "70,180원"
+      },
+      {
+        "classes": "남녀공용 29B 0503호 27.85㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "더클래스천호1",
+    "address": "서울특별시 강동구 천중로29길 27, 더클래스천호1 (천호동 84-22외)",
+    "lng": "127.1367576",
+    "lat": "37.5432903"
+  },
+  {
+    "keyAddress": "인수봉로80길17-5",
+    "sells": [
+      {
+        "classes": "남녀공용 32A 0201호 30.53㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 32A 0202호 32.37㎡",
+        "totalPrice": "8,358만원",
+        "monthPay": "69,560원"
+      },
+      {
+        "classes": "남녀공용 32A 0203호 30.06㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 32A 0204호 31.44㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 32A 0301호 30.53㎡",
+        "totalPrice": "7,541만원",
+        "monthPay": "62,760원"
+      },
+      {
+        "classes": "남녀공용 32A 0302호 32.37㎡",
+        "totalPrice": "8,433만원",
+        "monthPay": "70,180원"
+      },
+      {
+        "classes": "남녀공용 32A 0303호 30.06㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 32A 0304호 31.44㎡",
+        "totalPrice": "8,135만원",
+        "monthPay": "67,700원"
+      },
+      {
+        "classes": "남녀공용 32A 0401호 30.53㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 32A 0402호 34.46㎡",
+        "totalPrice": "8,989만원",
+        "monthPay": "74,800원"
+      },
+      {
+        "classes": "남녀공용 37A 0403호 35.39㎡",
+        "totalPrice": "9,063만원",
+        "monthPay": "75,420원"
+      },
+      {
+        "classes": "남녀공용 32A 0501호 30.53㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 32A 0502호 32.14㎡",
+        "totalPrice": "8,395만원",
+        "monthPay": "69,860원"
+      },
+      {
+        "classes": "남녀공용 32A 0503호 31.52㎡",
+        "totalPrice": "8,061만원",
+        "monthPay": "67,080원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "융성그린빌 2차",
+    "address": "서울특별시 강북구 인수봉로80길 17-5, 융성그린빌 2차 (수유동 291-121)",
+    "lng": "127.0118496",
+    "lat": "37.6448962"
+  },
+  {
+    "keyAddress": "남부순환로157길3",
+    "sells": [
+      {
+        "classes": "남녀공용 26B 0201호 26.31㎡",
+        "totalPrice": "10,512만원",
+        "monthPay": "87,480원"
+      },
+      {
+        "classes": "남녀공용 26B 0202호 26.01㎡",
+        "totalPrice": "10,401만원",
+        "monthPay": "86,560원"
+      },
+      {
+        "classes": "남녀공용 26B 0203호 26.01㎡",
+        "totalPrice": "10,401만원",
+        "monthPay": "86,560원"
+      },
+      {
+        "classes": "남녀공용 26B 0204호 26.11㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 26B 0205호 26.11㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 26B 0206호 26.11㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 17B 0207호 17.52㎡",
+        "totalPrice": "7,058만원",
+        "monthPay": "58,740원"
+      },
+      {
+        "classes": "남녀공용 26B 0301호 26.31㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0302호 26.01㎡",
+        "totalPrice": "10,512만원",
+        "monthPay": "87,480원"
+      },
+      {
+        "classes": "남녀공용 26B 0303호 26.01㎡",
+        "totalPrice": "10,512만원",
+        "monthPay": "87,480원"
+      },
+      {
+        "classes": "남녀공용 26B 0304호 26.11㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 26B 0305호 26.11㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 26B 0306호 26.11㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 17B 0307호 17.52㎡",
+        "totalPrice": "7,133만원",
+        "monthPay": "59,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0401호 26.31㎡",
+        "totalPrice": "10,735만원",
+        "monthPay": "89,340원"
+      },
+      {
+        "classes": "남녀공용 26B 0402호 26.01㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 26B 0403호 26.01㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 26B 0404호 26.11㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0405호 26.11㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0406호 26.11㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 17B 0407호 17.52㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 26B 0501호 26.31㎡",
+        "totalPrice": "10,735만원",
+        "monthPay": "89,340원"
+      },
+      {
+        "classes": "남녀공용 26B 0502호 26.01㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 26B 0503호 26.01㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 26B 0504호 26.11㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0505호 26.11㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0506호 26.11㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 17B 0507호 17.52㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 17B 0601호 17.4㎡",
+        "totalPrice": "6,797만원",
+        "monthPay": "56,560원"
+      },
+      {
+        "classes": "남녀공용 17B 0602호 17.13㎡",
+        "totalPrice": "6,686만원",
+        "monthPay": "55,640원"
+      },
+      {
+        "classes": "남녀공용 17B 0603호 17.15㎡",
+        "totalPrice": "6,686만원",
+        "monthPay": "55,640원"
+      },
+      {
+        "classes": "남녀공용 17B 0604호 17.02㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "55,340원"
+      },
+      {
+        "classes": "남녀공용 17B 0605호 17.02㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "55,340원"
+      },
+      {
+        "classes": "남녀공용 17B 0606호 17.02㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "55,340원"
+      },
+      {
+        "classes": "남녀공용 17B 0607호 17.01㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "55,340원"
+      },
+      {
+        "classes": "남녀공용 17B 0701호 17.4㎡",
+        "totalPrice": "6,686만원",
+        "monthPay": "55,640원"
+      },
+      {
+        "classes": "남녀공용 17B 0702호 17.13㎡",
+        "totalPrice": "6,575만원",
+        "monthPay": "54,720원"
+      },
+      {
+        "classes": "남녀공용 17B 0703호 17.15㎡",
+        "totalPrice": "6,575만원",
+        "monthPay": "54,720원"
+      },
+      {
+        "classes": "남녀공용 17B 0704호 17.02㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0705호 17.02㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0706호 17.02㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0707호 17.01㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0802호 17.61㎡",
+        "totalPrice": "6,686만원",
+        "monthPay": "55,640원"
+      },
+      {
+        "classes": "남녀공용 17B 0803호 17.02㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      },
+      {
+        "classes": "남녀공용 17B 0804호 17.02㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      },
+      {
+        "classes": "남녀공용 17B 0805호 17.02㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      },
+      {
+        "classes": "남녀공용 17B 0806호 17.01㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "STAY온-1",
+    "address": "서울특별시 관악구 남부순환로157길 3, STAY-온1 (신림동 507-20외)",
+    "lng": "126.9198229",
+    "lat": "37.4831038"
+  },
+  {
+    "keyAddress": "남부순환로1519",
+    "sells": [
+      {
+        "classes": "남녀공용 26B 0201호 26.86㎡",
+        "totalPrice": "10,884만원",
+        "monthPay": "90,580원"
+      },
+      {
+        "classes": "남녀공용 26B 0202호 28.03㎡",
+        "totalPrice": "11,108만원",
+        "monthPay": "92,440원"
+      },
+      {
+        "classes": "남녀공용 26B 0203호 28.03㎡",
+        "totalPrice": "11,108만원",
+        "monthPay": "92,440원"
+      },
+      {
+        "classes": "남녀공용 26B 0204호 26.3㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 26B 0205호 26.28㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 26B 0206호 26.12㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 26B 0301호 26.86㎡",
+        "totalPrice": "10,995만원",
+        "monthPay": "91,500원"
+      },
+      {
+        "classes": "남녀공용 26B 0302호 28.03㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 26B 0303호 28.03㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 26B 0304호 26.3㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0305호 26.28㎡",
+        "totalPrice": "10,625만원",
+        "monthPay": "88,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0306호 26.12㎡",
+        "totalPrice": "10,772만원",
+        "monthPay": "89,640원"
+      },
+      {
+        "classes": "남녀공용 26B 0401호 26.86㎡",
+        "totalPrice": "11,070만원",
+        "monthPay": "92,120원"
+      },
+      {
+        "classes": "남녀공용 26B 0402호 28.03㎡",
+        "totalPrice": "11,329만원",
+        "monthPay": "94,280원"
+      },
+      {
+        "classes": "남녀공용 26B 0403호 28.03㎡",
+        "totalPrice": "11,329만원",
+        "monthPay": "94,280원"
+      },
+      {
+        "classes": "남녀공용 26B 0404호 26.3㎡",
+        "totalPrice": "10,735만원",
+        "monthPay": "89,340원"
+      },
+      {
+        "classes": "남녀공용 26B 0405호 26.28㎡",
+        "totalPrice": "10,735만원",
+        "monthPay": "89,340원"
+      },
+      {
+        "classes": "남녀공용 26B 0406호 26.12㎡",
+        "totalPrice": "10,884만원",
+        "monthPay": "90,580원"
+      },
+      {
+        "classes": "남녀공용 26B 0501호 26.86㎡",
+        "totalPrice": "11,181만원",
+        "monthPay": "93,040원"
+      },
+      {
+        "classes": "남녀공용 26B 0502호 28.03㎡",
+        "totalPrice": "11,329만원",
+        "monthPay": "94,280원"
+      },
+      {
+        "classes": "남녀공용 26B 0503호 28.03㎡",
+        "totalPrice": "11,329만원",
+        "monthPay": "94,280원"
+      },
+      {
+        "classes": "남녀공용 26B 0504호 26.3㎡",
+        "totalPrice": "10,846만원",
+        "monthPay": "90,260원"
+      },
+      {
+        "classes": "남녀공용 26B 0505호 26.28㎡",
+        "totalPrice": "10,846만원",
+        "monthPay": "90,260원"
+      },
+      {
+        "classes": "남녀공용 26B 0506호 26.12㎡",
+        "totalPrice": "10,995만원",
+        "monthPay": "91,500원"
+      },
+      {
+        "classes": "남녀공용 17B 0601호 18.47㎡",
+        "totalPrice": "6,946만원",
+        "monthPay": "57,800원"
+      },
+      {
+        "classes": "남녀공용 17B 0602호 17.19㎡",
+        "totalPrice": "6,501만원",
+        "monthPay": "54,100원"
+      },
+      {
+        "classes": "남녀공용 17B 0603호 17.19㎡",
+        "totalPrice": "6,501만원",
+        "monthPay": "54,100원"
+      },
+      {
+        "classes": "남녀공용 17B 0604호 17.35㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0605호 17.32㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0606호 17.87㎡",
+        "totalPrice": "6,723만원",
+        "monthPay": "55,940원"
+      },
+      {
+        "classes": "남녀공용 17B 0701호 18.47㎡",
+        "totalPrice": "7,020만원",
+        "monthPay": "58,420원"
+      },
+      {
+        "classes": "남녀공용 17B 0702호 17.19㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0703호 17.19㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0704호 17.35㎡",
+        "totalPrice": "6,612만원",
+        "monthPay": "55,020원"
+      },
+      {
+        "classes": "남녀공용 17B 0705호 17.32㎡",
+        "totalPrice": "6,575만원",
+        "monthPay": "54,720원"
+      },
+      {
+        "classes": "남녀공용 17B 0706호 17.87㎡",
+        "totalPrice": "6,797만원",
+        "monthPay": "56,560원"
+      },
+      {
+        "classes": "남녀공용 17B 0801호 17.08㎡",
+        "totalPrice": "6,426만원",
+        "monthPay": "53,480원"
+      },
+      {
+        "classes": "남녀공용 17B 0803호 17.35㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0804호 17.32㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 17B 0805호 17.87㎡",
+        "totalPrice": "6,723만원",
+        "monthPay": "55,940원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "STAY온-2",
+    "address": "서울특별시 관악구 남부순환로 1519, STAY-온2 (신림동 507-22)",
+    "lng": "126.9194404",
+    "lat": "37.4830167"
+  },
+  {
+    "keyAddress": "고척로21가길2-9",
+    "sells": [
+      {
+        "classes": "남녀공용 20B 0201호 20.75㎡",
+        "totalPrice": "5,014만원",
+        "monthPay": "41,720원"
+      },
+      {
+        "classes": "남녀공용 25B 0202호 25.86㎡",
+        "totalPrice": "6,241만원",
+        "monthPay": "51,940원"
+      },
+      {
+        "classes": "남녀공용 25B 0203호 25.86㎡",
+        "totalPrice": "6,241만원",
+        "monthPay": "51,940원"
+      },
+      {
+        "classes": "남녀공용 20B 0204호 20.75㎡",
+        "totalPrice": "5,014만원",
+        "monthPay": "41,720원"
+      },
+      {
+        "classes": "남녀공용 20B 0301호 20.75㎡",
+        "totalPrice": "5,014만원",
+        "monthPay": "41,720원"
+      },
+      {
+        "classes": "남녀공용 25B 0302호 25.86㎡",
+        "totalPrice": "6,241만원",
+        "monthPay": "51,940원"
+      },
+      {
+        "classes": "남녀공용 25B 0303호 25.86㎡",
+        "totalPrice": "6,241만원",
+        "monthPay": "51,940원"
+      },
+      {
+        "classes": "남녀공용 20B 0304호 20.75㎡",
+        "totalPrice": "5,014만원",
+        "monthPay": "41,720원"
+      },
+      {
+        "classes": "남녀공용 20B 0401호 20.75㎡",
+        "totalPrice": "4,939만원",
+        "monthPay": "41,100원"
+      },
+      {
+        "classes": "남녀공용 20B 0402호 21.13㎡",
+        "totalPrice": "5,052만원",
+        "monthPay": "42,040원"
+      },
+      {
+        "classes": "남녀공용 20B 0403호 21.13㎡",
+        "totalPrice": "5,052만원",
+        "monthPay": "42,040원"
+      },
+      {
+        "classes": "남녀공용 20B 0404호 20.75㎡",
+        "totalPrice": "4,939만원",
+        "monthPay": "41,100원"
+      },
+      {
+        "classes": "남녀공용 20B 0501호 20.92㎡",
+        "totalPrice": "4,939만원",
+        "monthPay": "41,100원"
+      },
+      {
+        "classes": "남녀공용 29B 0502호 29.56㎡",
+        "totalPrice": "7,058만원",
+        "monthPay": "58,740원"
+      },
+      {
+        "classes": "남녀공용 25B 0503호 23.08㎡",
+        "totalPrice": "5,460만원",
+        "monthPay": "45,440원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "석윤주택",
+    "address": "서울특별시 구로구 고척로21가길 2-9, 석윤주택 (개봉동 33-125)",
+    "lng": "126.8455133",
+    "lat": "37.5027137"
+  },
+  {
+    "keyAddress": "가마산로20라길13",
+    "sells": [
+      {
+        "classes": "남녀공용 26B 0201호 26.1㎡",
+        "totalPrice": "7,875만원",
+        "monthPay": "65,540원"
+      },
+      {
+        "classes": "남녀공용 26B 0202호 26.4㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 26B 0203호 26.82㎡",
+        "totalPrice": "8,172만원",
+        "monthPay": "68,000원"
+      },
+      {
+        "classes": "남녀공용 26B 0204호 26.07㎡",
+        "totalPrice": "7,875만원",
+        "monthPay": "65,540원"
+      },
+      {
+        "classes": "남녀공용 26B 0301호 26.1㎡",
+        "totalPrice": "7,950만원",
+        "monthPay": "66,160원"
+      },
+      {
+        "classes": "남녀공용 26B 0302호 26.4㎡",
+        "totalPrice": "8,061만원",
+        "monthPay": "67,080원"
+      },
+      {
+        "classes": "남녀공용 26B 0303호 26.82㎡",
+        "totalPrice": "8,246만원",
+        "monthPay": "68,620원"
+      },
+      {
+        "classes": "남녀공용 26B 0304호 26.07㎡",
+        "totalPrice": "7,950만원",
+        "monthPay": "66,160원"
+      },
+      {
+        "classes": "남녀공용 26B 0401호 26㎡",
+        "totalPrice": "8,097만원",
+        "monthPay": "67,380원"
+      },
+      {
+        "classes": "남녀공용 26B 0402호 26.35㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 26B 0403호 26.09㎡",
+        "totalPrice": "8,284만원",
+        "monthPay": "68,940원"
+      },
+      {
+        "classes": "남녀공용 26B 0501호 29.81㎡",
+        "totalPrice": "9,472만원",
+        "monthPay": "78,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0502호 26.22㎡",
+        "totalPrice": "8,097만원",
+        "monthPay": "67,380원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "도담마을",
+    "address": "서울특별시 구로구 가마산로20라길 13, 도담마을 (구로동 429-163)",
+    "lng": "126.8870438",
+    "lat": "37.4917992"
+  },
+  {
+    "keyAddress": "벚꽃로12길19",
+    "sells": [
+      {
+        "classes": "남녀공용 26A 0303호 26.57㎡",
+        "totalPrice": "8,433만원",
+        "monthPay": "70,180원"
+      },
+      {
+        "classes": "남녀공용 26A 0403호 26.57㎡",
+        "totalPrice": "8,544만원",
+        "monthPay": "71,100원"
+      },
+      {
+        "classes": "남녀공용 26A 0503호 26.57㎡",
+        "totalPrice": "8,544만원",
+        "monthPay": "71,100원"
+      },
+      {
+        "classes": "남녀공용 26A 0603호 26.57㎡",
+        "totalPrice": "8,618만원",
+        "monthPay": "71,720원"
+      },
+      {
+        "classes": "남녀공용 26A 0703호 26.57㎡",
+        "totalPrice": "8,544만원",
+        "monthPay": "71,100원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "독산리젠트빌",
+    "address": "서울특별시 금천구 벚꽃로12길 19, 독산리젠트빌 (독산동 1004-8)",
+    "lng": "126.8914092",
+    "lat": "37.4649995"
+  },
+  {
+    "keyAddress": "독산로64나길12",
+    "sells": [
+      {
+        "classes": "남녀공용 24B 0201호 23.92㎡",
+        "totalPrice": "5,535만원",
+        "monthPay": "46,060원"
+      },
+      {
+        "classes": "남녀공용 24B 0202호 23.87㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 21B 0203호 21㎡",
+        "totalPrice": "4,792만원",
+        "monthPay": "39,880원"
+      },
+      {
+        "classes": "남녀공용 21B 0204호 21㎡",
+        "totalPrice": "4,792만원",
+        "monthPay": "39,880원"
+      },
+      {
+        "classes": "남녀공용 24B 0205호 23.87㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 24B 0206호 23.92㎡",
+        "totalPrice": "5,535만원",
+        "monthPay": "46,060원"
+      },
+      {
+        "classes": "남녀공용 24B 0301호 23.92㎡",
+        "totalPrice": "5,535만원",
+        "monthPay": "46,060원"
+      },
+      {
+        "classes": "남녀공용 24B 0302호 23.87㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 21B 0303호 21㎡",
+        "totalPrice": "4,792만원",
+        "monthPay": "39,880원"
+      },
+      {
+        "classes": "남녀공용 21B 0304호 21㎡",
+        "totalPrice": "4,792만원",
+        "monthPay": "39,880원"
+      },
+      {
+        "classes": "남녀공용 24B 0305호 23.87㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 24B 0306호 23.92㎡",
+        "totalPrice": "5,535만원",
+        "monthPay": "46,060원"
+      },
+      {
+        "classes": "남녀공용 24B 0401호 23.92㎡",
+        "totalPrice": "5,460만원",
+        "monthPay": "45,440원"
+      },
+      {
+        "classes": "남녀공용 24B 0402호 26.45㎡",
+        "totalPrice": "5,905만원",
+        "monthPay": "49,140원"
+      },
+      {
+        "classes": "남녀공용 24B 0403호 26.26㎡",
+        "totalPrice": "6,054만원",
+        "monthPay": "50,380원"
+      },
+      {
+        "classes": "남녀공용 24B 0404호 24.79㎡",
+        "totalPrice": "5,571만원",
+        "monthPay": "46,360원"
+      },
+      {
+        "classes": "남녀공용 24B 0501호 23.92㎡",
+        "totalPrice": "5,349만원",
+        "monthPay": "44,520원"
+      },
+      {
+        "classes": "남녀공용 21B 0502호 21.83㎡",
+        "totalPrice": "4,829만원",
+        "monthPay": "40,180원"
+      },
+      {
+        "classes": "남녀공용 27B 0503호 27.62㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "예인빌",
+    "address": "서울특별시 금천구 독산로64나길 12, 예인빌 (독산동 1040-43외)",
+    "lng": "126.9037451",
+    "lat": "37.4659929"
+  },
+  {
+    "keyAddress": "범안로11길60",
+    "sells": [
+      {
+        "classes": "남녀공용 26B 0201호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0207호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0208호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0209호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0210호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0211호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0212호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0213호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0214호 26.61㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 26B 0215호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0216호 26.52㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 26B 0217호 26.61㎡",
+        "totalPrice": "7,318만원",
+        "monthPay": "60,900원"
+      },
+      {
+        "classes": "남녀공용 26B 0218호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0219호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0301호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0307호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0308호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0309호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0310호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0311호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0312호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0313호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0314호 26.61㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 26B 0315호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0316호 26.52㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 26B 0317호 26.61㎡",
+        "totalPrice": "7,318만원",
+        "monthPay": "60,900원"
+      },
+      {
+        "classes": "남녀공용 26B 0318호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0319호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0401호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0407호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0408호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0409호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0410호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0411호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0412호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0413호 26.52㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 26B 0414호 26.61㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 26B 0415호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0416호 26.52㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 26B 0417호 26.61㎡",
+        "totalPrice": "7,318만원",
+        "monthPay": "60,900원"
+      },
+      {
+        "classes": "남녀공용 26B 0418호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0419호 26.91㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 26B 0501호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0507호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0508호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0509호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0510호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0511호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0512호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0513호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0514호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0515호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0516호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0517호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0518호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0519호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0601호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0607호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0608호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0609호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0610호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0611호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0612호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0613호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0614호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0615호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0616호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0617호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0618호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0619호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0701호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0707호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0708호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0709호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0710호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0711호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0712호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0713호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0714호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0715호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0716호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0717호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0718호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0719호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0801호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0807호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0808호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0809호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0810호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0811호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0812호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0813호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0814호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0815호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0816호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0817호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0818호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0819호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0901호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0907호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0908호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0909호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0910호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0911호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0912호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0913호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0914호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0915호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0916호 26.52㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 26B 0917호 26.61㎡",
+        "totalPrice": "7,614만원",
+        "monthPay": "63,360원"
+      },
+      {
+        "classes": "남녀공용 26B 0918호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 0919호 26.91㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 26B 1001 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1007 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1008 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1009 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1010 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1011 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1012 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1013 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1014 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1015 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1016 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1017 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1018 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1019 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1101 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1107 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1108 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1109 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1110 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1111 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1112 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1113 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1114 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1115 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1116 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1117 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1118 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1119 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1201 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1207 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1208 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1209 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1210 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1211 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1212 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1213 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1214 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1215 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1216 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1217 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1218 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1219 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1301 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1307 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1308 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1309 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1310 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1311 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1312 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1313 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1314 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1315 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1316 호 26.52㎡",
+        "totalPrice": "7,727만원",
+        "monthPay": "64,300원"
+      },
+      {
+        "classes": "남녀공용 26B 1317 호 26.61㎡",
+        "totalPrice": "7,763만원",
+        "monthPay": "64,600원"
+      },
+      {
+        "classes": "남녀공용 26B 1318 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 26B 1319 호 26.91㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "신영",
+    "address": "서울특별시 금천구 범안로11길 60, 신영 오피스텔 (독산동 333-14)",
+    "lng": "126.8910698",
+    "lat": "37.4694638"
+  },
+  {
+    "keyAddress": "도당로13라길61",
+    "sells": [
+      {
+        "classes": "남녀공용 40A 0401호 40.26㎡",
+        "totalPrice": "9,250만원",
+        "monthPay": "76,980원"
+      },
+      {
+        "classes": "남녀공용 40A 0501호 40.26㎡",
+        "totalPrice": "8,952만원",
+        "monthPay": "74,500원"
+      },
+      {
+        "classes": "남녀공용 40A 0402호 40.94㎡",
+        "totalPrice": "9,397만원",
+        "monthPay": "78,200원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "온리유 가동, 나동",
+    "address": "서울특별시 도봉구 도당로13라길 61, 온리유 나동 (방학동 627-33외)",
+    "lng": "127.0367610",
+    "lat": "37.6684815"
+  },
+  {
+    "keyAddress": "도당로13라길129",
+    "sells": [
+      {
+        "classes": "남녀공용 32A 0201호 30.98㎡",
+        "totalPrice": "6,871만원",
+        "monthPay": "57,180원"
+      },
+      {
+        "classes": "남녀공용 32A 0202호 35.05㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 32A 0203호 30.59㎡",
+        "totalPrice": "6,797만원",
+        "monthPay": "56,560원"
+      },
+      {
+        "classes": "남녀공용 32A 0204호 31.06㎡",
+        "totalPrice": "6,909만원",
+        "monthPay": "57,500원"
+      },
+      {
+        "classes": "남녀공용 32A 0301호 30.98㎡",
+        "totalPrice": "6,871만원",
+        "monthPay": "57,180원"
+      },
+      {
+        "classes": "남녀공용 32A 0302호 35.05㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 32A 0303호 30.59㎡",
+        "totalPrice": "6,797만원",
+        "monthPay": "56,560원"
+      },
+      {
+        "classes": "남녀공용 32A 0304호 31.06㎡",
+        "totalPrice": "6,909만원",
+        "monthPay": "57,500원"
+      },
+      {
+        "classes": "남녀공용 32A 0401호 30.98㎡",
+        "totalPrice": "6,797만원",
+        "monthPay": "56,560원"
+      },
+      {
+        "classes": "남녀공용 32A 0402호 35.05㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 37A 0403호 37.58㎡",
+        "totalPrice": "8,506만원",
+        "monthPay": "70,780원"
+      },
+      {
+        "classes": "남녀공용 32A 0501호 30.98㎡",
+        "totalPrice": "6,723만원",
+        "monthPay": "55,940원"
+      },
+      {
+        "classes": "남녀공용 32A 0502호 33.07㎡",
+        "totalPrice": "7,058만원",
+        "monthPay": "58,740원"
+      },
+      {
+        "classes": "남녀공용 32A 0503호 31.84㎡",
+        "totalPrice": "6,835만원",
+        "monthPay": "56,880원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "휴먼에코빌 1차",
+    "address": "서울특별시 도봉구 도당로13라길 129, 휴먼에코빌1차 (방학동 645-39외)",
+    "lng": "127.0403929",
+    "lat": "37.6695403"
+  },
+  {
+    "keyAddress": "남부순환로255길16",
+    "sells": [
+      {
+        "classes": "남녀공용 30B 0201호 29.99㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 30B 0202호 29.29㎡",
+        "totalPrice": "10,142만원",
+        "monthPay": "84,400원"
+      },
+      {
+        "classes": "남녀공용 26B 0203호 27.53㎡",
+        "totalPrice": "9,621만원",
+        "monthPay": "80,060원"
+      },
+      {
+        "classes": "남녀공용 30B 0204호 29.22㎡",
+        "totalPrice": "10,327만원",
+        "monthPay": "85,940원"
+      },
+      {
+        "classes": "남녀공용 30B 0301호 32.61㎡",
+        "totalPrice": "11,516만원",
+        "monthPay": "95,840원"
+      },
+      {
+        "classes": "남녀공용 30B 0302호 31.09㎡",
+        "totalPrice": "10,884만원",
+        "monthPay": "90,580원"
+      },
+      {
+        "classes": "남녀공용 30B 0303호 32.43㎡",
+        "totalPrice": "11,478만원",
+        "monthPay": "95,520원"
+      },
+      {
+        "classes": "남녀공용 30B 0401호 29.38㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 26B 0402호 24.65㎡",
+        "totalPrice": "8,878만원",
+        "monthPay": "73,880원"
+      },
+      {
+        "classes": "남녀공용 26B 0403호 27.84㎡",
+        "totalPrice": "10,142만원",
+        "monthPay": "84,400원"
+      },
+      {
+        "classes": "남녀공용 32A 0501호 32.06㎡",
+        "totalPrice": "11,442만원",
+        "monthPay": "95,220원"
+      },
+      {
+        "classes": "남녀공용 32A 0502호 32.88㎡",
+        "totalPrice": "11,627만원",
+        "monthPay": "96,760원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "성지파크빌",
+    "address": "서울특별시 동작구 남부순환로255길 16, 성지파크빌(사당동 303-42)",
+    "lng": "126.9707208",
+    "lat": "37.4770287"
+  },
+  {
+    "keyAddress": "와우산로21길31-19",
+    "sells": [
+      {
+        "classes": "남녀공용 28B 0201호 28.79㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 28B 0202호 27.96㎡",
+        "totalPrice": "11,181만원",
+        "monthPay": "93,040원"
+      },
+      {
+        "classes": "남녀공용 28B 0203호 27.81㎡",
+        "totalPrice": "10,884만원",
+        "monthPay": "90,580원"
+      },
+      {
+        "classes": "남녀공용 28B 0204호 27.62㎡",
+        "totalPrice": "10,810만원",
+        "monthPay": "89,960원"
+      },
+      {
+        "classes": "남녀공용 28B 0205호 29.85㎡",
+        "totalPrice": "11,925만원",
+        "monthPay": "99,240원"
+      },
+      {
+        "classes": "남녀공용 28B 0206호 28.76㎡",
+        "totalPrice": "11,516만원",
+        "monthPay": "95,840원"
+      },
+      {
+        "classes": "남녀공용 28B 0301호 28.79㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 28B 0302호 27.96㎡",
+        "totalPrice": "11,293만원",
+        "monthPay": "93,980원"
+      },
+      {
+        "classes": "남녀공용 28B 0303호 27.81㎡",
+        "totalPrice": "10,995만원",
+        "monthPay": "91,500원"
+      },
+      {
+        "classes": "남녀공용 28B 0304호 27.62㎡",
+        "totalPrice": "10,921만원",
+        "monthPay": "90,880원"
+      },
+      {
+        "classes": "남녀공용 28B 0305호 29.85㎡",
+        "totalPrice": "12,072만원",
+        "monthPay": "100,460원"
+      },
+      {
+        "classes": "남녀공용 28B 0306호 28.76㎡",
+        "totalPrice": "11,627만원",
+        "monthPay": "96,760원"
+      },
+      {
+        "classes": "남녀공용 28B 0401호 28.79㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 28B 0402호 27.4㎡",
+        "totalPrice": "11,070만원",
+        "monthPay": "92,120원"
+      },
+      {
+        "classes": "남녀공용 32A 0403호 31.41㎡",
+        "totalPrice": "12,816만원",
+        "monthPay": "106,660원"
+      },
+      {
+        "classes": "남녀공용 28B 0404호 26.34㎡",
+        "totalPrice": "10,401만원",
+        "monthPay": "86,560원"
+      },
+      {
+        "classes": "남녀공용 28B 0501호 28.79㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 28B 0502호 29.95㎡",
+        "totalPrice": "12,110만원",
+        "monthPay": "100,780원"
+      },
+      {
+        "classes": "남녀공용 32A 0503호 32.54㎡",
+        "totalPrice": "13,261만원",
+        "monthPay": "110,360원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "드림하우징",
+    "address": "서울특별시 마포구 와우산로21길 31-19, 드림하우징 (서교동 364-13)",
+    "lng": "126.9219474",
+    "lat": "37.5515890"
+  },
+  {
+    "keyAddress": "성미산로19길78",
+    "sells": [
+      {
+        "classes": "남녀공용 34A 0201호 34.44㎡",
+        "totalPrice": "13,633만원",
+        "monthPay": "113,460원"
+      },
+      {
+        "classes": "남녀공용 34A 0202호 33.48㎡",
+        "totalPrice": "12,964만원",
+        "monthPay": "107,880원"
+      },
+      {
+        "classes": "남녀공용 34A 0203호 33.32㎡",
+        "totalPrice": "12,927만원",
+        "monthPay": "107,580원"
+      },
+      {
+        "classes": "남녀공용 34A 0204호 38.45㎡",
+        "totalPrice": "14,747만원",
+        "monthPay": "122,720원"
+      },
+      {
+        "classes": "남녀공용 34A 0205호 34.66㎡",
+        "totalPrice": "13,708만원",
+        "monthPay": "114,080원"
+      },
+      {
+        "classes": "남녀공용 34A 0301호 34.44㎡",
+        "totalPrice": "13,744만원",
+        "monthPay": "114,380원"
+      },
+      {
+        "classes": "남녀공용 34A 0302호 33.48㎡",
+        "totalPrice": "13,113만원",
+        "monthPay": "109,120원"
+      },
+      {
+        "classes": "남녀공용 34A 0303호 33.32㎡",
+        "totalPrice": "13,038만원",
+        "monthPay": "108,500원"
+      },
+      {
+        "classes": "남녀공용 34A 0304호 38.45㎡",
+        "totalPrice": "14,896만원",
+        "monthPay": "123,960원"
+      },
+      {
+        "classes": "남녀공용 34A 0305호 34.66㎡",
+        "totalPrice": "13,819만원",
+        "monthPay": "115,000원"
+      },
+      {
+        "classes": "남녀공용 49D 0401호 49.97㎡",
+        "totalPrice": "21,843만원",
+        "monthPay": "181,780원"
+      },
+      {
+        "classes": "남녀공용 42A 0402호 42.98㎡",
+        "totalPrice": "16,977만원",
+        "monthPay": "141,280원"
+      },
+      {
+        "classes": "남녀공용 27B 0501호 27.32㎡",
+        "totalPrice": "11,033만원",
+        "monthPay": "91,820원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "연남하이츠",
+    "address": "서울특별시 마포구 성미산로19길 78, 연남하이츠 (연남동 478-4)",
+    "lng": "126.9179640",
+    "lat": "37.5652527"
+  },
+  {
+    "keyAddress": "응암로142-18",
+    "sells": [
+      {
+        "classes": "남녀공용 29A 0207호 27.37㎡",
+        "totalPrice": "6,880만원",
+        "monthPay": "57,260원"
+      },
+      {
+        "classes": "남녀공용 36A 0301호 37.28㎡",
+        "totalPrice": "9,371만원",
+        "monthPay": "77,980원"
+      },
+      {
+        "classes": "남녀공용 29A 0401호 29.28㎡",
+        "totalPrice": "7,435만원",
+        "monthPay": "61,880원"
+      },
+      {
+        "classes": "남녀공용 36A 0405호 35.17㎡",
+        "totalPrice": "9,206만원",
+        "monthPay": "76,620원"
+      },
+      {
+        "classes": "남녀공용 29A 0503호 30.56㎡",
+        "totalPrice": "7,840만원",
+        "monthPay": "65,240원"
+      },
+      {
+        "classes": "남녀공용 29A 0504호 30.56㎡",
+        "totalPrice": "7,840만원",
+        "monthPay": "65,240원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "YJ빌라",
+    "address": "서울특별시 서대문구 응암로 142-18, YJ빌라 (북가좌동 455-2)",
+    "lng": "126.9152451",
+    "lat": "37.5845323"
+  },
+  {
+    "keyAddress": "고산자로17길9",
+    "sells": [
+      {
+        "classes": "남녀공용 21B 0202호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0203호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0204호 19.93㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 21B 0302호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0303호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0304호 19.93㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 21B 0401호 21.68㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 21B 0402호 21.68㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 21B 0403호 19.93㎡",
+        "totalPrice": "6,612만원",
+        "monthPay": "55,020원"
+      },
+      {
+        "classes": "남녀공용 21B 0501호 21.68㎡",
+        "totalPrice": "7,133만원",
+        "monthPay": "59,360원"
+      },
+      {
+        "classes": "남녀공용 21B 0502호 21.68㎡",
+        "totalPrice": "7,133만원",
+        "monthPay": "59,360원"
+      },
+      {
+        "classes": "남녀공용 21B 0503호 19.93㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "S-HOUSE A동",
+    "address": "서울특별시 성동구 고산자로17길 9, S-HOUSE A동 (마장동 564-16)",
+    "lng": "127.0357101",
+    "lat": "37.5673586"
+  },
+  {
+    "keyAddress": "고산자로17길9-1",
+    "sells": [
+      {
+        "classes": "남녀공용 21B 0202호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0203호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0204호 19.93㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 21B 0302호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0303호 21.68㎡",
+        "totalPrice": "7,429만원",
+        "monthPay": "61,820원"
+      },
+      {
+        "classes": "남녀공용 21B 0304호 19.93㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 21B 0401호 21.68㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 21B 0402호 21.68㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 21B 0403호 19.93㎡",
+        "totalPrice": "6,612만원",
+        "monthPay": "55,020원"
+      },
+      {
+        "classes": "남녀공용 21B 0501호 21.68㎡",
+        "totalPrice": "7,133만원",
+        "monthPay": "59,360원"
+      },
+      {
+        "classes": "남녀공용 21B 0502호 21.68㎡",
+        "totalPrice": "7,133만원",
+        "monthPay": "59,360원"
+      },
+      {
+        "classes": "남녀공용 21B 0503호 19.93㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "S-HOUSE B동",
+    "address": "서울특별시 성동구 고산자로17길 9-1, S-HOUSE B동 (마장동 564-7)",
+    "lng": "127.0355839",
+    "lat": "37.5673799"
+  },
+  {
+    "keyAddress": "장월로28길49",
+    "sells": [
+      {
+        "classes": "남녀공용 25B 0201호 23.71㎡",
+        "totalPrice": "8,655만원",
+        "monthPay": "72,020원"
+      },
+      {
+        "classes": "남녀공용 29B 0202호 28.09㎡",
+        "totalPrice": "9,733만원",
+        "monthPay": "81,000원"
+      },
+      {
+        "classes": "남녀공용 25B 0203호 26.5㎡",
+        "totalPrice": "8,841만원",
+        "monthPay": "73,580원"
+      },
+      {
+        "classes": "남녀공용 25B 0204호 26.48㎡",
+        "totalPrice": "8,803만원",
+        "monthPay": "73,260원"
+      },
+      {
+        "classes": "남녀공용 29B 0205호 28.09㎡",
+        "totalPrice": "9,880만원",
+        "monthPay": "82,220원"
+      },
+      {
+        "classes": "남녀공용 25B 0206호 23.71㎡",
+        "totalPrice": "8,655만원",
+        "monthPay": "72,020원"
+      },
+      {
+        "classes": "남녀공용 25B 0301호 23.71㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      },
+      {
+        "classes": "남녀공용 29B 0302호 28.09㎡",
+        "totalPrice": "9,733만원",
+        "monthPay": "81,000원"
+      },
+      {
+        "classes": "남녀공용 25B 0303호 26.5㎡",
+        "totalPrice": "8,916만원",
+        "monthPay": "74,200원"
+      },
+      {
+        "classes": "남녀공용 25B 0304호 26.48㎡",
+        "totalPrice": "8,916만원",
+        "monthPay": "74,200원"
+      },
+      {
+        "classes": "남녀공용 29B 0305호 28.09㎡",
+        "totalPrice": "9,955만원",
+        "monthPay": "82,840원"
+      },
+      {
+        "classes": "남녀공용 25B 0306호 23.71㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      },
+      {
+        "classes": "남녀공용 25B 0401호 28.76㎡",
+        "totalPrice": "10,067만원",
+        "monthPay": "83,780원"
+      },
+      {
+        "classes": "남녀공용 39A 0402호 39.32㎡",
+        "totalPrice": "13,225만원",
+        "monthPay": "110,060원"
+      },
+      {
+        "classes": "남녀공용 25B 0403호 28.88㎡",
+        "totalPrice": "10,104만원",
+        "monthPay": "84,080원"
+      },
+      {
+        "classes": "남녀공용 25B 0501호 23.66㎡",
+        "totalPrice": "8,544만원",
+        "monthPay": "71,100원"
+      },
+      {
+        "classes": "남녀공용 29B 0502호 30.78㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 29B 0503호 30.75㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 25B 0504호 23.79㎡",
+        "totalPrice": "8,803만원",
+        "monthPay": "73,260원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "인화빌5",
+    "address": "서울특별시 성북구 장월로28길 49, 인화빌5 (장위동 77-58외)",
+    "lng": "127.0530835",
+    "lat": "37.6166759"
+  },
+  {
+    "keyAddress": "중대로14길6",
+    "sells": [
+      {
+        "classes": "남녀공용 28B 0201호 28.17㎡",
+        "totalPrice": "11,812만원",
+        "monthPay": "98,300원"
+      },
+      {
+        "classes": "남녀공용 28B 0202호 29.32㎡",
+        "totalPrice": "12,184만원",
+        "monthPay": "101,400원"
+      },
+      {
+        "classes": "남녀공용 28B 0203호 27.12㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 28B 0301호 28.17㎡",
+        "totalPrice": "11,812만원",
+        "monthPay": "98,300원"
+      },
+      {
+        "classes": "남녀공용 28B 0302호 29.32㎡",
+        "totalPrice": "12,184만원",
+        "monthPay": "101,400원"
+      },
+      {
+        "classes": "남녀공용 28B 0303호 27.12㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 49A 0401호 49.87㎡",
+        "totalPrice": "20,468만원",
+        "monthPay": "170,340원"
+      },
+      {
+        "classes": "남녀공용 28B 0501호 30.65㎡",
+        "totalPrice": "12,704만원",
+        "monthPay": "105,720원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "티엘하우스",
+    "address": "서울특별시 송파구 중대로14길 6, 티엘하우스 (가락동 129-11)",
+    "lng": "127.1247865",
+    "lat": "37.4952389"
+  },
+  {
+    "keyAddress": "거마로9길24-5",
+    "sells": [
+      {
+        "classes": "남녀공용 34A 0201호 34.97㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 42A 0202호 42.08㎡",
+        "totalPrice": "12,742만원",
+        "monthPay": "106,040원"
+      },
+      {
+        "classes": "남녀공용 42A 0203호 42.16㎡",
+        "totalPrice": "12,778만원",
+        "monthPay": "106,340원"
+      },
+      {
+        "classes": "남녀공용 42A 0204호 41.81㎡",
+        "totalPrice": "13,076만원",
+        "monthPay": "108,820원"
+      },
+      {
+        "classes": "남녀공용 34A 0301호 34.97㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 42A 0302호 42.08㎡",
+        "totalPrice": "12,891만원",
+        "monthPay": "107,280원"
+      },
+      {
+        "classes": "남녀공용 42A 0303호 42.16㎡",
+        "totalPrice": "12,927만원",
+        "monthPay": "107,580원"
+      },
+      {
+        "classes": "남녀공용 42A 0304호 41.81㎡",
+        "totalPrice": "13,187만원",
+        "monthPay": "109,740원"
+      },
+      {
+        "classes": "남녀공용 34A 0401호 34.97㎡",
+        "totalPrice": "10,810만원",
+        "monthPay": "89,960원"
+      },
+      {
+        "classes": "남녀공용 34A 0402호 36.77㎡",
+        "totalPrice": "11,144만원",
+        "monthPay": "92,740원"
+      },
+      {
+        "classes": "남녀공용 34A 0403호 34.69㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 34A 0404호 30.1㎡",
+        "totalPrice": "9,397만원",
+        "monthPay": "78,200원"
+      },
+      {
+        "classes": "남녀공용 34A 0501호 34.97㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 34A 0502호 34.1㎡",
+        "totalPrice": "10,216만원",
+        "monthPay": "85,020원"
+      },
+      {
+        "classes": "남녀공용 42A 0503호 41.81㎡",
+        "totalPrice": "12,667만원",
+        "monthPay": "105,420원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "다온에코하임",
+    "address": "서울특별시 송파구 거마로9길 24-5, 다온에코하임 (거여동 135-54외)",
+    "lng": "127.1437972",
+    "lat": "37.4972981"
+  },
+  {
+    "keyAddress": "성내천로22길1",
+    "sells": [
+      {
+        "classes": "남녀공용 26B 0201호 24.98㎡",
+        "totalPrice": "8,284만원",
+        "monthPay": "68,940원"
+      },
+      {
+        "classes": "남녀공용 26B 0202호 25.44㎡",
+        "totalPrice": "8,284만원",
+        "monthPay": "68,940원"
+      },
+      {
+        "classes": "남녀공용 26B 0203호 26.95㎡",
+        "totalPrice": "8,803만원",
+        "monthPay": "73,260원"
+      },
+      {
+        "classes": "남녀공용 26B 0301호 24.98㎡",
+        "totalPrice": "8,210만원",
+        "monthPay": "68,320원"
+      },
+      {
+        "classes": "남녀공용 26B 0302호 25.44㎡",
+        "totalPrice": "8,544만원",
+        "monthPay": "71,100원"
+      },
+      {
+        "classes": "남녀공용 26B 0303호 26.95㎡",
+        "totalPrice": "9,063만원",
+        "monthPay": "75,420원"
+      },
+      {
+        "classes": "남녀공용 26B 0401호 28.62㎡",
+        "totalPrice": "9,510만원",
+        "monthPay": "79,140원"
+      },
+      {
+        "classes": "남녀공용 36A 0402호 36.91㎡",
+        "totalPrice": "12,036만원",
+        "monthPay": "100,160원"
+      },
+      {
+        "classes": "남녀공용 26B 0501호 24.53㎡",
+        "totalPrice": "8,172만원",
+        "monthPay": "68,000원"
+      },
+      {
+        "classes": "남녀공용 26B 0502호 26.68㎡",
+        "totalPrice": "9,027만원",
+        "monthPay": "75,120원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "마천빌",
+    "address": "서울특별시 송파구 성내천로22길 1, 마천빌 (마천동 40-10",
+    "lng": "127.1472753",
+    "lat": "37.5006086"
+  },
+  {
+    "keyAddress": "백제고분로48길41-15",
+    "sells": [
+      {
+        "classes": "남녀공용 25B 0201호 23.37㎡",
+        "totalPrice": "10,029만원",
+        "monthPay": "83,460원"
+      },
+      {
+        "classes": "남녀공용 25B 0202호 26.78㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 25B 0203호 26.53㎡",
+        "totalPrice": "11,144만원",
+        "monthPay": "92,740원"
+      },
+      {
+        "classes": "남녀공용 25B 0204호 26.78㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 25B 0205호 23.37㎡",
+        "totalPrice": "10,216만원",
+        "monthPay": "85,020원"
+      },
+      {
+        "classes": "남녀공용 25B 0301호 23.37㎡",
+        "totalPrice": "10,142만원",
+        "monthPay": "84,400원"
+      },
+      {
+        "classes": "남녀공용 25B 0302호 26.78㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 25B 0303호 26.53㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 25B 0304호 26.78㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 25B 0305호 23.37㎡",
+        "totalPrice": "10,327만원",
+        "monthPay": "85,940원"
+      },
+      {
+        "classes": "남녀공용 25B 0401호 23.37㎡",
+        "totalPrice": "10,216만원",
+        "monthPay": "85,020원"
+      },
+      {
+        "classes": "남녀공용 35A 0402호 35.59㎡",
+        "totalPrice": "15,119만원",
+        "monthPay": "125,820원"
+      },
+      {
+        "classes": "남녀공용 25B 0403호 23.37㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 29B 0501호 28.71㎡",
+        "totalPrice": "12,333만원",
+        "monthPay": "102,640원"
+      },
+      {
+        "classes": "남녀공용 29B 0502호 29.76㎡",
+        "totalPrice": "13,336만원",
+        "monthPay": "110,980원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "네스트137",
+    "address": "서울특별시 송파구 백제고분로48길 41-15, 네스트137 (방이동 137-10)",
+    "lng": "127.1178896",
+    "lat": "37.5109012"
+  },
+  {
+    "keyAddress": "삼전로10길54",
+    "sells": [
+      {
+        "classes": "남녀공용 27B 0201호 24.41㎡",
+        "totalPrice": "10,142만원",
+        "monthPay": "84,400원"
+      },
+      {
+        "classes": "남녀공용 27B 0202호 29.58㎡",
+        "totalPrice": "11,925만원",
+        "monthPay": "99,240원"
+      },
+      {
+        "classes": "남녀공용 23B 0203호 23.08㎡",
+        "totalPrice": "9,584만원",
+        "monthPay": "79,760원"
+      },
+      {
+        "classes": "남녀공용 27B 0301호 24.41㎡",
+        "totalPrice": "10,252만원",
+        "monthPay": "85,320원"
+      },
+      {
+        "classes": "남녀공용 27B 0302호 29.58㎡",
+        "totalPrice": "12,036만원",
+        "monthPay": "100,160원"
+      },
+      {
+        "classes": "남녀공용 23B 0303호 23.08㎡",
+        "totalPrice": "9,695만원",
+        "monthPay": "80,680원"
+      },
+      {
+        "classes": "남녀공용 23B 0401호 23.43㎡",
+        "totalPrice": "9,807만원",
+        "monthPay": "81,620원"
+      },
+      {
+        "classes": "남녀공용 23B 0402호 23.71㎡",
+        "totalPrice": "9,918만원",
+        "monthPay": "82,540원"
+      },
+      {
+        "classes": "남녀공용 23B 0403호 23.08㎡",
+        "totalPrice": "9,769만원",
+        "monthPay": "81,300원"
+      },
+      {
+        "classes": "남녀공용 23B 0502호 23.08㎡",
+        "totalPrice": "9,880만원",
+        "monthPay": "82,220원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "유케이타운",
+    "address": "서울특별시 송파구 삼전로10길 54, 유케이타운 (삼전동 116-3)",
+    "lng": "127.0951632",
+    "lat": "37.5044050"
+  },
+  {
+    "keyAddress": "송파대로47길6",
+    "sells": [
+      {
+        "classes": "남녀공용 24A 0201호 23.84㎡",
+        "totalPrice": "10,178만원",
+        "monthPay": "84,700원"
+      },
+      {
+        "classes": "남녀공용 24A 0202호 25.58㎡",
+        "totalPrice": "10,810만원",
+        "monthPay": "89,960원"
+      },
+      {
+        "classes": "남녀공용 24A 0203호 23.72㎡",
+        "totalPrice": "10,104만원",
+        "monthPay": "84,080원"
+      },
+      {
+        "classes": "남녀공용 28A 0204호 26.5㎡",
+        "totalPrice": "11,181만원",
+        "monthPay": "93,040원"
+      },
+      {
+        "classes": "남녀공용 24A 0205호 24.38㎡",
+        "totalPrice": "10,178만원",
+        "monthPay": "84,700원"
+      },
+      {
+        "classes": "남녀공용 24A 0301호 23.84㎡",
+        "totalPrice": "10,252만원",
+        "monthPay": "85,320원"
+      },
+      {
+        "classes": "남녀공용 24A 0302호 25.58㎡",
+        "totalPrice": "10,921만원",
+        "monthPay": "90,880원"
+      },
+      {
+        "classes": "남녀공용 24A 0303호 23.72㎡",
+        "totalPrice": "10,216만원",
+        "monthPay": "85,020원"
+      },
+      {
+        "classes": "남녀공용 28A 0304호 26.5㎡",
+        "totalPrice": "11,293만원",
+        "monthPay": "93,980원"
+      },
+      {
+        "classes": "남녀공용 24A 0305호 24.38㎡",
+        "totalPrice": "10,289만원",
+        "monthPay": "85,620원"
+      },
+      {
+        "classes": "남녀공용 24A 0401호 23.84㎡",
+        "totalPrice": "10,363만원",
+        "monthPay": "86,240원"
+      },
+      {
+        "classes": "남녀공용 24A 0402호 25.58㎡",
+        "totalPrice": "11,033만원",
+        "monthPay": "91,820원"
+      },
+      {
+        "classes": "남녀공용 28A 0403호 26.44㎡",
+        "totalPrice": "11,516만원",
+        "monthPay": "95,840원"
+      },
+      {
+        "classes": "남녀공용 28A 0404호 29.59㎡",
+        "totalPrice": "12,742만원",
+        "monthPay": "106,040원"
+      },
+      {
+        "classes": "남녀공용 24A 0501호 23.84㎡",
+        "totalPrice": "10,363만원",
+        "monthPay": "86,240원"
+      },
+      {
+        "classes": "남녀공용 24A 0502호 25.58㎡",
+        "totalPrice": "11,033만원",
+        "monthPay": "91,820원"
+      },
+      {
+        "classes": "남녀공용 44C 0503호 42.93㎡",
+        "totalPrice": "17,385만원",
+        "monthPay": "144,680원"
+      },
+      {
+        "classes": "남녀공용 28A 0601호 29.67㎡",
+        "totalPrice": "12,778만원",
+        "monthPay": "106,340원"
+      },
+      {
+        "classes": "남녀공용 44C 0602호 46.48㎡",
+        "totalPrice": "18,796만원",
+        "monthPay": "156,420원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "꿈꾸지오",
+    "address": "서울특별시 송파구 송파대로47길 6, 꿈꾸지오 (석촌동 182-4)",
+    "lng": "127.1038403",
+    "lat": "37.5075134"
+  },
+  {
+    "keyAddress": "가락로5길3-75",
+    "sells": [
+      {
+        "classes": "남녀공용 27B 0201호 26.26㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 32A 0202호 31.9㎡",
+        "totalPrice": "13,225만원",
+        "monthPay": "110,060원"
+      },
+      {
+        "classes": "남녀공용 27B 0203호 28.43㎡",
+        "totalPrice": "11,664만원",
+        "monthPay": "97,060원"
+      },
+      {
+        "classes": "남녀공용 32A 0204호 32.98㎡",
+        "totalPrice": "13,559만원",
+        "monthPay": "112,840원"
+      },
+      {
+        "classes": "남녀공용 27B 0205호 27.93㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 27B 0301호 26.26㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 32A 0302호 31.9㎡",
+        "totalPrice": "13,225만원",
+        "monthPay": "110,060원"
+      },
+      {
+        "classes": "남녀공용 27B 0303호 28.43㎡",
+        "totalPrice": "11,664만원",
+        "monthPay": "97,060원"
+      },
+      {
+        "classes": "남녀공용 32A 0304호 32.98㎡",
+        "totalPrice": "13,559만원",
+        "monthPay": "112,840원"
+      },
+      {
+        "classes": "남녀공용 27B 0305호 27.93㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 27B 0401호 26.26㎡",
+        "totalPrice": "10,772만원",
+        "monthPay": "89,640원"
+      },
+      {
+        "classes": "남녀공용 27B 0402호 27.92㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 27B 0403호 25.99㎡",
+        "totalPrice": "10,884만원",
+        "monthPay": "90,580원"
+      },
+      {
+        "classes": "남녀공용 27B 0404호 28.77㎡",
+        "totalPrice": "11,812만원",
+        "monthPay": "98,300원"
+      },
+      {
+        "classes": "남녀공용 27B 0405호 27.93㎡",
+        "totalPrice": "11,367만원",
+        "monthPay": "94,600원"
+      },
+      {
+        "classes": "남녀공용 27B 0501호 26.26㎡",
+        "totalPrice": "10,699만원",
+        "monthPay": "89,040원"
+      },
+      {
+        "classes": "남녀공용 27B 0502호 28.75㎡",
+        "totalPrice": "11,925만원",
+        "monthPay": "99,240원"
+      },
+      {
+        "classes": "남녀공용 27B 0503호 29.41㎡",
+        "totalPrice": "12,184만원",
+        "monthPay": "101,400원"
+      },
+      {
+        "classes": "남녀공용 27B 0504호 28.09㎡",
+        "totalPrice": "11,293만원",
+        "monthPay": "93,980원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "드림네스트",
+    "address": "서울특별시 송파구 가락로5길 3-75, 드림네스트 (석촌동 237-16외)",
+    "lng": "127.1002671",
+    "lat": "37.5017583"
+  },
+  {
+    "keyAddress": "백제고분로42",
+    "sells": [
+      {
+        "classes": "남녀공용 35A 0201호 32.84㎡",
+        "totalPrice": "13,633만원",
+        "monthPay": "113,460원"
+      },
+      {
+        "classes": "남녀공용 35A 0202호 32.84㎡",
+        "totalPrice": "13,633만원",
+        "monthPay": "113,460원"
+      },
+      {
+        "classes": "남녀공용 35A 0203호 36.13㎡",
+        "totalPrice": "15,417만원",
+        "monthPay": "128,300원"
+      },
+      {
+        "classes": "남녀공용 35A 0301호 32.84㎡",
+        "totalPrice": "13,744만원",
+        "monthPay": "114,380원"
+      },
+      {
+        "classes": "남녀공용 35A 0302호 32.84㎡",
+        "totalPrice": "13,744만원",
+        "monthPay": "114,380원"
+      },
+      {
+        "classes": "남녀공용 35A 0303호 36.13㎡",
+        "totalPrice": "15,602만원",
+        "monthPay": "129,840원"
+      },
+      {
+        "classes": "남녀공용 35A 0401호 39.51㎡",
+        "totalPrice": "16,866만원",
+        "monthPay": "140,360원"
+      },
+      {
+        "classes": "남녀공용 35A 0402호 36.23㎡",
+        "totalPrice": "15,638만원",
+        "monthPay": "130,140원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "파인빌2",
+    "address": "서울특별시 송파구 백제고분로 42길 18-9, 파인빌2 (송파동 91-1)",
+    "lng": "127.1101289",
+    "lat": "37.5046716"
+  },
+  {
+    "keyAddress": "올림픽로12길52-8",
+    "sells": [
+      {
+        "classes": "남녀공용 31B 0201호 30.34㎡",
+        "totalPrice": "13,521만원",
+        "monthPay": "112,520원"
+      },
+      {
+        "classes": "남녀공용 36A 0202호 36.85㎡",
+        "totalPrice": "15,787만원",
+        "monthPay": "131,380원"
+      },
+      {
+        "classes": "남녀공용 36A 0203호 35.68㎡",
+        "totalPrice": "15,453만원",
+        "monthPay": "128,600원"
+      },
+      {
+        "classes": "남녀공용 31B 0204호 32.14㎡",
+        "totalPrice": "14,338만원",
+        "monthPay": "119,320원"
+      },
+      {
+        "classes": "남녀공용 31B 0301호 30.34㎡",
+        "totalPrice": "13,670만원",
+        "monthPay": "113,760원"
+      },
+      {
+        "classes": "남녀공용 36A 0302호 36.85㎡",
+        "totalPrice": "15,936만원",
+        "monthPay": "132,620원"
+      },
+      {
+        "classes": "남녀공용 36A 0303호 35.68㎡",
+        "totalPrice": "15,602만원",
+        "monthPay": "129,840원"
+      },
+      {
+        "classes": "남녀공용 31B 0304호 32.14㎡",
+        "totalPrice": "14,451만원",
+        "monthPay": "120,260원"
+      },
+      {
+        "classes": "남녀공용 40A 0401호 39.29㎡",
+        "totalPrice": "17,534만원",
+        "monthPay": "145,920원"
+      },
+      {
+        "classes": "남녀공용 40A 0402호 41.64㎡",
+        "totalPrice": "18,351만원",
+        "monthPay": "152,720원"
+      },
+      {
+        "classes": "남녀공용 31B 0501호 30.3㎡",
+        "totalPrice": "13,633만원",
+        "monthPay": "113,460원"
+      },
+      {
+        "classes": "남녀공용 31B 0502호 30.9㎡",
+        "totalPrice": "13,893만원",
+        "monthPay": "115,620원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "영스테이",
+    "address": "서울특별시 송파구 올림픽로12길 52-8, 영스테이 (잠실동 214-6)",
+    "lng": "127.0831328",
+    "lat": "37.5071516"
+  },
+  {
+    "keyAddress": "목동중앙본로20길35",
+    "sells": [
+      {
+        "classes": "남녀공용 39A 0101호 37.44㎡",
+        "totalPrice": "11,070만원",
+        "monthPay": "92,120원"
+      },
+      {
+        "classes": "남녀공용 39A 0102호 43.11㎡",
+        "totalPrice": "12,482만원",
+        "monthPay": "103,880원"
+      },
+      {
+        "classes": "남녀공용 39A 0103호 37.13㎡",
+        "totalPrice": "11,404만원",
+        "monthPay": "94,900원"
+      },
+      {
+        "classes": "남녀공용 39A 0201호 37.44㎡",
+        "totalPrice": "11,181만원",
+        "monthPay": "93,040원"
+      },
+      {
+        "classes": "남녀공용 39A 0202호 43.11㎡",
+        "totalPrice": "12,593만원",
+        "monthPay": "104,800원"
+      },
+      {
+        "classes": "남녀공용 39A 0203호 37.13㎡",
+        "totalPrice": "11,516만원",
+        "monthPay": "95,840원"
+      },
+      {
+        "classes": "남녀공용 39A 0301호 37.44㎡",
+        "totalPrice": "11,255만원",
+        "monthPay": "93,660원"
+      },
+      {
+        "classes": "남녀공용 39A 0302호 43.11㎡",
+        "totalPrice": "12,742만원",
+        "monthPay": "106,040원"
+      },
+      {
+        "classes": "남녀공용 39A 0303호 37.13㎡",
+        "totalPrice": "11,627만원",
+        "monthPay": "96,760원"
+      },
+      {
+        "classes": "남녀공용 30A 0401호 30.79㎡",
+        "totalPrice": "9,621만원",
+        "monthPay": "80,060원"
+      },
+      {
+        "classes": "남녀공용 39A 0402호 39.59㎡",
+        "totalPrice": "11,925만원",
+        "monthPay": "99,240원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "다온빌리지",
+    "address": "서울특별시 양천구 목동중앙본로20길 35, 다온빌리지 (목동 231-36)",
+    "lng": "126.8712245",
+    "lat": "37.5415943"
+  },
+  {
+    "keyAddress": "목동중앙본로22길52",
+    "sells": [
+      {
+        "classes": "남녀공용 19B 0201호 21.16㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 19B 0202호 19.32㎡",
+        "totalPrice": "4,903만원",
+        "monthPay": "40,800원"
+      },
+      {
+        "classes": "남녀공용 19B 0203호 18.32㎡",
+        "totalPrice": "4,754만원",
+        "monthPay": "39,560원"
+      },
+      {
+        "classes": "남녀공용 19B 0204호 19.16㎡",
+        "totalPrice": "4,977만원",
+        "monthPay": "41,420원"
+      },
+      {
+        "classes": "남녀공용 19B 0205호 18.76㎡",
+        "totalPrice": "4,866만원",
+        "monthPay": "40,500원"
+      },
+      {
+        "classes": "남녀공용 19B 0206호 21.16㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 19B 0301호 21.16㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 19B 0302호 19.32㎡",
+        "totalPrice": "5,014만원",
+        "monthPay": "41,720원"
+      },
+      {
+        "classes": "남녀공용 19B 0303호 18.32㎡",
+        "totalPrice": "4,754만원",
+        "monthPay": "39,560원"
+      },
+      {
+        "classes": "남녀공용 19B 0304호 19.16㎡",
+        "totalPrice": "4,977만원",
+        "monthPay": "41,420원"
+      },
+      {
+        "classes": "남녀공용 19B 0305호 18.76㎡",
+        "totalPrice": "4,866만원",
+        "monthPay": "40,500원"
+      },
+      {
+        "classes": "남녀공용 19B 0306호 21.16㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 19B 0401호 21.16㎡",
+        "totalPrice": "5,386만원",
+        "monthPay": "44,820원"
+      },
+      {
+        "classes": "남녀공용 25B 0402호 21.3㎡",
+        "totalPrice": "5,460만원",
+        "monthPay": "45,440원"
+      },
+      {
+        "classes": "남녀공용 25B 0403호 25.42㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "55,340원"
+      },
+      {
+        "classes": "남녀공용 25B 0404호 23㎡",
+        "totalPrice": "5,869만원",
+        "monthPay": "48,840원"
+      },
+      {
+        "classes": "남녀공용 19B 0501호 21.16㎡",
+        "totalPrice": "5,237만원",
+        "monthPay": "43,580원"
+      },
+      {
+        "classes": "남녀공용 25B 0502호 27.86㎡",
+        "totalPrice": "7,020만원",
+        "monthPay": "58,420원"
+      },
+      {
+        "classes": "남녀공용 34A 0503호 34.53㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "에코하임 5차",
+    "address": "서울특별시 양천구 목동중앙본로22길 52, 에코하임5차 (목동 231-77)",
+    "lng": "126.8718393",
+    "lat": "37.5414633"
+  },
+  {
+    "keyAddress": "대림로35나길14",
+    "sells": [
+      {
+        "classes": "남녀공용 35A 0201호 35.48㎡",
+        "totalPrice": "12,221만원",
+        "monthPay": "101,700원"
+      },
+      {
+        "classes": "남녀공용 29B 0202호 29.94㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 29B 0203호 29.94㎡",
+        "totalPrice": "10,438만원",
+        "monthPay": "86,860원"
+      },
+      {
+        "classes": "남녀공용 35A 0204호 35.88㎡",
+        "totalPrice": "12,370만원",
+        "monthPay": "102,940원"
+      },
+      {
+        "classes": "남녀공용 35A 0301호 35.48㎡",
+        "totalPrice": "12,221만원",
+        "monthPay": "101,700원"
+      },
+      {
+        "classes": "남녀공용 29B 0302호 29.94㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 29B 0303호 29.94㎡",
+        "totalPrice": "10,550만원",
+        "monthPay": "87,800원"
+      },
+      {
+        "classes": "남녀공용 35A 0304호 35.88㎡",
+        "totalPrice": "12,482만원",
+        "monthPay": "103,880원"
+      },
+      {
+        "classes": "남녀공용 36B 0401호 36.98㎡",
+        "totalPrice": "12,742만원",
+        "monthPay": "106,040원"
+      },
+      {
+        "classes": "남녀공용 36B 0402호 36.33㎡",
+        "totalPrice": "12,519만원",
+        "monthPay": "104,180원"
+      },
+      {
+        "classes": "남녀공용 29B 0501호 27.6㎡",
+        "totalPrice": "9,733만원",
+        "monthPay": "81,000원"
+      },
+      {
+        "classes": "남녀공용 29B 0502호 27.56㎡",
+        "totalPrice": "9,695만원",
+        "monthPay": "80,680원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "경동파크빌",
+    "address": "서울특별시 영등포구 대림로35나길 14, 경동파크빌 (대림동 737-2)",
+    "lng": "126.8972726",
+    "lat": "37.4974306"
+  },
+  {
+    "keyAddress": "대림로16길9",
+    "sells": [
+      {
+        "classes": "남녀공용 45A 0201호 44.49㎡",
+        "totalPrice": "14,116만원",
+        "monthPay": "117,480원"
+      },
+      {
+        "classes": "남녀공용 45A 0202호 46.93㎡",
+        "totalPrice": "14,451만원",
+        "monthPay": "120,260원"
+      },
+      {
+        "classes": "남녀공용 37A 0203호 37.89㎡",
+        "totalPrice": "12,408만원",
+        "monthPay": "103,260원"
+      },
+      {
+        "classes": "남녀공용 45A 0301호 44.49㎡",
+        "totalPrice": "14,265만원",
+        "monthPay": "118,720원"
+      },
+      {
+        "classes": "남녀공용 45A 0302호 46.93㎡",
+        "totalPrice": "14,599만원",
+        "monthPay": "121,500원"
+      },
+      {
+        "classes": "남녀공용 37A 0303호 37.89㎡",
+        "totalPrice": "12,555만원",
+        "monthPay": "104,480원"
+      },
+      {
+        "classes": "남녀공용 37A 0401호 37.19㎡",
+        "totalPrice": "12,555만원",
+        "monthPay": "104,480원"
+      },
+      {
+        "classes": "남녀공용 45A 0402호 42.62㎡",
+        "totalPrice": "14,227만원",
+        "monthPay": "118,400원"
+      },
+      {
+        "classes": "남녀공용 28B 0501호 28.66㎡",
+        "totalPrice": "9,880만원",
+        "monthPay": "82,220원"
+      },
+      {
+        "classes": "남녀공용 28B 0502호 27.7㎡",
+        "totalPrice": "9,621만원",
+        "monthPay": "80,060원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "명지파크빌",
+    "address": "서울특별시 영등포구 대림로16길 9, 명지파크빌 (대림동 858-34외)",
+    "lng": "126.9025181",
+    "lat": "37.4930729"
+  },
+  {
+    "keyAddress": "영등포로244",
+    "sells": [
+      {
+        "classes": "남녀공용 20B 0401호 18.25㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 20B 0402호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0403호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0404호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0405호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0406호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0407호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0408호 21.98㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 20B 0409호 23.8㎡",
+        "totalPrice": "8,506만원",
+        "monthPay": "70,780원"
+      },
+      {
+        "classes": "남녀공용 20B 0410호 19.44㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 0411호 19.44㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 0501호 18.25㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 20B 0502호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0503호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0504호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0505호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0506호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0507호 20.07㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 20B 0508호 21.98㎡",
+        "totalPrice": "7,578만원",
+        "monthPay": "63,060원"
+      },
+      {
+        "classes": "남녀공용 20B 0509호 23.8㎡",
+        "totalPrice": "8,506만원",
+        "monthPay": "70,780원"
+      },
+      {
+        "classes": "남녀공용 20B 0510호 19.44㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 0511호 19.44㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 0601호 18.25㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      },
+      {
+        "classes": "남녀공용 20B 0602호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0603호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0604호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0605호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0606호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0607호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0608호 21.98㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 20B 0609호 23.8㎡",
+        "totalPrice": "8,693만원",
+        "monthPay": "72,340원"
+      },
+      {
+        "classes": "남녀공용 20B 0610호 19.44㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0611호 19.44㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0701호 18.25㎡",
+        "totalPrice": "6,909만원",
+        "monthPay": "57,500원"
+      },
+      {
+        "classes": "남녀공용 20B 0702호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0703호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0704호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0705호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0706호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0707호 20.07㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0708호 21.98㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 20B 0709호 23.8㎡",
+        "totalPrice": "8,693만원",
+        "monthPay": "72,340원"
+      },
+      {
+        "classes": "남녀공용 20B 0710호 19.44㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0711호 19.44㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 0801호 18.25㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 0802호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0803호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0804호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0805호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0806호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0807호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0808호 21.98㎡",
+        "totalPrice": "8,395만원",
+        "monthPay": "69,860원"
+      },
+      {
+        "classes": "남녀공용 20B 0809호 23.8㎡",
+        "totalPrice": "9,101만원",
+        "monthPay": "75,740원"
+      },
+      {
+        "classes": "남녀공용 20B 0810호 19.44㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0811호 19.44㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0901호 18.25㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 0902호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0903호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0904호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0905호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0906호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0907호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0908호 21.98㎡",
+        "totalPrice": "8,395만원",
+        "monthPay": "69,860원"
+      },
+      {
+        "classes": "남녀공용 20B 0909호 23.8㎡",
+        "totalPrice": "9,101만원",
+        "monthPay": "75,740원"
+      },
+      {
+        "classes": "남녀공용 20B 0910호 19.44㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 0911호 19.44㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1001 호 18.25㎡",
+        "totalPrice": "7,206만원",
+        "monthPay": "59,960원"
+      },
+      {
+        "classes": "남녀공용 20B 1002 호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1003 호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1004 호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1005 호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1006 호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1007 호 20.07㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1008 호 21.98㎡",
+        "totalPrice": "8,395만원",
+        "monthPay": "69,860원"
+      },
+      {
+        "classes": "남녀공용 20B 1009 호 23.8㎡",
+        "totalPrice": "9,101만원",
+        "monthPay": "75,740원"
+      },
+      {
+        "classes": "남녀공용 20B 1010 호 19.44㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1011 호 19.44㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 20B 1101 호 18.25㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 1102 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1103 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1104 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1105 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1106 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1107 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1108 호 21.98㎡",
+        "totalPrice": "8,580만원",
+        "monthPay": "71,400원"
+      },
+      {
+        "classes": "남녀공용 20B 1109 호 23.8㎡",
+        "totalPrice": "9,286만원",
+        "monthPay": "77,280원"
+      },
+      {
+        "classes": "남녀공용 20B 1110 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1111 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1201 호 18.25㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 1202 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1203 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1204 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1205 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1206 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1207 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1208 호 21.98㎡",
+        "totalPrice": "8,580만원",
+        "monthPay": "71,400원"
+      },
+      {
+        "classes": "남녀공용 20B 1209 호 23.8㎡",
+        "totalPrice": "9,286만원",
+        "monthPay": "77,280원"
+      },
+      {
+        "classes": "남녀공용 20B 1210 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1211 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1301 호 18.25㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 1302 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1303 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1304 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1305 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1306 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1307 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1308 호 21.98㎡",
+        "totalPrice": "8,580만원",
+        "monthPay": "71,400원"
+      },
+      {
+        "classes": "남녀공용 20B 1309 호 23.8㎡",
+        "totalPrice": "9,286만원",
+        "monthPay": "77,280원"
+      },
+      {
+        "classes": "남녀공용 20B 1310 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1311 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1401 호 18.25㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 20B 1402 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1403 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1404 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1405 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1406 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1407 호 20.07㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1408 호 21.98㎡",
+        "totalPrice": "8,580만원",
+        "monthPay": "71,400원"
+      },
+      {
+        "classes": "남녀공용 20B 1409 호 23.8㎡",
+        "totalPrice": "9,286만원",
+        "monthPay": "77,280원"
+      },
+      {
+        "classes": "남녀공용 20B 1410 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1411 호 19.44㎡",
+        "totalPrice": "7,837만원",
+        "monthPay": "65,220원"
+      },
+      {
+        "classes": "남녀공용 20B 1501 호 18.25㎡",
+        "totalPrice": "7,503만원",
+        "monthPay": "62,440원"
+      },
+      {
+        "classes": "남녀공용 20B 1502 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1503 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1504 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1505 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1506 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1507 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1508 호 21.98㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      },
+      {
+        "classes": "남녀공용 20B 1509 호 23.8㎡",
+        "totalPrice": "9,510만원",
+        "monthPay": "79,140원"
+      },
+      {
+        "classes": "남녀공용 20B 1510 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1511 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1601 호 18.25㎡",
+        "totalPrice": "7,503만원",
+        "monthPay": "62,440원"
+      },
+      {
+        "classes": "남녀공용 20B 1602 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1603 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1604 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1605 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1606 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1607 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1608 호 21.98㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      },
+      {
+        "classes": "남녀공용 20B 1609 호 23.8㎡",
+        "totalPrice": "9,510만원",
+        "monthPay": "79,140원"
+      },
+      {
+        "classes": "남녀공용 20B 1610 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1611 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1701 호 18.25㎡",
+        "totalPrice": "7,503만원",
+        "monthPay": "62,440원"
+      },
+      {
+        "classes": "남녀공용 20B 1702 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1703 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1704 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1705 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1706 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1707 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1708 호 21.98㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      },
+      {
+        "classes": "남녀공용 20B 1709 호 23.8㎡",
+        "totalPrice": "9,510만원",
+        "monthPay": "79,140원"
+      },
+      {
+        "classes": "남녀공용 20B 1710 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1711 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1801 호 18.25㎡",
+        "totalPrice": "7,503만원",
+        "monthPay": "62,440원"
+      },
+      {
+        "classes": "남녀공용 20B 1802 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1803 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1804 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1805 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1806 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1807 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1808 호 21.98㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      },
+      {
+        "classes": "남녀공용 20B 1809 호 23.8㎡",
+        "totalPrice": "9,510만원",
+        "monthPay": "79,140원"
+      },
+      {
+        "classes": "남녀공용 20B 1810 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1811 호 19.44㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1901 호 18.25㎡",
+        "totalPrice": "7,503만원",
+        "monthPay": "62,440원"
+      },
+      {
+        "classes": "남녀공용 20B 1902 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1903 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1904 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1905 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1906 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1907 호 20.07㎡",
+        "totalPrice": "7,986만원",
+        "monthPay": "66,460원"
+      },
+      {
+        "classes": "남녀공용 20B 1908 호 21.98㎡",
+        "totalPrice": "8,767만원",
+        "monthPay": "72,960원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "로프트시티",
+    "address": "서울특별시 영등포구 영등포로 244, 로프트시티 (영등포동3가 3-3외)",
+    "lng": "126.9084553",
+    "lat": "37.5189291"
+  },
+  {
+    "keyAddress": "영등포로35나길5",
+    "sells": [
+      {
+        "classes": "남녀공용 42A 0201호 39.96㎡",
+        "totalPrice": "14,525만원",
+        "monthPay": "120,880원"
+      },
+      {
+        "classes": "남녀공용 28B 0202호 25.77㎡",
+        "totalPrice": "9,955만원",
+        "monthPay": "82,840원"
+      },
+      {
+        "classes": "남녀공용 28B 0203호 26.11㎡",
+        "totalPrice": "10,067만원",
+        "monthPay": "83,780원"
+      },
+      {
+        "classes": "남녀공용 42A 0301호 43.41㎡",
+        "totalPrice": "15,491만원",
+        "monthPay": "128,920원"
+      },
+      {
+        "classes": "남녀공용 28B 0302호 29㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 28B 0303호 29.39㎡",
+        "totalPrice": "10,921만원",
+        "monthPay": "90,880원"
+      },
+      {
+        "classes": "남녀공용 42A 0401호 43.41㎡",
+        "totalPrice": "15,638만원",
+        "monthPay": "130,140원"
+      },
+      {
+        "classes": "남녀공용 28B 0402호 29㎡",
+        "totalPrice": "10,661만원",
+        "monthPay": "88,720원"
+      },
+      {
+        "classes": "남녀공용 28B 0403호 29.39㎡",
+        "totalPrice": "11,033만원",
+        "monthPay": "91,820원"
+      },
+      {
+        "classes": "남녀공용 42A 0501호 43.41㎡",
+        "totalPrice": "15,491만원",
+        "monthPay": "128,920원"
+      },
+      {
+        "classes": "남녀공용 28B 0502호 29㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 28B 0503호 29.39㎡",
+        "totalPrice": "10,921만원",
+        "monthPay": "90,880원"
+      },
+      {
+        "classes": "남녀공용 42A 0601호 40.75㎡",
+        "totalPrice": "15,157만원",
+        "monthPay": "126,140원"
+      },
+      {
+        "classes": "남녀공용 28B 0602호 29㎡",
+        "totalPrice": "10,587만원",
+        "monthPay": "88,100원"
+      },
+      {
+        "classes": "남녀공용 28B 0603호 29.39㎡",
+        "totalPrice": "10,921만원",
+        "monthPay": "90,880원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "케이디하우스",
+    "address": "서울특별시 영등포구 영등포로35나길 5, 케이디하우스 (영등포동6가 30-5외)",
+    "lng": "126.9037810",
+    "lat": "37.5225127"
+  },
+  {
+    "keyAddress": "갈현로11길26-11",
+    "sells": [
+      {
+        "classes": "남녀공용 26A 0101호 26.13㎡",
+        "totalPrice": "7,983만원",
+        "monthPay": "66,440원"
+      },
+      {
+        "classes": "남녀공용 26A 0102호 26.26㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 26A 0103호 26.26㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 26A 0104호 26.26㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 26A 0105호 26.26㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 26A 0106호 26.26㎡",
+        "totalPrice": "8,024만원",
+        "monthPay": "66,780원"
+      },
+      {
+        "classes": "남녀공용 26A 0107호 26.95㎡",
+        "totalPrice": "8,234만원",
+        "monthPay": "68,520원"
+      },
+      {
+        "classes": "남녀공용 26A 0108호 26.89㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "70,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0109호 26.26㎡",
+        "totalPrice": "8,282만원",
+        "monthPay": "68,920원"
+      },
+      {
+        "classes": "남녀공용 26A 0110호 26.13㎡",
+        "totalPrice": "8,241만원",
+        "monthPay": "68,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0111호 26.73㎡",
+        "totalPrice": "8,512만원",
+        "monthPay": "70,840원"
+      },
+      {
+        "classes": "남녀공용 26A 0201호 26.13㎡",
+        "totalPrice": "8,320만원",
+        "monthPay": "69,240원"
+      },
+      {
+        "classes": "남녀공용 26A 0202호 26.26㎡",
+        "totalPrice": "8,361만원",
+        "monthPay": "69,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0203호 26.26㎡",
+        "totalPrice": "8,361만원",
+        "monthPay": "69,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0204호 26.26㎡",
+        "totalPrice": "8,361만원",
+        "monthPay": "69,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0205호 26.26㎡",
+        "totalPrice": "8,361만원",
+        "monthPay": "69,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0206호 26.26㎡",
+        "totalPrice": "8,361만원",
+        "monthPay": "69,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0207호 26.95㎡",
+        "totalPrice": "8,582만원",
+        "monthPay": "71,420원"
+      },
+      {
+        "classes": "남녀공용 26A 0208호 26.89㎡",
+        "totalPrice": "8,562만원",
+        "monthPay": "71,260원"
+      },
+      {
+        "classes": "남녀공용 26A 0209호 26.26㎡",
+        "totalPrice": "8,361만원",
+        "monthPay": "69,580원"
+      },
+      {
+        "classes": "남녀공용 26A 0210호 26.13㎡",
+        "totalPrice": "8,320만원",
+        "monthPay": "69,240원"
+      },
+      {
+        "classes": "남녀공용 26A 0211호 26.73㎡",
+        "totalPrice": "8,512만원",
+        "monthPay": "70,840원"
+      },
+      {
+        "classes": "남녀공용 26A 0301호 26.13㎡",
+        "totalPrice": "8,406만원",
+        "monthPay": "69,960원"
+      },
+      {
+        "classes": "남녀공용 26A 0302호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0303호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0304호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0305호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0306호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0307호 26.95㎡",
+        "totalPrice": "8,671만원",
+        "monthPay": "72,160원"
+      },
+      {
+        "classes": "남녀공용 26A 0308호 26.89㎡",
+        "totalPrice": "8,651만원",
+        "monthPay": "72,000원"
+      },
+      {
+        "classes": "남녀공용 26A 0309호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0310호 26.13㎡",
+        "totalPrice": "8,406만원",
+        "monthPay": "69,960원"
+      },
+      {
+        "classes": "남녀공용 26A 0311호 26.13㎡",
+        "totalPrice": "8,069만원",
+        "monthPay": "67,160원"
+      },
+      {
+        "classes": "남녀공용 26A 0312호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0313호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0314호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0315호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0316호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0317호 26.14㎡",
+        "totalPrice": "8,072만원",
+        "monthPay": "67,180원"
+      },
+      {
+        "classes": "남녀공용 26A 0318호 26.73㎡",
+        "totalPrice": "8,599만원",
+        "monthPay": "71,560원"
+      },
+      {
+        "classes": "남녀공용 26A 0401호 26.13㎡",
+        "totalPrice": "8,406만원",
+        "monthPay": "69,960원"
+      },
+      {
+        "classes": "남녀공용 26A 0402호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0403호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0404호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0405호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0406호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0407호 26.95㎡",
+        "totalPrice": "8,671만원",
+        "monthPay": "72,160원"
+      },
+      {
+        "classes": "남녀공용 26A 0408호 26.89㎡",
+        "totalPrice": "8,651만원",
+        "monthPay": "72,000원"
+      },
+      {
+        "classes": "남녀공용 26A 0409호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0410호 26.13㎡",
+        "totalPrice": "8,406만원",
+        "monthPay": "69,960원"
+      },
+      {
+        "classes": "남녀공용 26A 0411호 26.13㎡",
+        "totalPrice": "8,069만원",
+        "monthPay": "67,160원"
+      },
+      {
+        "classes": "남녀공용 26A 0412호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0413호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0414호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0415호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0416호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0417호 26.14㎡",
+        "totalPrice": "8,072만원",
+        "monthPay": "67,180원"
+      },
+      {
+        "classes": "남녀공용 26A 0502호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0503호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0504호 26.26㎡",
+        "totalPrice": "8,447만원",
+        "monthPay": "70,300원"
+      },
+      {
+        "classes": "남녀공용 26A 0506호 26.89㎡",
+        "totalPrice": "8,651만원",
+        "monthPay": "72,000원"
+      },
+      {
+        "classes": "남녀공용 26A 0509호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0510호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      },
+      {
+        "classes": "남녀공용 26A 0511호 26.26㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "67,500원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "다이알로그191",
+    "address": "서울특별시 은평구 갈현로11길 26-11, 다이알로그191 (구산동 549)",
+    "lng": "126.9079156",
+    "lat": "37.6056205"
+  },
+  {
+    "keyAddress": "은평구16길12",
+    "sells": [
+      {
+        "classes": "남녀공용 27B 0201호 28.37㎡",
+        "totalPrice": "7,392만원",
+        "monthPay": "61,520원"
+      },
+      {
+        "classes": "남녀공용 27B 0202호 28.24㎡",
+        "totalPrice": "7,280만원",
+        "monthPay": "60,580원"
+      },
+      {
+        "classes": "남녀공용 27B 0203호 26.05㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "55,340원"
+      },
+      {
+        "classes": "남녀공용 27B 0204호 26.75㎡",
+        "totalPrice": "6,835만원",
+        "monthPay": "56,880원"
+      },
+      {
+        "classes": "남녀공용 27B 0205호 26.17㎡",
+        "totalPrice": "6,871만원",
+        "monthPay": "57,180원"
+      },
+      {
+        "classes": "남녀공용 27B 0206호 26.96㎡",
+        "totalPrice": "7,095만원",
+        "monthPay": "59,040원"
+      },
+      {
+        "classes": "남녀공용 27B 0301호 28.37㎡",
+        "totalPrice": "7,467만원",
+        "monthPay": "62,140원"
+      },
+      {
+        "classes": "남녀공용 27B 0302호 28.24㎡",
+        "totalPrice": "7,354만원",
+        "monthPay": "61,200원"
+      },
+      {
+        "classes": "남녀공용 27B 0303호 26.05㎡",
+        "totalPrice": "6,723만원",
+        "monthPay": "55,940원"
+      },
+      {
+        "classes": "남녀공용 27B 0304호 26.75㎡",
+        "totalPrice": "6,909만원",
+        "monthPay": "57,500원"
+      },
+      {
+        "classes": "남녀공용 27B 0305호 26.17㎡",
+        "totalPrice": "6,946만원",
+        "monthPay": "57,800원"
+      },
+      {
+        "classes": "남녀공용 27B 0306호 26.96㎡",
+        "totalPrice": "7,169만원",
+        "monthPay": "59,660원"
+      },
+      {
+        "classes": "남녀공용 27B 0401호 29.99㎡",
+        "totalPrice": "7,950만원",
+        "monthPay": "66,160원"
+      },
+      {
+        "classes": "남녀공용 27B 0402호 29.31㎡",
+        "totalPrice": "7,541만원",
+        "monthPay": "62,760원"
+      },
+      {
+        "classes": "남녀공용 27B 0403호 26.76㎡",
+        "totalPrice": "6,946만원",
+        "monthPay": "57,800원"
+      },
+      {
+        "classes": "남녀공용 27B 0404호 27.26㎡",
+        "totalPrice": "7,244만원",
+        "monthPay": "60,280원"
+      },
+      {
+        "classes": "남녀공용 27B 0501호 29.99㎡",
+        "totalPrice": "7,652만원",
+        "monthPay": "63,680원"
+      },
+      {
+        "classes": "남녀공용 27B 0502호 29.23㎡",
+        "totalPrice": "7,689만원",
+        "monthPay": "63,980원"
+      },
+      {
+        "classes": "남녀공용 27B 0503호 27.26㎡",
+        "totalPrice": "7,244만원",
+        "monthPay": "60,280원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "응암에코타운",
+    "address": "서울특별시 은평구16길 12, 응암에코타운 (응암동 72-6)",
+    "lng": "126.9299055",
+    "lat": "37.6003198"
+  },
+  {
+    "keyAddress": "상봉로20길91",
+    "sells": [
+      {
+        "classes": "남녀공용 19B 0201호 17.96㎡",
+        "totalPrice": "4,718만원",
+        "monthPay": "39,260원"
+      },
+      {
+        "classes": "남녀공용 24B 0202호 24.9㎡",
+        "totalPrice": "6,388만원",
+        "monthPay": "53,160원"
+      },
+      {
+        "classes": "남녀공용 24B 0203호 24.04㎡",
+        "totalPrice": "6,167만원",
+        "monthPay": "51,320원"
+      },
+      {
+        "classes": "남녀공용 24B 0204호 23.71㎡",
+        "totalPrice": "6,092만원",
+        "monthPay": "50,700원"
+      },
+      {
+        "classes": "남녀공용 19B 0205호 20.9㎡",
+        "totalPrice": "5,386만원",
+        "monthPay": "44,820원"
+      },
+      {
+        "classes": "남녀공용 19B 0301호 17.96㎡",
+        "totalPrice": "4,754만원",
+        "monthPay": "39,560원"
+      },
+      {
+        "classes": "남녀공용 24B 0302호 24.9㎡",
+        "totalPrice": "6,463만원",
+        "monthPay": "53,780원"
+      },
+      {
+        "classes": "남녀공용 24B 0303호 24.04㎡",
+        "totalPrice": "6,241만원",
+        "monthPay": "51,940원"
+      },
+      {
+        "classes": "남녀공용 24B 0304호 23.71㎡",
+        "totalPrice": "6,167만원",
+        "monthPay": "51,320원"
+      },
+      {
+        "classes": "남녀공용 19B 0305호 20.9㎡",
+        "totalPrice": "5,422만원",
+        "monthPay": "45,120원"
+      },
+      {
+        "classes": "남녀공용 19B 0401호 17.96㎡",
+        "totalPrice": "4,792만원",
+        "monthPay": "39,880원"
+      },
+      {
+        "classes": "남녀공용 24B 0402호 24.9㎡",
+        "totalPrice": "6,537만원",
+        "monthPay": "54,400원"
+      },
+      {
+        "classes": "남녀공용 24B 0403호 24.04㎡",
+        "totalPrice": "6,314만원",
+        "monthPay": "52,540원"
+      },
+      {
+        "classes": "남녀공용 24B 0404호 23.71㎡",
+        "totalPrice": "6,203만원",
+        "monthPay": "51,620원"
+      },
+      {
+        "classes": "남녀공용 19B 0405호 20.9㎡",
+        "totalPrice": "5,497만원",
+        "monthPay": "45,740원"
+      },
+      {
+        "classes": "남녀공용 19B 0501호 17.96㎡",
+        "totalPrice": "4,792만원",
+        "monthPay": "39,880원"
+      },
+      {
+        "classes": "남녀공용 19B 0502호 19.92㎡",
+        "totalPrice": "5,312만원",
+        "monthPay": "44,200원"
+      },
+      {
+        "classes": "남녀공용 19B 0503호 18.88㎡",
+        "totalPrice": "5,052만원",
+        "monthPay": "42,040원"
+      },
+      {
+        "classes": "남녀공용 19B 0504호 18.01㎡",
+        "totalPrice": "4,829만원",
+        "monthPay": "40,180원"
+      },
+      {
+        "classes": "남녀공용 19B 0505호 19.4㎡",
+        "totalPrice": "5,201만원",
+        "monthPay": "43,280원"
+      },
+      {
+        "classes": "남녀공용 19B 0601호 17.96㎡",
+        "totalPrice": "4,754만원",
+        "monthPay": "39,560원"
+      },
+      {
+        "classes": "남녀공용 19B 0602호 20.49㎡",
+        "totalPrice": "5,312만원",
+        "monthPay": "44,200원"
+      },
+      {
+        "classes": "남녀공용 19B 0603호 20.64㎡",
+        "totalPrice": "5,349만원",
+        "monthPay": "44,520원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "서영스윗홈",
+    "address": "서울특별시 중랑구 상봉로20길 91, 서영스윗홈 (망우동 460-4)",
+    "lng": "127.0983167",
+    "lat": "37.5947992"
+  },
+  {
+    "keyAddress": "구천면로40길7",
+    "sells": [
+      {
+        "classes": "남성전용 0204호 29.6㎡",
+        "totalPrice": "6,767만원",
+        "monthPay": "146,920원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "해담빌",
+    "address": "서울특별시 강동구 구천면로40길 7 해담빌  (천호동 237-27)",
+    "lng": "127.1340646",
+    "lat": "37.5456265"
+  },
+  {
+    "keyAddress": "천호옛8길3",
+    "sells": [
+      {
+        "classes": "남녀공용 40A 0204호 37㎡",
+        "totalPrice": "10,475만원",
+        "monthPay": "227,440원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "WIHS희망",
+    "address": "서울특별시 강동구 천호옛8길 3, WISH희망 (성내동 127-13)",
+    "lng": "127.1236884",
+    "lat": "37.5335871"
+  },
+  {
+    "keyAddress": "천중로48길9-13",
+    "sells": [
+      {
+        "classes": "남녀공용 23B 0501호 23.16㎡",
+        "totalPrice": "6,761만원",
+        "monthPay": "56,260원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "강동서영스윗홈",
+    "address": "서울특별시 강동구 천중로48길 9-13 (길동 349-9, 강동서영스윗홈)",
+    "lng": "127.1424627",
+    "lat": "37.5404272"
+  },
+  {
+    "keyAddress": "인수봉로38길10",
+    "sells": [
+      {
+        "classes": "남녀공용 0304호 14.04㎡",
+        "totalPrice": "1,683만원",
+        "monthPay": "36,520원"
+      },
+      {
+        "classes": "남녀공용 0501호 14.01㎡",
+        "totalPrice": "1,596만원",
+        "monthPay": "34,640원"
+      },
+      {
+        "classes": "남녀공용 0502호 14.12㎡",
+        "totalPrice": "1,638만원",
+        "monthPay": "35,560원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "성신하우스",
+    "address": "서울특별시 강북구 인수봉로38길 10, 성신하우스 (수유동 468-33)",
+    "lng": "127.0142723",
+    "lat": "37.6316720"
+  },
+  {
+    "keyAddress": "긴고랑로1길35",
+    "sells": [
+      {
+        "classes": "남녀공용 27A 0402호 28.24㎡",
+        "totalPrice": "7,272만원",
+        "monthPay": "157,880원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "더리치",
+    "address": "서울특별시 광진구 긴고랑로1길 35, 더리치 (중곡동 235-22,23)",
+    "lng": "127.0779257",
+    "lat": "37.5656324"
+  },
+  {
+    "keyAddress": "자양번영로3나길31",
+    "sells": [
+      {
+        "classes": "남성전용 0404호 30.45㎡",
+        "totalPrice": "5,428만원",
+        "monthPay": "117,840원"
+      },
+      {
+        "classes": "남성전용 0502호 30.36㎡",
+        "totalPrice": "5,306만원",
+        "monthPay": "115,200원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "지오빌",
+    "address": "서울특별시 광진구 자양번영로3나길 31 지오빌 (자양동 589-5,6)",
+    "lng": "127.0736278",
+    "lat": "37.5305637"
+  },
+  {
+    "keyAddress": "독산로96길27-6",
+    "sells": [
+      {
+        "classes": "남성전용 54C 0301호 54.52㎡",
+        "totalPrice": "8,207만원",
+        "monthPay": "178,200원"
+      },
+      {
+        "classes": "여성전용 40C 0303호 41.99㎡",
+        "totalPrice": "6,839만원",
+        "monthPay": "148,480원"
+      },
+      {
+        "classes": "여성전용 29A 0501호 29.12㎡",
+        "totalPrice": "5,004만원",
+        "monthPay": "108,640원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "휴먼에코빌4차 B동",
+    "address": "서울특별시 금천구 독산로96길 27-6 휴먼에코빌4차 B동(독산동 234-22)",
+    "lng": "126.9052114",
+    "lat": "37.4753021"
+  },
+  {
+    "keyAddress": "독산로20길13",
+    "sells": [
+      {
+        "classes": "남녀공용 0403호 29.84㎡",
+        "totalPrice": "6,984만원",
+        "monthPay": "58,120원"
+      },
+      {
+        "classes": "남녀공용 0501호 26.05㎡",
+        "totalPrice": "5,684만원",
+        "monthPay": "47,300원"
+      },
+      {
+        "classes": "남녀공용 0503호 29.54㎡",
+        "totalPrice": "6,314만원",
+        "monthPay": "52,540원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "아이빌 7차",
+    "address": "서울특별시 금천구 독산로20길 13, 아이빌 7차 (시흥동 833-13)",
+    "lng": "126.9076609",
+    "lat": "37.4532386"
+  },
+  {
+    "keyAddress": "공릉로26길28",
+    "sells": [
+      {
+        "classes": "남녀공용 0404호 18.44㎡",
+        "totalPrice": "2,126만원",
+        "monthPay": "46,160원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "동원힐하스",
+    "address": "서울특별시 노원구 공릉로26길 28, 동원힐하스 (공릉동 645-16,17)",
+    "lng": "127.0796590",
+    "lat": "37.6199292"
+  },
+  {
+    "keyAddress": "천호대로89길51",
+    "sells": [
+      {
+        "classes": "남성전용 55C 0402호 58.11㎡",
+        "totalPrice": "8,388만원",
+        "monthPay": "182,120원"
+      },
+      {
+        "classes": "여성전용 56C 0203호 58.85㎡",
+        "totalPrice": "8,495만원",
+        "monthPay": "184,440원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "더존에이스빌 나동",
+    "address": "서울특별시 동대문구 천호대로89길 51 더존에이스빌 나동(장안동445-3)",
+    "lng": "127.0690670",
+    "lat": "37.5640765"
+  },
+  {
+    "keyAddress": "홍제내2바길7",
+    "sells": [
+      {
+        "classes": "남성전용 43C 0401호 48.42㎡",
+        "totalPrice": "6,083만원",
+        "monthPay": "132,080원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "해담빌",
+    "address": "서울특별시 서대문구 홍제내2바길 7 해담빌(홍제동 360-40)",
+    "lng": "126.9373019",
+    "lat": "37.5854481"
+  },
+  {
+    "keyAddress": "홍은중앙로8길9",
+    "sells": [
+      {
+        "classes": "남녀공용 0301호 17.53㎡",
+        "totalPrice": "4,287만원",
+        "monthPay": "93,080원"
+      },
+      {
+        "classes": "남녀공용 0401호 17.53㎡",
+        "totalPrice": "1,866만원",
+        "monthPay": "40,520원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "현인그린빌",
+    "address": "서울특별시 서대문구 홍은중앙로8길 9 현인그린빌 (홍은동 9-108,109)",
+    "lng": "126.9481287",
+    "lat": "37.5989750"
+  },
+  {
+    "keyAddress": "증가로12가길68",
+    "sells": [
+      {
+        "classes": "여성전용 0206호 16.83㎡",
+        "totalPrice": "2,224만원",
+        "monthPay": "48,280원"
+      },
+      {
+        "classes": "여성전용 0306호 16.83㎡",
+        "totalPrice": "2,222만원",
+        "monthPay": "48,240원"
+      },
+      {
+        "classes": "여성전용 0402호 19.76㎡",
+        "totalPrice": "2,455만원",
+        "monthPay": "53,280원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "주영테크빌",
+    "address": "서울특별시 서대문구 증가로12가길 68 주영테크빌 (북가좌동 5-92)",
+    "lng": "126.9185625",
+    "lat": "37.5808460"
+  },
+  {
+    "keyAddress": "명지대5길13",
+    "sells": [
+      {
+        "classes": "여성전용 0202호 24.26㎡",
+        "totalPrice": "3,167만원",
+        "monthPay": "68,760원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "제이씨아트빌 2차",
+    "address": "서울특별시 서대문구 명지대5길 13 제이씨아트빌2차 (남가좌동 3-68)",
+    "lng": "126.9226475",
+    "lat": "37.5827795"
+  },
+  {
+    "keyAddress": "반포대로5길64",
+    "sells": [
+      {
+        "classes": "남녀공용 0201호 27.51㎡",
+        "totalPrice": "10,908만원",
+        "monthPay": "236,840원"
+      },
+      {
+        "classes": "남녀공용 0204호 25.11㎡",
+        "totalPrice": "9,972만원",
+        "monthPay": "216,520원"
+      },
+      {
+        "classes": "남녀공용 0502호 25.11㎡",
+        "totalPrice": "9,864만원",
+        "monthPay": "214,160원"
+      },
+      {
+        "classes": "남녀공용 0504호 28.98㎡",
+        "totalPrice": "11,304만원",
+        "monthPay": "245,440원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "서초파크타운 A동",
+    "address": "서울특별시 서초구 반포대로5길 64, 서초파크타운 A동  (서초동 1478-9)",
+    "lng": "127.0080707",
+    "lat": "37.4816924"
+  },
+  {
+    "keyAddress": "논현로5길15-20",
+    "sells": [
+      {
+        "classes": "남녀공용 0201호 27㎡",
+        "totalPrice": "9,972만원",
+        "monthPay": "216,520원"
+      },
+      {
+        "classes": "남녀공용 0303호 27.6㎡",
+        "totalPrice": "10,188만원",
+        "monthPay": "221,200원"
+      },
+      {
+        "classes": "남녀공용 0401호 27㎡",
+        "totalPrice": "9,683만원",
+        "monthPay": "210,240원"
+      },
+      {
+        "classes": "남녀공용 0403호 25.76㎡",
+        "totalPrice": "9,504만원",
+        "monthPay": "206,360원"
+      },
+      {
+        "classes": "남녀공용 0404호 28.76㎡",
+        "totalPrice": "10,188만원",
+        "monthPay": "221,200원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "백년빌",
+    "address": "서울특별시 서초구 논현로5길 15-20, 백년빌  (양재동 400-6)",
+    "lng": "127.0497150",
+    "lat": "37.4713311"
+  },
+  {
+    "keyAddress": "논현로7길36",
+    "sells": [
+      {
+        "classes": "남녀공용 0404호 29.87㎡",
+        "totalPrice": "10,799만원",
+        "monthPay": "234,480원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "백년빌",
+    "address": "서울특별시 서초구 논현로7길 36, 백년빌  (양재동 392-20)",
+    "lng": "127.0472908",
+    "lat": "37.4723369"
+  },
+  {
+    "keyAddress": "장월로1마길23",
+    "sells": [
+      {
+        "classes": "남성전용 0201호 45.13㎡",
+        "totalPrice": "6,660만원",
+        "monthPay": "144,600원"
+      },
+      {
+        "classes": "남성전용 0203호 40.47㎡",
+        "totalPrice": "5,975만원",
+        "monthPay": "129,720원"
+      },
+      {
+        "classes": "남성전용 0302호 41.01㎡",
+        "totalPrice": "5,903만원",
+        "monthPay": "128,160원"
+      },
+      {
+        "classes": "남성전용 0503호 40.47㎡",
+        "totalPrice": "5,652만원",
+        "monthPay": "122,720원"
+      },
+      {
+        "classes": "여성전용 0202호 49.99㎡",
+        "totalPrice": "7,200만원",
+        "monthPay": "156,320원"
+      },
+      {
+        "classes": "여성전용 0502호 46.59㎡",
+        "totalPrice": "7,091만원",
+        "monthPay": "153,960원"
+      },
+      {
+        "classes": "여성전용 0202호 48.09㎡",
+        "totalPrice": "6,947만원",
+        "monthPay": "150,840원"
+      },
+      {
+        "classes": "여성전용 0501호 29.99㎡",
+        "totalPrice": "5,868만원",
+        "monthPay": "127,400원"
+      },
+      {
+        "classes": "여성전용 0503호 50.21㎡",
+        "totalPrice": "6,947만원",
+        "monthPay": "150,840원"
+      },
+      {
+        "classes": "여성전용 0502호 46.01㎡",
+        "totalPrice": "6,443만원",
+        "monthPay": "139,880원"
+      },
+      {
+        "classes": "여성전용 0503호 44.55㎡",
+        "totalPrice": "6,227만원",
+        "monthPay": "135,200원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "서도휴빌 103동,105동,106동",
+    "address": "서울특별시 성북구 장월로1마길 23 서도휴빌 106동 (하월곡동 231)",
+    "lng": "127.0428996",
+    "lat": "37.6053707"
+  },
+  {
+    "keyAddress": "서경로13길31",
+    "sells": [
+      {
+        "classes": "남녀공용 0203호 14.01㎡",
+        "totalPrice": "1,572만원",
+        "monthPay": "34,120원"
+      },
+      {
+        "classes": "남녀공용 0204호 14.01㎡",
+        "totalPrice": "1,572만원",
+        "monthPay": "34,120원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "드림빌 1차",
+    "address": "서울특별시 성북구 서경로13길 31 드림빌 1차 (정릉동 227-85)",
+    "lng": "127.0142453",
+    "lat": "37.6098408"
+  },
+  {
+    "keyAddress": "동일로148길43",
+    "sells": [
+      {
+        "classes": "여성전용 0501호 28㎡",
+        "totalPrice": "3,956만원",
+        "monthPay": "85,880원"
+      }
+    ],
+    "gov": "SH 청년매입",
+    "name": "동일케슬",
+    "address": "서울특별시 중랑구 동일로148길 43 동일케슬 (묵동 128-60,61,68,69)",
+    "lng": "127.0807394",
+    "lat": "37.6075070"
+  },
+  {
+    "keyAddress": "종로56길23",
+    "sells": [
+      {
+        "classes": "남여공용 207호 18.74㎡",
+        "totalPrice": "4,090만원",
+        "monthPay": "130,050원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "종로숭인동(시티플러스)",
+    "address": "서울특별시 종로구 종로56길 23(숭인동) 시티플러스",
+    "lng": "127.0168742",
+    "lat": "37.5719084"
+  },
+  {
+    "keyAddress": "긴고랑로3길12",
+    "sells": [
+      {
+        "classes": "여성전용 303호 46.56㎡",
+        "totalPrice": "7,270만원",
+        "monthPay": "236,100원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "광진중곡동(제이앤빌)",
+    "address": "서울특별시 광진구 긴고랑로3길 12(중곡동) 제이앤빌",
+    "lng": "127.0784641",
+    "lat": "37.5649273"
+  },
+  {
+    "keyAddress": "능동로39길5",
+    "sells": [
+      {
+        "classes": "남여공용 405호 17.8㎡",
+        "totalPrice": "6,160만원",
+        "monthPay": "199,030원"
+      },
+      {
+        "classes": "남여공용 701호 14.16㎡",
+        "totalPrice": "5,620만원",
+        "monthPay": "180,750원"
+      },
+      {
+        "classes": "남여공용 704호 14.27㎡",
+        "totalPrice": "5,660만원",
+        "monthPay": "182,400원"
+      },
+      {
+        "classes": "남여공용 801호 14.16㎡",
+        "totalPrice": "5,560만원",
+        "monthPay": "179,160원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "광진중곡동(와이위드미)",
+    "address": "서울특별시 광진구 능동로39길 5(중곡동) 와이위드미",
+    "lng": "127.0796620",
+    "lat": "37.5584165"
+  },
+  {
+    "keyAddress": "긴고랑로2길15",
+    "sells": [
+      {
+        "classes": "남여공용 203호 34.07㎡",
+        "totalPrice": "6,510만원",
+        "monthPay": "211,100원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "광진중곡동(삼화에코빌)",
+    "address": "서울특별시 광진구 긴고랑로2길 15(중곡동,삼화에코빌) ",
+    "lng": "127.0769596",
+    "lat": "37.5632353"
+  },
+  {
+    "keyAddress": "한천로2길84",
+    "sells": [
+      {
+        "classes": "남여공용 604호 18.682㎡",
+        "totalPrice": "4,690만원",
+        "monthPay": "149,730원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "동대문장안동(장안센텀)",
+    "address": "서울특별시 동대문구 한천로2길 84(장안동,에스아이팰리스 장안센텀) ",
+    "lng": "127.0632513",
+    "lat": "37.5623247"
+  },
+  {
+    "keyAddress": "답십리로68길92",
+    "sells": [
+      {
+        "classes": "남성전용 101동 201호 59.41㎡",
+        "totalPrice": "10,430만원",
+        "monthPay": "341,470원"
+      },
+      {
+        "classes": "남성전용 101동 203호 45.15㎡",
+        "totalPrice": "7,940만원",
+        "monthPay": "258,510원"
+      },
+      {
+        "classes": "여성전용 102동 503호 10.88㎡",
+        "totalPrice": "5,650만원",
+        "monthPay": "181,720원"
+      },
+      {
+        "classes": "여성전용 102동 401호 42.84㎡",
+        "totalPrice": "7,830만원",
+        "monthPay": "254,490원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "동대문장안동(진성홈타운)",
+    "address": "서울특별시 동대문구 답십리로68길 92(장안동) 진성홈타운",
+    "lng": "127.0674860",
+    "lat": "37.5688532"
+  },
+  {
+    "keyAddress": "이문로17",
+    "sells": [
+      {
+        "classes": "남여공용 803호 18.26㎡",
+        "totalPrice": "5,100만원",
+        "monthPay": "163,390원"
+      },
+      {
+        "classes": "남여공용 907호 18.45㎡",
+        "totalPrice": "5,100만원",
+        "monthPay": "163,590원"
+      },
+      {
+        "classes": "남여공용 1002호 17.64㎡",
+        "totalPrice": "4,930만원",
+        "monthPay": "157,730원"
+      },
+      {
+        "classes": "남여공용 1106호 17.71㎡",
+        "totalPrice": "6,350만원",
+        "monthPay": "205,810원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "동대문회기동(히든백하우스)",
+    "address": "서울특별시 동대문구 이문로 17(회기동)",
+    "lng": "127.0549711",
+    "lat": "37.5896872"
+  },
+  {
+    "keyAddress": "상봉로20길81",
+    "sells": [
+      {
+        "classes": "남여공용 501호 45.44㎡",
+        "totalPrice": "7,380만원",
+        "monthPay": "240,090원"
+      },
+      {
+        "classes": "남여공용 601호 29.87㎡",
+        "totalPrice": "5,650만원",
+        "monthPay": "181,790원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "중랑망우동(빌드아르떼)",
+    "address": "서울특별시 중랑구 상봉로20길 81(망우동) 빌드 아르떼",
+    "lng": "127.0977672",
+    "lat": "37.5946970"
+  },
+  {
+    "keyAddress": "용마산로94길4-3",
+    "sells": [
+      {
+        "classes": "여성전용 203호 41.98㎡",
+        "totalPrice": "8,040만원",
+        "monthPay": "261,570원"
+      },
+      {
+        "classes": "여성전용 401호 41.98㎡",
+        "totalPrice": "8,110만원",
+        "monthPay": "263,710원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "중랑면목동(힐하우스)",
+    "address": "서울특별시 중랑구 용마산로94길 4-3(면목동) 힐하우스",
+    "lng": "127.0970877",
+    "lat": "37.5888968"
+  },
+  {
+    "keyAddress": "동일로146길29",
+    "sells": [
+      {
+        "classes": "남여공용 202호 28.77㎡",
+        "totalPrice": "6,190만원",
+        "monthPay": "199,740원"
+      },
+      {
+        "classes": "남여공용 302호 28.77㎡",
+        "totalPrice": "6,240만원",
+        "monthPay": "201,840원"
+      },
+      {
+        "classes": "남여공용 402호 28.77㎡",
+        "totalPrice": "6,300만원",
+        "monthPay": "204,010원"
+      },
+      {
+        "classes": "남여공용 502호 28.77㎡",
+        "totalPrice": "6,300만원",
+        "monthPay": "204,010원"
+      },
+      {
+        "classes": "남여공용 602호 28.77㎡",
+        "totalPrice": "6,300만원",
+        "monthPay": "204,010원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "중랑묵동(그린캐슬1차)",
+    "address": "서울특별시 중랑구 동일로146길 29(묵동,그린캐슬1차) 그린캐슬1차",
+    "lng": "127.0803924",
+    "lat": "37.6066680"
+  },
+  {
+    "keyAddress": "봉우재로41길6",
+    "sells": [
+      {
+        "classes": "남여공용 311호 20.7㎡",
+        "totalPrice": "3,820만원",
+        "monthPay": "121,400원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "중랑상봉동(청운명가프라임)",
+    "address": "서울특별시 중랑구 봉우재로41길 6(상봉동,청운명가프라임) ",
+    "lng": "127.0897390",
+    "lat": "37.5937259"
+  },
+  {
+    "keyAddress": "중랑천로109",
+    "sells": [
+      {
+        "classes": "여성전용 102동 301호 50.44㎡",
+        "totalPrice": "8,810만원",
+        "monthPay": "287,150원"
+      },
+      {
+        "classes": "여성전용 102동 302호 49.79㎡",
+        "totalPrice": "8,660만원",
+        "monthPay": "282,680원"
+      },
+      {
+        "classes": "남성전용 105동 401호 50.44㎡",
+        "totalPrice": "8,810만원",
+        "monthPay": "287,280원"
+      },
+      {
+        "classes": "남성전용 105동 601호 50.44㎡",
+        "totalPrice": "8,950만원",
+        "monthPay": "291,850원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "중랑중화동(주함해븐빌)",
+    "address": "서울특별시 중랑구 중랑천로 109(중화동) 주함해븐빌",
+    "lng": "127.0719471",
+    "lat": "37.5946773"
+  },
+  {
+    "keyAddress": "상봉로18길14",
+    "sells": [
+      {
+        "classes": "남여공용 A동 301호 29.88㎡",
+        "totalPrice": "6,100만원",
+        "monthPay": "196,980원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "중랑망우동(위성힐하우스)",
+    "address": "서울특별시 중랑구 상봉로18길 14(망우동,위성힐하우스) 위성힐하우스 A동",
+    "lng": "127.0942632",
+    "lat": "37.5925882"
+  },
+  {
+    "keyAddress": "종암로22길34-2",
+    "sells": [
+      {
+        "classes": "여성전용 B동 201호 57.36㎡",
+        "totalPrice": "9,720만원",
+        "monthPay": "317,410원"
+      },
+      {
+        "classes": "여성전용 B동 401호 59.13㎡",
+        "totalPrice": "10,010만원",
+        "monthPay": "327,660원"
+      },
+      {
+        "classes": "여성전용 B동 501호 43.76㎡",
+        "totalPrice": "7,570만원",
+        "monthPay": "245,700원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북종암동(해밀하우스)",
+    "address": "서울특별시 성북구 종암로22길 34-2(종암동) 해밀하우스",
+    "lng": "127.0360941",
+    "lat": "37.6000991"
+  },
+  {
+    "keyAddress": "장위로19길7-8",
+    "sells": [
+      {
+        "classes": "여성전용 202호 57.55㎡",
+        "totalPrice": "8,200만원",
+        "monthPay": "266,940원"
+      },
+      {
+        "classes": "여성전용 502호 59.84㎡",
+        "totalPrice": "8,780만원",
+        "monthPay": "286,160원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북장위동(시온아트빌)",
+    "address": "서울특별시 성북구 장위로19길 7-8(장위동) 시온아트빌",
+    "lng": "127.0426970",
+    "lat": "37.6145260"
+  },
+  {
+    "keyAddress": "종암로22길34-4",
+    "sells": [
+      {
+        "classes": "여성전용 C동 402호 55.93㎡",
+        "totalPrice": "9,470만원",
+        "monthPay": "309,350원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북종암동(해밀하우스)",
+    "address": "서울특별시 성북구 종암로22길 34-4(종암동) 해밀하우스",
+    "lng": "127.0361881",
+    "lat": "37.5999848"
+  },
+  {
+    "keyAddress": "화랑로32길131-1",
+    "sells": [
+      {
+        "classes": "여성전용 A동 202호 35.72㎡",
+        "totalPrice": "6,210만원",
+        "monthPay": "200,780원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북석관동(다원캐슬)",
+    "address": "서울특별시 성북구 화랑로32길 131-1(석관동) 다원캐슬",
+    "lng": "127.0599036",
+    "lat": "37.6052804"
+  },
+  {
+    "keyAddress": "화랑로32길131-3",
+    "sells": [
+      {
+        "classes": "여성전용 301동 201호 35.92㎡",
+        "totalPrice": "6,000만원",
+        "monthPay": "193,830원"
+      },
+      {
+        "classes": "여성전용 301동 204호 43.73㎡",
+        "totalPrice": "7,000만원",
+        "monthPay": "227,280원"
+      },
+      {
+        "classes": "여성전용 301동 402호 49.48㎡",
+        "totalPrice": "8,330만원",
+        "monthPay": "271,300원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북석관동(다원캐슬)",
+    "address": "서울특별시 성북구 화랑로32길 131-3(석관동,다원캐슬) 다원캐슬",
+    "lng": "127.0600292",
+    "lat": "37.6053699"
+  },
+  {
+    "keyAddress": "돌곶이로9가길26-7",
+    "sells": [
+      {
+        "classes": "남여공용 402호 28.98㎡",
+        "totalPrice": "6,280만원",
+        "monthPay": "202,800원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북석관동(다우아트빌)",
+    "address": "서울특별시 성북구 돌곶이로9가길 26-7(석관동) 다우아트빌",
+    "lng": "127.0590103",
+    "lat": "37.6065847"
+  },
+  {
+    "keyAddress": "정릉로21길62-4",
+    "sells": [
+      {
+        "classes": "여성전용 201호 34.55㎡",
+        "totalPrice": "5,880만원",
+        "monthPay": "189,350원"
+      },
+      {
+        "classes": "여성전용 204호 29.33㎡",
+        "totalPrice": "5,090만원",
+        "monthPay": "163,640원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북정릉동(형지리버빌)",
+    "address": "서울특별시 성북구 정릉로21길 62-4(정릉동) 형지리버빌",
+    "lng": "127.0079721",
+    "lat": "37.6080029"
+  },
+  {
+    "keyAddress": "장위로21나길63",
+    "sells": [
+      {
+        "classes": "남여공용 305호 14.85㎡",
+        "totalPrice": "2,390만원",
+        "monthPay": "73,370원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "성북장위동",
+    "address": "서울특별시 성북구 장위로21나길 63(장위동) ",
+    "lng": "127.0455090",
+    "lat": "37.6169713"
+  },
+  {
+    "keyAddress": "삼양로114길3",
+    "sells": [
+      {
+        "classes": "남여공용 301호 35.87㎡",
+        "totalPrice": "6,910만원",
+        "monthPay": "224,150원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강북수유동(은행빌라)",
+    "address": "서울특별시 강북구 삼양로114길 3(수유동,은행빌라) ",
+    "lng": "127.0171548",
+    "lat": "37.6429330"
+  },
+  {
+    "keyAddress": "덕릉로30길49",
+    "sells": [
+      {
+        "classes": "남여공용 102동 302호 30㎡",
+        "totalPrice": "6,420만원",
+        "monthPay": "207,970원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강북미아동(청운미가)",
+    "address": "서울특별시 강북구 덕릉로30길 49(미아동,청운美家) 102동",
+    "lng": "127.0259463",
+    "lat": "37.6324208"
+  },
+  {
+    "keyAddress": "삼양로41길14",
+    "sells": [
+      {
+        "classes": "남여공용 301호 15.19㎡",
+        "totalPrice": "3,770만원",
+        "monthPay": "119,750원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강북미아동",
+    "address": "서울특별시 강북구 삼양로41길 14(미아동) 미아동 745-24",
+    "lng": "127.0192770",
+    "lat": "37.6219663"
+  },
+  {
+    "keyAddress": "덕릉로60길7-21",
+    "sells": [
+      {
+        "classes": "남여공용 502호 14.76㎡",
+        "totalPrice": "3,170만원",
+        "monthPay": "99,820원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "도봉창동",
+    "address": "서울특별시 도봉구 덕릉로60길 7-21(창동) ",
+    "lng": "127.0405852",
+    "lat": "37.6406272"
+  },
+  {
+    "keyAddress": "시루봉로25길31",
+    "sells": [
+      {
+        "classes": "남여공용 A동 304호 19.908㎡",
+        "totalPrice": "4,170만원",
+        "monthPay": "132,860원"
+      },
+      {
+        "classes": "남여공용 A동 502호 20.07㎡",
+        "totalPrice": "4,170만원",
+        "monthPay": "132,380원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "도봉도봉동(허브빌)",
+    "address": "서울특별시 도봉구 시루봉로25길 31(도봉동,허브빌) 허브빌",
+    "lng": "127.0408430",
+    "lat": "37.6727000"
+  },
+  {
+    "keyAddress": "월계로44나길7-6",
+    "sells": [
+      {
+        "classes": "여성전용 202호 50.07㎡",
+        "totalPrice": "6,120만원",
+        "monthPay": "197,890원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "노원월계동(라인빌)",
+    "address": "서울특별시 노원구 월계로44나길 7-6(월계동) 라인빌",
+    "lng": "127.0531482",
+    "lat": "37.6228514"
+  },
+  {
+    "keyAddress": "동일로237나길17",
+    "sells": [
+      {
+        "classes": "남여공용 201호 40.56㎡",
+        "totalPrice": "7,270만원",
+        "monthPay": "235,790원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "노원상계동",
+    "address": "서울특별시 노원구 동일로237나길 17(상계동,해밀2동) ",
+    "lng": "127.0533498",
+    "lat": "37.6745010"
+  },
+  {
+    "keyAddress": "역말로9가길4",
+    "sells": [
+      {
+        "classes": "남여공용 401호 27.72㎡",
+        "totalPrice": "5,010만원",
+        "monthPay": "161,110원"
+      },
+      {
+        "classes": "남여공용 501호 27.72㎡",
+        "totalPrice": "4,890만원",
+        "monthPay": "156,700원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "은평대조동(초원그린빌)",
+    "address": "서울특별시 은평구 역말로9가길 4(대조동,초원그린빌) 초원그린빌",
+    "lng": "126.9215689",
+    "lat": "37.6130401"
+  },
+  {
+    "keyAddress": "만리재로96",
+    "sells": [
+      {
+        "classes": "남여공용 903호 24.17㎡",
+        "totalPrice": "6,200만원",
+        "monthPay": "200,620원"
+      },
+      {
+        "classes": "남여공용 1403호 17.89㎡",
+        "totalPrice": "4,760만원",
+        "monthPay": "152,820원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "마포공덕동(공덕헤리지움)",
+    "address": "서울특별시 마포구 만리재로 96(공덕동,공덕헤리지움) 공덕헤리지움",
+    "lng": "126.9599437",
+    "lat": "37.5487890"
+  },
+  {
+    "keyAddress": "곰달래로1길1",
+    "sells": [
+      {
+        "classes": "남여공용 102호 17.35㎡",
+        "totalPrice": "2,570만원",
+        "monthPay": "79,410원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "양천신월동",
+    "address": "서울특별시 양천구 곰달래로1길 1(신월동) ",
+    "lng": "126.8331041",
+    "lat": "37.5299844"
+  },
+  {
+    "keyAddress": "화곡로350",
+    "sells": [
+      {
+        "classes": "남여공용 312호 20.38㎡",
+        "totalPrice": "4,710만원",
+        "monthPay": "150,340원"
+      },
+      {
+        "classes": "남여공용 820호 18.02㎡",
+        "totalPrice": "4,290만원",
+        "monthPay": "136,850원"
+      },
+      {
+        "classes": "남여공용 317호 20.38㎡",
+        "totalPrice": "4,990만원",
+        "monthPay": "160,490원"
+      },
+      {
+        "classes": "남여공용 1613호 20.38㎡",
+        "totalPrice": "5,190만원",
+        "monthPay": "166,470원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서화곡동(SJ라벨라)",
+    "address": "서울특별시 강서구 화곡로 350(화곡동) SJ라벨라",
+    "lng": "126.8522098",
+    "lat": "37.5548095"
+  },
+  {
+    "keyAddress": "곰달래로57길23-6",
+    "sells": [
+      {
+        "classes": "남여공용 402호 18.74㎡",
+        "totalPrice": "3,610만원",
+        "monthPay": "114,040원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서화곡동",
+    "address": "서울특별시 강서구 곰달래로57길 23-6(화곡동) ",
+    "lng": "126.8614627",
+    "lat": "37.5334226"
+  },
+  {
+    "keyAddress": "화곡로59길71",
+    "sells": [
+      {
+        "classes": "남여공용 103호 17.28㎡",
+        "totalPrice": "4,470만원",
+        "monthPay": "142,750원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서화곡동",
+    "address": "서울특별시 강서구 화곡로59길 71(화곡동) ",
+    "lng": "126.8480237",
+    "lat": "37.5538523"
+  },
+  {
+    "keyAddress": "월정로24길16-2",
+    "sells": [
+      {
+        "classes": "남여공용 402호 14.85㎡",
+        "totalPrice": "3,180만원",
+        "monthPay": "99,780원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서화곡동",
+    "address": "서울특별시 강서구 월정로24길 16-2(화곡동) ",
+    "lng": "126.8387930",
+    "lat": "37.5308711"
+  },
+  {
+    "keyAddress": "초록마을로12길20",
+    "sells": [
+      {
+        "classes": "남여공용 302호 14.69㎡",
+        "totalPrice": "3,460만원",
+        "monthPay": "108,860원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서화곡동",
+    "address": "서울특별시 강서구 초록마을로12길 20(화곡동) ",
+    "lng": "126.8490673",
+    "lat": "37.5416973"
+  },
+  {
+    "keyAddress": "우장산로14길23",
+    "sells": [
+      {
+        "classes": "남여공용 101호 18.84㎡",
+        "totalPrice": "3,360만원",
+        "monthPay": "105,730원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서화곡동",
+    "address": "서울특별시 강서구 우장산로14길 23(화곡동) ",
+    "lng": "126.8488527",
+    "lat": "37.5522453"
+  },
+  {
+    "keyAddress": "송정로4길3",
+    "sells": [
+      {
+        "classes": "남여공용 301호 19.881㎡",
+        "totalPrice": "2,970만원",
+        "monthPay": "93,060원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강서공항동",
+    "address": "서울특별시 강서구 송정로4길 3(공항동) ",
+    "lng": "126.8111528",
+    "lat": "37.5585109"
+  },
+  {
+    "keyAddress": "경인로108길6",
+    "sells": [
+      {
+        "classes": "남여공용 508호 18.15㎡",
+        "totalPrice": "4,150만원",
+        "monthPay": "131,680원"
+      },
+      {
+        "classes": "남여공용 706호 18.24㎡",
+        "totalPrice": "4,240만원",
+        "monthPay": "135,250원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "영등포영등포동(명남더블레스)",
+    "address": "서울특별시 영등포구 경인로108길 6(영등포동1가) 명남더블레스",
+    "lng": "126.9109332",
+    "lat": "37.5171475"
+  },
+  {
+    "keyAddress": "대림로27나길19",
+    "sells": [
+      {
+        "classes": "남여공용 201호 29.48㎡",
+        "totalPrice": "7,170만원",
+        "monthPay": "232,820원"
+      },
+      {
+        "classes": "남여공용 203호 28.92㎡",
+        "totalPrice": "7,110만원",
+        "monthPay": "231,000원"
+      },
+      {
+        "classes": "남여공용 202호 24.69㎡",
+        "totalPrice": "6,050만원",
+        "monthPay": "195,540원"
+      },
+      {
+        "classes": "남여공용 302호 24.69㎡",
+        "totalPrice": "6,050만원",
+        "monthPay": "195,540원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "영등포대림동(파크에비뉴)",
+    "address": "서울특별시 영등포구 대림로27나길 19(대림동,파크에비뉴) 파크에비뉴B",
+    "lng": "126.8976542",
+    "lat": "37.4965215"
+  },
+  {
+    "keyAddress": "대림로29가길10",
+    "sells": [
+      {
+        "classes": "남여공용 101동 502호 21.08㎡",
+        "totalPrice": "4,850만원",
+        "monthPay": "155,470원"
+      },
+      {
+        "classes": "남여공용 102동 202호 28.97㎡",
+        "totalPrice": "6,670만원",
+        "monthPay": "216,070원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "영등포대림동(데에이치대림4차)",
+    "address": "서울특별시 영등포구 대림로29가길 10(대림동) 데에이치대림4차",
+    "lng": "126.8970746",
+    "lat": "37.4959445"
+  },
+  {
+    "keyAddress": "국회대로54길17",
+    "sells": [
+      {
+        "classes": "남여공용 1202호 23.39㎡",
+        "totalPrice": "8,130만원",
+        "monthPay": "264,800원"
+      },
+      {
+        "classes": "남여공용 1204호 19.36㎡",
+        "totalPrice": "6,710만원",
+        "monthPay": "217,410원"
+      },
+      {
+        "classes": "남여공용 1207호 18.43㎡",
+        "totalPrice": "6,720만원",
+        "monthPay": "217,600원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "영등포영등포동(여의도써밋)",
+    "address": "서울특별시 영등포구 국회대로54길 17(영등포동7가) 여의도써밋",
+    "lng": "126.9084139",
+    "lat": "37.5238837"
+  },
+  {
+    "keyAddress": "독산로70길72-5",
+    "sells": [
+      {
+        "classes": "남여공용 401호 16.69㎡",
+        "totalPrice": "2,090만원",
+        "monthPay": "63,450원"
+      },
+      {
+        "classes": "남여공용 501호 16.69㎡",
+        "totalPrice": "2,070만원",
+        "monthPay": "62,350원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "금천독산동",
+    "address": "서울특별시 금천구 독산로70길 72-5(독산동) ",
+    "lng": "126.9058827",
+    "lat": "37.4674850"
+  },
+  {
+    "keyAddress": "남부순환로297나길47",
+    "sells": [
+      {
+        "classes": "남여공용 301호 29.91㎡",
+        "totalPrice": "8,610만원",
+        "monthPay": "280,720원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "서초방배동",
+    "address": "서울특별시 서초구 남부순환로297나길 47(방배동) ",
+    "lng": "126.9935134",
+    "lat": "37.4765867"
+  },
+  {
+    "keyAddress": "남부순환로315길34-9",
+    "sells": [
+      {
+        "classes": "남여공용 205호 22.57㎡",
+        "totalPrice": "7,270만원",
+        "monthPay": "236,010원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "서초서초동(아이리스예당)",
+    "address": "서울특별시 서초구 남부순환로315길 34-9(서초동) ",
+    "lng": "127.0084031",
+    "lat": "37.4803212"
+  },
+  {
+    "keyAddress": "방배중앙로23길31",
+    "sells": [
+      {
+        "classes": "남여공용 302호 26.03㎡",
+        "totalPrice": "7,430만원",
+        "monthPay": "241,380원"
+      },
+      {
+        "classes": "남여공용 505호 24.32㎡",
+        "totalPrice": "7,010만원",
+        "monthPay": "227,310원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "서초방배동",
+    "address": "서울특별시 서초구 방배중앙로23길 31(방배동) ",
+    "lng": "126.9840758",
+    "lat": "37.4925670"
+  },
+  {
+    "keyAddress": "도곡로33길13",
+    "sells": [
+      {
+        "classes": "남여공용 501호 26.65㎡",
+        "totalPrice": "10,380만원",
+        "monthPay": "339,360원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강남역삼동(아르테빌)",
+    "address": "서울특별시 강남구 도곡로33길 13(역삼동) 아르테빌",
+    "lng": "127.0432434",
+    "lat": "37.4942175"
+  },
+  {
+    "keyAddress": "논현로12길23-5",
+    "sells": [
+      {
+        "classes": "남여공용 201호 28.81㎡",
+        "totalPrice": "7,740만원",
+        "monthPay": "251,940원"
+      },
+      {
+        "classes": "남여공용 202호 31.99㎡",
+        "totalPrice": "8,600만원",
+        "monthPay": "280,290원"
+      },
+      {
+        "classes": "남여공용 203호 31.99㎡",
+        "totalPrice": "8,600만원",
+        "monthPay": "280,290원"
+      },
+      {
+        "classes": "남여공용 204호 28.81㎡",
+        "totalPrice": "7,830만원",
+        "monthPay": "255,110원"
+      },
+      {
+        "classes": "남여공용 301호 28.81㎡",
+        "totalPrice": "7,900만원",
+        "monthPay": "257,360원"
+      },
+      {
+        "classes": "남여공용 302호 31.99㎡",
+        "totalPrice": "8,780만원",
+        "monthPay": "286,630원"
+      },
+      {
+        "classes": "남여공용 303호 31.99㎡",
+        "totalPrice": "8,780만원",
+        "monthPay": "286,630원"
+      },
+      {
+        "classes": "남여공용 304호 28.81㎡",
+        "totalPrice": "7,970만원",
+        "monthPay": "259,610원"
+      },
+      {
+        "classes": "남여공용 401호 30.76㎡",
+        "totalPrice": "8,440만원",
+        "monthPay": "275,130원"
+      },
+      {
+        "classes": "남여공용 402호 26.99㎡",
+        "totalPrice": "7,410만원",
+        "monthPay": "241,080원"
+      },
+      {
+        "classes": "남여공용 403호 30.76㎡",
+        "totalPrice": "8,510만원",
+        "monthPay": "277,380원"
+      },
+      {
+        "classes": "남여공용 501호 31.64㎡",
+        "totalPrice": "8,940만원",
+        "monthPay": "291,570원"
+      },
+      {
+        "classes": "남여공용 502호 32.91㎡",
+        "totalPrice": "9,280만원",
+        "monthPay": "303,110원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강남개포동(T&K개포)",
+    "address": "서울특별시 강남구 논현로12길 23-5(개포동,T&K개포)",
+    "lng": "127.0492543",
+    "lat": "37.4754298"
+  },
+  {
+    "keyAddress": "가락로39길32-1",
+    "sells": [
+      {
+        "classes": "남여공용 201호 22.89㎡",
+        "totalPrice": "5,730만원",
+        "monthPay": "185,040원"
+      },
+      {
+        "classes": "남여공용 202호 25.3㎡",
+        "totalPrice": "6,340만원",
+        "monthPay": "205,250원"
+      },
+      {
+        "classes": "남여공용 203호 26.16㎡",
+        "totalPrice": "6,560만원",
+        "monthPay": "212,490원"
+      },
+      {
+        "classes": "남여공용 204호 23.43㎡",
+        "totalPrice": "5,970만원",
+        "monthPay": "192,840원"
+      },
+      {
+        "classes": "남여공용 301호 22.89㎡",
+        "totalPrice": "5,780만원",
+        "monthPay": "186,370원"
+      },
+      {
+        "classes": "남여공용 302호 25.3㎡",
+        "totalPrice": "6,410만원",
+        "monthPay": "207,500원"
+      },
+      {
+        "classes": "남여공용 303호 26.16㎡",
+        "totalPrice": "6,650만원",
+        "monthPay": "215,650원"
+      },
+      {
+        "classes": "남여공용 304호 23.43㎡",
+        "totalPrice": "6,060만원",
+        "monthPay": "196,000원"
+      },
+      {
+        "classes": "남여공용 401호 28.58㎡",
+        "totalPrice": "7,170만원",
+        "monthPay": "232,710원"
+      },
+      {
+        "classes": "남여공용 402호 32.05㎡",
+        "totalPrice": "8,230만원",
+        "monthPay": "268,070원"
+      },
+      {
+        "classes": "남여공용 501호 45.41㎡",
+        "totalPrice": "10,070만원",
+        "monthPay": "329,510원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "송파방이동(굿모닝빌)",
+    "address": "서울특별시 송파구 가락로39길 32-1(방이동,굿모닝빌) ",
+    "lng": "127.1157412",
+    "lat": "37.5129208"
+  },
+  {
+    "keyAddress": "삼전로4길3-13",
+    "sells": [
+      {
+        "classes": "남여공용 201호 31.82㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "276,700원"
+      },
+      {
+        "classes": "남여공용 202호 35.76㎡",
+        "totalPrice": "9,300만원",
+        "monthPay": "304,020원"
+      },
+      {
+        "classes": "남여공용 203호 38.03㎡",
+        "totalPrice": "9,780만원",
+        "monthPay": "319,350원"
+      },
+      {
+        "classes": "남여공용 204호 36.33㎡",
+        "totalPrice": "9,590만원",
+        "monthPay": "313,250원"
+      },
+      {
+        "classes": "남여공용 301호 31.82㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "276,700원"
+      },
+      {
+        "classes": "남여공용 302호 35.76㎡",
+        "totalPrice": "9,300만원",
+        "monthPay": "304,020원"
+      },
+      {
+        "classes": "남여공용 303호 38.03㎡",
+        "totalPrice": "9,780만원",
+        "monthPay": "319,350원"
+      },
+      {
+        "classes": "남여공용 304호 36.33㎡",
+        "totalPrice": "9,590만원",
+        "monthPay": "313,250원"
+      },
+      {
+        "classes": "남여공용 401호 31.82㎡",
+        "totalPrice": "8,480만원",
+        "monthPay": "276,700원"
+      },
+      {
+        "classes": "남여공용 402호 32.1㎡",
+        "totalPrice": "8,460만원",
+        "monthPay": "276,130원"
+      },
+      {
+        "classes": "남여공용 403호 34.05㎡",
+        "totalPrice": "8,980만원",
+        "monthPay": "292,890원"
+      },
+      {
+        "classes": "남여공용 404호 36.34㎡",
+        "totalPrice": "9,590만원",
+        "monthPay": "313,260원"
+      },
+      {
+        "classes": "남여공용 501호 31.82㎡",
+        "totalPrice": "8,600만원",
+        "monthPay": "280,280원"
+      },
+      {
+        "classes": "남여공용 502호 44.68㎡",
+        "totalPrice": "11,050만원",
+        "monthPay": "362,160원"
+      },
+      {
+        "classes": "남여공용 503호 37.84㎡",
+        "totalPrice": "9,980만원",
+        "monthPay": "326,360원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "송파삼전동(삼전파크빌)",
+    "address": "서울특별시 송파구 삼전로4길 3-13(삼전동) ",
+    "lng": "127.0872856",
+    "lat": "37.5027738"
+  },
+  {
+    "keyAddress": "여의대방로200",
+    "sells": [
+      {
+        "classes": "남여공용 201호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 202호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 203호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 204호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 205호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 206호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 207호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 208호 17.3185㎡",
+        "totalPrice": "5,150만원",
+        "monthPay": "165,700원"
+      },
+      {
+        "classes": "남여공용 209호 16.9036㎡",
+        "totalPrice": "5,040만원",
+        "monthPay": "161,420원"
+      },
+      {
+        "classes": "남여공용 210호 16.9036㎡",
+        "totalPrice": "5,040만원",
+        "monthPay": "161,420원"
+      },
+      {
+        "classes": "남여공용 211호 16.9036㎡",
+        "totalPrice": "5,040만원",
+        "monthPay": "161,420원"
+      },
+      {
+        "classes": "남여공용 301호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 302호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 303호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 304호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 305호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 306호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 307호 17.3185㎡",
+        "totalPrice": "5,210만원",
+        "monthPay": "167,530원"
+      },
+      {
+        "classes": "남여공용 308호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 309호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 310호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 311호 16.9036㎡",
+        "totalPrice": "5,090만원",
+        "monthPay": "163,630원"
+      },
+      {
+        "classes": "남여공용 312호 16.9036㎡",
+        "totalPrice": "5,090만원",
+        "monthPay": "163,630원"
+      },
+      {
+        "classes": "남여공용 313호 16.9036㎡",
+        "totalPrice": "5,090만원",
+        "monthPay": "163,630원"
+      },
+      {
+        "classes": "남여공용 401호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 402호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 403호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 404호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 405호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 406호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 407호 17.3185㎡",
+        "totalPrice": "5,260만원",
+        "monthPay": "169,410원"
+      },
+      {
+        "classes": "남여공용 408호 17.3185㎡",
+        "totalPrice": "5,320만원",
+        "monthPay": "171,240원"
+      },
+      {
+        "classes": "남여공용 409호 17.3185㎡",
+        "totalPrice": "5,320만원",
+        "monthPay": "171,240원"
+      },
+      {
+        "classes": "남여공용 410호 17.3185㎡",
+        "totalPrice": "5,320만원",
+        "monthPay": "171,240원"
+      },
+      {
+        "classes": "남여공용 411호 16.9036㎡",
+        "totalPrice": "5,140만원",
+        "monthPay": "165,420원"
+      },
+      {
+        "classes": "남여공용 412호 16.9036㎡",
+        "totalPrice": "5,140만원",
+        "monthPay": "165,420원"
+      },
+      {
+        "classes": "남여공용 413호 16.9036㎡",
+        "totalPrice": "5,140만원",
+        "monthPay": "165,420원"
+      },
+      {
+        "classes": "남여공용 501호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 502호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 503호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 504호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 505호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 506호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 507호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 508호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 509호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 510호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 511호 16.9036㎡",
+        "totalPrice": "5,250만원",
+        "monthPay": "168,920원"
+      },
+      {
+        "classes": "남여공용 512호 16.9036㎡",
+        "totalPrice": "5,250만원",
+        "monthPay": "168,920원"
+      },
+      {
+        "classes": "남여공용 513호 16.9036㎡",
+        "totalPrice": "5,250만원",
+        "monthPay": "168,920원"
+      },
+      {
+        "classes": "남여공용 601호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 602호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 603호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 604호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 605호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 606호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 607호 17.3185㎡",
+        "totalPrice": "5,370만원",
+        "monthPay": "173,110원"
+      },
+      {
+        "classes": "남여공용 608호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 609호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 610호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 611호 16.9036㎡",
+        "totalPrice": "5,250만원",
+        "monthPay": "168,920원"
+      },
+      {
+        "classes": "남여공용 612호 16.9036㎡",
+        "totalPrice": "5,250만원",
+        "monthPay": "168,920원"
+      },
+      {
+        "classes": "남여공용 613호 16.9036㎡",
+        "totalPrice": "5,250만원",
+        "monthPay": "168,920원"
+      },
+      {
+        "classes": "남여공용 701호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 702호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 703호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 704호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 705호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 706호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 707호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 708호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 709호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 710호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 711호 16.9036㎡",
+        "totalPrice": "5,310만원",
+        "monthPay": "170,630원"
+      },
+      {
+        "classes": "남여공용 712호 16.9036㎡",
+        "totalPrice": "5,310만원",
+        "monthPay": "170,630원"
+      },
+      {
+        "classes": "남여공용 713호 16.9036㎡",
+        "totalPrice": "5,310만원",
+        "monthPay": "170,630원"
+      },
+      {
+        "classes": "남여공용 801호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 802호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 803호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 804호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 805호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 806호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 807호 17.3185㎡",
+        "totalPrice": "5,430만원",
+        "monthPay": "174,950원"
+      },
+      {
+        "classes": "남여공용 808호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 809호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 810호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 811호 16.9036㎡",
+        "totalPrice": "5,310만원",
+        "monthPay": "170,630원"
+      },
+      {
+        "classes": "남여공용 812호 16.9036㎡",
+        "totalPrice": "5,310만원",
+        "monthPay": "170,630원"
+      },
+      {
+        "classes": "남여공용 813호 16.9036㎡",
+        "totalPrice": "5,310만원",
+        "monthPay": "170,630원"
+      },
+      {
+        "classes": "남여공용 901호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 902호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 903호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 904호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 905호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 906호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 907호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 908호 17.3185㎡",
+        "totalPrice": "5,540만원",
+        "monthPay": "178,660원"
+      },
+      {
+        "classes": "남여공용 909호 17.3185㎡",
+        "totalPrice": "5,540만원",
+        "monthPay": "178,660원"
+      },
+      {
+        "classes": "남여공용 910호 17.3185㎡",
+        "totalPrice": "5,540만원",
+        "monthPay": "178,660원"
+      },
+      {
+        "classes": "남여공용 911호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 912호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 913호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1001호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1002호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1003호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1004호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1005호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1006호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1007호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1008호 17.3185㎡",
+        "totalPrice": "5,540만원",
+        "monthPay": "178,660원"
+      },
+      {
+        "classes": "남여공용 1009호 17.3185㎡",
+        "totalPrice": "5,540만원",
+        "monthPay": "178,660원"
+      },
+      {
+        "classes": "남여공용 1010호 17.3185㎡",
+        "totalPrice": "5,540만원",
+        "monthPay": "178,660원"
+      },
+      {
+        "classes": "남여공용 1011호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1012호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1013호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,380원"
+      },
+      {
+        "classes": "남여공용 1101호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1102호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1103호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1104호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1105호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1106호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1107호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1108호 17.7132㎡",
+        "totalPrice": "5,810만원",
+        "monthPay": "187,150원"
+      },
+      {
+        "classes": "남여공용 1109호 17.7132㎡",
+        "totalPrice": "5,810만원",
+        "monthPay": "187,150원"
+      },
+      {
+        "classes": "남여공용 1110호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1111호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1112호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1201호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1202호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1203호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1204호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1205호 17.3185㎡",
+        "totalPrice": "5,480만원",
+        "monthPay": "176,820원"
+      },
+      {
+        "classes": "남여공용 1206호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1207호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      },
+      {
+        "classes": "남여공용 1208호 16.9036㎡",
+        "totalPrice": "5,360만원",
+        "monthPay": "172,420원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "동작대방동(보라매센트럴타운)",
+    "address": "서울특별시 동작구 여의대방로 200(대방동,보라매 센트럴타운)",
+    "lng": "126.9225577",
+    "lat": "37.5045772"
+  },
+  {
+    "keyAddress": "양재대로97길17",
+    "sells": [
+      {
+        "classes": "남여공용 제6동 501호 45.99㎡",
+        "totalPrice": "12,060만원",
+        "monthPay": "395,400원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강동성내동(주함해븐빌)",
+    "address": "서울특별시 강동구 양재대로97길 17(성내동,주함해븐빌) 주함해븐빌 제6동",
+    "lng": "127.1360629",
+    "lat": "37.5311243"
+  },
+  {
+    "keyAddress": "성안로13길32",
+    "sells": [
+      {
+        "classes": "남여공용 401호 35.68㎡",
+        "totalPrice": "7,790만원",
+        "monthPay": "253,570원"
+      },
+      {
+        "classes": "남여공용 402호 36.92㎡",
+        "totalPrice": "7,710만원",
+        "monthPay": "250,540원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "강동성내동(엘림하우스)",
+    "address": "서울특별시 강동구 성안로13길 32(성내동,엘림하우스) 엘림하우스",
+    "lng": "127.1306886",
+    "lat": "37.5318130"
+  },
+  {
+    "keyAddress": "호국로1067번길29",
+    "sells": [
+      {
+        "classes": "남여공용 201호 49.88㎡",
+        "totalPrice": "3,860만원",
+        "monthPay": "122,750원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "의정부가능동(드림)",
+    "address": "경기도 의정부시 호국로1067번길 29(가능동,드림) 드림",
+    "lng": "127.0214410",
+    "lat": "37.7426954"
+  },
+  {
+    "keyAddress": "덕정14길23",
+    "sells": [
+      {
+        "classes": "남여공용 102동 101호 43.72㎡",
+        "totalPrice": "3,110만원",
+        "monthPay": "97,760원"
+      }
+    ],
+    "gov": "LH 청년매입",
+    "name": "양주덕정동(자이빌)",
+    "address": "경기도 양주시 덕정14길 23(덕정동) 자이빌",
+    "lng": "127.0665710",
+    "lat": "37.8419812"
+  }
+]
