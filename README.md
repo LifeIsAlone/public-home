@@ -33,4 +33,4 @@
 
 ### 아키텍쳐
 
-![image-20220831185234535](./public/assets/1.png)
+![아키텍쳐](./public/assets/1.png)
