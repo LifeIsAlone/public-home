@@ -3,7 +3,7 @@ import { loadNMaps } from '../../utils/naverMapHelper';
 
 export const NaverMapContext = createContext(null);
 
-/**@Todo Suspense를 활용해 JsonData, NaverMap의 로딩검사하기 */
+/**@Todo Suspense를 활용해 JsonData, NaverMap의 로딩 제작하기(다른방법 OK) */
 /**이유: 10/1의 확률로 NaverMap이 로딩이 안됨 */
 
 const NaverMap = forwardRef((props, ref) => {
