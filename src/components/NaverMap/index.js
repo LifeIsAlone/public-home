@@ -1,5 +1,4 @@
 import React, { createContext, forwardRef, useEffect, useState } from 'react';
-import { loadNMaps } from '../../utils/naverMapHelper';
 
 export const NaverMapContext = createContext(null);
 
@@ -8,21 +7,14 @@ export const NaverMapContext = createContext(null);
 
 const NaverMap = forwardRef((props, ref) => {
     const [map, setMap] = useState(null);
-    const [renderAfter, setRenderAfter] = useState(false);
-    useEffect(() => () => loadNMaps(setRenderAfter(true)), []);
     useEffect(() => {
-        if (renderAfter && window) {
-            const mapOptions = {
-                center: new naver.maps.LatLng(
-                    props.center.lat,
-                    props.center.lng,
-                ),
-                zoom: props.zoom,
-            };
-            const map = new naver.maps.Map(props.id, mapOptions);
-            setMap(map);
-        }
-    }, [renderAfter, window]);
+        const mapOptions = {
+            center: new naver.maps.LatLng(props.center.lat, props.center.lng),
+            zoom: props.zoom,
+        };
+        const map = new naver.maps.Map(props.id, mapOptions);
+        setMap(map);
+    }, []);
     return (
         <>
             <div
