@@ -5,8 +5,9 @@ import Image from 'next/image';
 import NaverMap from '../components/NaverMap';
 import Marker from '../components/NaverMap/Marker';
 import Header from '../container/Home/Header';
+import { getEmojiList } from '../libs/sheets';
 
-export default function Home() {
+export default function Home({ emojis }) {
     return (
         <div>
             <Head>
@@ -27,6 +28,17 @@ export default function Home() {
                     <Marker />
                 </NaverMap>
             </main>
+            {emojis[0].title}
         </div>
     );
+}
+
+export async function getStaticProps() {
+    const emojis = await getEmojiList();
+    return {
+        props: {
+            emojis: emojis.slice(1, emojis.length), // remove sheet header
+        },
+        revalidate: 1, // In seconds
+    };
 }
