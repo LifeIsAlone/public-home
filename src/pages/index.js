@@ -5,8 +5,9 @@ import Image from 'next/image';
 import NaverMap from '../components/NaverMap';
 import Marker from '../components/NaverMap/Marker';
 import Header from '../container/Home/Header';
+import { getSpreadSheetData } from '../libs/sheets';
 
-export default function Home() {
+export default function Home({ spreadSheetData }) {
     return (
         <div>
             <Head>
@@ -18,15 +19,26 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Script
-    			strategy="beforeInteractive"
-    			src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_MAP_KEY}`}
-    		></Script>
+                strategy="beforeInteractive"
+                src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_MAP_KEY}`}
+            ></Script>
             <main>
                 <NaverMap>
                     <Header />
                     <Marker />
                 </NaverMap>
             </main>
+            {spreadSheetData[0].주소}
         </div>
     );
+}
+
+export async function getStaticProps() {
+    const response = await getSpreadSheetData();
+    return {
+        props: {
+            spreadSheetData: response,
+        },
+        revalidate: 1, // In seconds
+    };
 }
