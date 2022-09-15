@@ -28,7 +28,8 @@ export default function Home({ spreadSheetData }) {
                     <Marker />
                 </NaverMap>
             </main>
-            {spreadSheetData[0].주소}
+            {spreadSheetData[0].주소} {spreadSheetData[0]['lat']}{' '}
+            {spreadSheetData[0]['lng']}
         </div>
     );
 }
