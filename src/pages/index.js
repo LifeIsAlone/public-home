@@ -18,9 +18,9 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Script
-    			strategy="beforeInteractive"
-    			src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_MAP_KEY}`}
-    		></Script>
+                strategy="beforeInteractive"
+                src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_MAP_KEY}`}
+            ></Script>
             <main>
                 <NaverMap>
                     <Header />
