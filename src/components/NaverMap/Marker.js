@@ -9,6 +9,7 @@ import useMap from '../../hooks/useMap';
  *
  * @param {*} props {
  *  Required: position:{lat: Number, lng: Number}
+ *  style : Marker StyleProps
  *  children
  * }
  * @param {*} ref return Marker Obj
@@ -25,6 +26,10 @@ const CreateMarker = (props, ref) => {
                 props.position.lat,
                 props.position.lng,
             ),
+            icon: {
+                url: 'https://i.ibb.co/cL3pwtk/homeSH.png',
+                scaledSize: new naver.maps.Size(20, 20),
+            },
         });
         if (props.children) {
             const infowindow = new naver.maps.InfoWindow({

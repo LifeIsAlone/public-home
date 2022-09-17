@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Marker from '../../../components/NaverMap/Marker';
 
-function HomeMarker({ position, homeInfo, sells }) {
+function HomeMarker({ position, homeInfo, children }) {
     return (
         <Marker position={position}>
             <InfoWindowDiv>
@@ -15,15 +15,7 @@ function HomeMarker({ position, homeInfo, sells }) {
                             <p>
                                 임대조건(2,3순위 청년 기준, 보증금 최대전환 시)
                             </p>
-                            {sells.map((sell) => {
-                                return (
-                                    <ul>
-                                        <li>주택정보: {sell.classes}</li>
-                                        <li>보증금: {sell.totalPrice}</li>
-                                        <li>임대료: {sell.monthPay}</li>
-                                    </ul>
-                                );
-                            })}
+                            {children}
                         </span>
                     </div>
                 </InfoWindowScroll>
