@@ -24,7 +24,7 @@ export default function Home() {
             <main>
                 <NaverMap>
                     <Header />
-                    <Marker />
+                    <Marker></Marker>
                 </NaverMap>
             </main>
         </div>

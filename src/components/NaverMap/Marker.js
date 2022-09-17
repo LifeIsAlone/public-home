@@ -1,12 +1,19 @@
 import React, { forwardRef, useEffect } from 'react';
+import ReactDOMServer from 'react-dom/server';
 import useMap from '../../hooks/useMap';
 
-const CreateMarker = (props, ref) => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const map = useMap();
+/**
+ * Author: ParkAward
+ * createAt: 2022.09.17
+ * res: https://navermaps.github.io/maps.js.ncp/docs/naver.maps.Marker.html
+ *
+ */
 
+const CreateMarker = (props, ref) => {
+    const map = useMap();
     useEffect(() => {
         if (!map) return;
+        if (!props.position) throw new Error('좌표를 입력해주세요');
         const marker = new naver.maps.Marker({
             map: map,
             position: new naver.maps.LatLng(
@@ -14,9 +21,20 @@ const CreateMarker = (props, ref) => {
                 props.position.lng,
             ),
         });
-    }, [map]);
+        if (props.children) {
+            const infowindow = new naver.maps.InfoWindow({
+                content: ReactDOMServer.renderToStaticMarkup(props.children),
+            });
 
-    return <div ref={ref} className="Marker"></div>;
+            naver.maps.Event.addListener(marker, 'click', (e) => {
+                if (infowindow.getMap()) {
+                    infowindow.close();
+                } else {
+                    infowindow.open(map, marker);
+                }
+            });
+        }
+    }, [map]);
 };
 
 const Marker = forwardRef(CreateMarker);
