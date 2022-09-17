@@ -5,6 +5,7 @@ import Image from 'next/image';
 import NaverMap from '../components/NaverMap';
 import Marker from '../components/NaverMap/Marker';
 import Header from '../container/Home/Header';
+import HomeMarker from '../container/Home/HomeMarker';
 
 export default function Home() {
     return (
@@ -24,7 +25,7 @@ export default function Home() {
             <main>
                 <NaverMap>
                     <Header />
-                    <Marker></Marker>
+                    <HomeMarker />
                 </NaverMap>
             </main>
         </div>

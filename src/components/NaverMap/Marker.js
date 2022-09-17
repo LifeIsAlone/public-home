@@ -7,6 +7,11 @@ import useMap from '../../hooks/useMap';
  * createAt: 2022.09.17
  * res: https://navermaps.github.io/maps.js.ncp/docs/naver.maps.Marker.html
  *
+ * @param {*} props {
+ *  Required: position:{lat: Number, lng: Number}
+ *  children
+ * }
+ * @param {*} ref return Marker Obj
  */
 
 const CreateMarker = (props, ref) => {
