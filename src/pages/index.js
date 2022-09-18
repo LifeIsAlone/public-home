@@ -3,8 +3,8 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Image from 'next/image';
 import NaverMap from '../components/NaverMap';
-import Marker from '../components/NaverMap/Marker';
 import Header from '../container/Home/Header';
+import HomeMarker from '../container/Home/HomeMarker';
 import { getSpreadSheetData } from '../libs/sheets';
 
 export default function Home({ spreadSheetData }) {
@@ -25,7 +25,14 @@ export default function Home({ spreadSheetData }) {
             <main>
                 <NaverMap>
                     <Header />
-                    <Marker />
+                    {spreadSheetData.map((data) => {
+                        const { lat, lng, ...info } = data;
+                        return (
+                            <HomeMarker position={{ lat, lng }}>
+                                <div>{Object.values(info)}</div>
+                            </HomeMarker>
+                        );
+                    })}
                 </NaverMap>
             </main>
             {spreadSheetData[0].주소} {spreadSheetData[0]['lat']}{' '}
