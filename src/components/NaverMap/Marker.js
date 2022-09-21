@@ -42,8 +42,6 @@ const CreateMarker = (props, ref) => {
             });
 
             naver.maps.Event.addListener(marker, 'mouseover', (e) => {
-                console.log(infowindow);
-                console.log(infowindow.contentElement);
                 infowindow.open(map, marker);
             });
             infowindow.contentElement.addEventListener('mouseout', () =>

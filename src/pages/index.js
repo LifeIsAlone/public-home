@@ -26,17 +26,10 @@ export default function Home({ spreadSheetData }) {
                 <NaverMap>
                     <Header />
                     {spreadSheetData.map((data) => {
-                        const { lat, lng, ...info } = data;
-                        return (
-                            <HomeMarker position={{ lat, lng }}>
-                                <div>{Object.values(info)}</div>
-                            </HomeMarker>
-                        );
+                        return <HomeMarker key={data['순번']} data={data} />;
                     })}
                 </NaverMap>
             </main>
-            {spreadSheetData[0].주소} {spreadSheetData[0]['lat']}{' '}
-            {spreadSheetData[0]['lng']}
         </div>
     );
 }
