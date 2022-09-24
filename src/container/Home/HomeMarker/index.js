@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { useEffect } from 'react';
+import styled, { useTheme } from 'styled-components';
 import Marker from '../../../components/NaverMap/Marker';
 
 //data Property
@@ -29,36 +29,48 @@ import Marker from '../../../components/NaverMap/Marker';
   }
 */
 
-function HomeMarker({ data }) {
+function HomeMarker({ data, callback }) {
+    const theme = useTheme();
+
+    const SummaryInfoContainer = styled.div`
+        width: 20rem;
+        height: 7rem;
+        border-radius: 3rem;
+        background: white;
+        display: flex;
+        overflow: hidden;
+    `;
+    const SummaryInfoIcon = styled.div``;
+
+    const SummaryInfoContents = styled.div`
+        display: flex;
+        padding: 1rem 2rem;
+        flex-flow: column nowrap;
+        font-size: ${theme.fontSizes.md};
+        h3 {
+            font-size: ${theme.fontSizes.xl};
+            font-weight: 600;
+        }
+    `;
     return (
         <Marker
             position={{
                 lat: data.lat,
                 lng: data.lng,
             }}
+            onClick={() => callback(data.homes)}
         >
             <SummaryInfoContainer>
-                <p>{data['주택군 이름']}</p>
-                <p>{data['주택유형']}</p>
+                <SummaryInfoIcon />
+                <SummaryInfoContents>
+                    <h3>{data['주택군 이름']}</h3>
+                    <p>주택유형: {data['주택유형']}</p>
+                    <p>주소: {data['주소']}</p>
+                    <p>승강기: {data['승강기']}</p>
+                </SummaryInfoContents>
             </SummaryInfoContainer>
         </Marker>
     );
 }
-
-const SummaryInfoContainer = styled.div`
-    width: 10rem;
-    height: 5rem;
-    border-radius: 50%;
-    background: white;
-`;
-
-HomeMarker.defaultProps = {
-    position: { lat: 37.5666805, lng: 126.9784147 },
-    homeInfo: {
-        gov: 'test',
-        name: 'testName',
-    },
-    sells: [{ classes: 1, totalPrice: 2, monthPay: 3 }],
-};
 
 export default HomeMarker;

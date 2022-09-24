@@ -38,16 +38,20 @@ const CreateMarker = (props, ref) => {
                 borderWidth: 0,
                 disableAnchor: true,
                 backgroundColor: 'translate',
-                pixelOffset: new naver.maps.Point(0, 100),
+                pixelOffset: new naver.maps.Point(0, 80),
             });
 
             naver.maps.Event.addListener(marker, 'mouseover', (e) => {
                 infowindow.open(map, marker);
             });
-            infowindow.contentElement.addEventListener('mouseout', () =>
-                infowindow.close(),
-            );
-            infowindow.contentElement.addEventListener('click', props.onClick);
+
+            infowindow.wrapper.addEventListener('mouseout', (e) => {
+                e.stopPropagation();
+                infowindow.close();
+            });
+            infowindow.contentElement.addEventListener('click', (e) => {
+                if (infowindow.getMap()) props.onClick(e);
+            });
         }
     }, [map]);
 };
