@@ -34,22 +34,17 @@ const CreateMarker = (props, ref) => {
         });
         if (props.children) {
             const infowindow = new naver.maps.InfoWindow({
-                content: ReactDOMServer.renderToStaticMarkup(props.children),
-                borderWidth: 0,
-                disableAnchor: true,
-                backgroundColor: 'translate',
-                pixelOffset: new naver.maps.Point(0, 80),
+                content: ReactDOMServer.renderToStaticMarkup(props.children)
             });
 
             naver.maps.Event.addListener(marker, 'mouseover', (e) => {
                 infowindow.open(map, marker);
             });
 
-            infowindow.wrapper.addEventListener('mouseout', (e) => {
-                e.stopPropagation();
+            naver.maps.Event.addListener(marker, 'mouseout', (e) => {
                 infowindow.close();
             });
-            infowindow.contentElement.addEventListener('click', (e) => {
+            naver.maps.Event.addListener(marker, 'click', (e) => {
                 if (infowindow.getMap()) props.onClick(e);
             });
         }
