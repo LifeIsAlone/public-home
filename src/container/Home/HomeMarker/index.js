@@ -1,58 +1,76 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { useEffect } from 'react';
+import styled, { useTheme } from 'styled-components';
 import Marker from '../../../components/NaverMap/Marker';
 
-function HomeMarker({ position, homeInfo, children }) {
+//data Property
+/* {
+    '순번': '265',
+    '지역본부': '서울지역본부',
+    '지역': '경기도',
+    '명': '매입다가구(경기양주시)',
+    '주소': '경기도 양주시 덕정14길 23(덕정동) 자이빌',
+    '동': '102',
+    '호': '101',
+    '주택군 이름': '양주덕정동(자이빌)',
+    '주택열람일정': '열람불가(계약 전 주택 개방)',
+    '공급형': '단독(1인)',
+    '성별용도 구분': '남여공용',
+    '전용\n 면적': '43.72',
+    '주거공용\n 면적': '11.87',
+    '면적계': '55.59',
+    '방수': '2',
+    '층수': '1층',
+    '승강기': 'Y',
+    '주택유형': '오피스텔',
+    '임대보증금(원)': '31,100,000',
+    '월임대료(원)': '97,760',
+    lng: '127.0665710',
+    lat: '37.8419812'
+  }
+*/
+
+function HomeMarker({ data, callback }) {
+    const theme = useTheme();
+
+    const SummaryInfoContainer = styled.div`
+        width: 20rem;
+        height: 7rem;
+        border-radius: 3rem;
+        background: white;
+        display: flex;
+        overflow: hidden;
+    `;
+    const SummaryInfoIcon = styled.div``;
+
+    const SummaryInfoContents = styled.div`
+        display: flex;
+        padding: 1rem 2rem;
+        flex-flow: column nowrap;
+        font-size: ${theme.fontSizes.md};
+        h3 {
+            font-size: ${theme.fontSizes.xl};
+            font-weight: 600;
+        }
+    `;
     return (
-        <Marker position={position}>
-            <InfoWindowDiv>
-                <InfoWindowScroll>
-                    <div>
-                        <span class="notranslate">
-                            <h3>
-                                [{homeInfo.gov}] {homeInfo.name}
-                            </h3>
-                            <p>
-                                임대조건(2,3순위 청년 기준, 보증금 최대전환 시)
-                            </p>
-                            {children}
-                        </span>
-                    </div>
-                </InfoWindowScroll>
-            </InfoWindowDiv>
+        <Marker
+            position={{
+                lat: data.lat,
+                lng: data.lng,
+            }}
+            onClick={() => callback(data.homes)}
+        >
+            <SummaryInfoContainer>
+                <SummaryInfoIcon />
+                <SummaryInfoContents>
+                    <h3>{data['주택군 이름']}</h3>
+                    <p>주택유형: {data['주택유형']}</p>
+                    <p>주소: {data['주소']}</p>
+                    <p>승강기: {data['승강기']}</p>
+                </SummaryInfoContents>
+            </SummaryInfoContainer>
         </Marker>
     );
 }
-
-const InfoWindowDiv = styled.div`
-    width: 350px;
-    text-align: left;
-    padding: 10px;
-`;
-
-const InfoWindowScroll = styled.div`
-    display: flex;
-    overflow: auto;
-    height: 30vh;
-    &::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-        border-radius: 6px;
-        background: rgba(255, 255, 255, 0.4);
-    }
-    &::-webkit-scrollbar-thumb {
-        background: rgba(0, 0, 0, 0.3);
-        border-radius: 6px;
-    }
-`;
-
-HomeMarker.defaultProps = {
-    position: { lat: 37.5666805, lng: 126.9784147 },
-    homeInfo: {
-        gov: 'test',
-        name: 'testName',
-    },
-    sells: [{ classes: 1, totalPrice: 2, monthPay: 3 }],
-};
 
 export default HomeMarker;

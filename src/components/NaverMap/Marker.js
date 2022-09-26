@@ -26,6 +26,7 @@ const CreateMarker = (props, ref) => {
                 props.position.lat,
                 props.position.lng,
             ),
+            // {...props.style} but can't use
             icon: {
                 url: 'https://i.ibb.co/cL3pwtk/homeSH.png',
                 scaledSize: new naver.maps.Size(20, 20),
@@ -34,14 +35,22 @@ const CreateMarker = (props, ref) => {
         if (props.children) {
             const infowindow = new naver.maps.InfoWindow({
                 content: ReactDOMServer.renderToStaticMarkup(props.children),
+                borderWidth: 0,
+                disableAnchor: true,
+                backgroundColor: 'translate',
+                pixelOffset: new naver.maps.Point(0, 80),
             });
 
-            naver.maps.Event.addListener(marker, 'click', (e) => {
-                if (infowindow.getMap()) {
-                    infowindow.close();
-                } else {
-                    infowindow.open(map, marker);
-                }
+            naver.maps.Event.addListener(marker, 'mouseover', (e) => {
+                infowindow.open(map, marker);
+            });
+
+            infowindow.wrapper.addEventListener('mouseout', (e) => {
+                e.stopPropagation();
+                infowindow.close();
+            });
+            infowindow.contentElement.addEventListener('click', (e) => {
+                if (infowindow.getMap()) props.onClick(e);
             });
         }
     }, [map]);
