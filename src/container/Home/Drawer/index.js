@@ -10,7 +10,7 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         position: fixed;
         display: flex;
         flex-flow: row;
-        width: 34rem;
+        width: 24rem;
         height: 100vh;
         top: 0;
         right: ${hide ? '0' : '-30rem'};
@@ -22,16 +22,18 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         width: 2em;
         height: 100vh;
         top: 0;
-        right: ${hide ? '34rem' : '0'};
+        right: ${hide ? '24rem' : '0'};
         background-image: url(${hide ? drawerOpenIcon : drawerCloseIcon});
         background-repeat: no-repeat;
-        
         background-position: center;
     `;
     const DrawerContents = styled.div`
         width: 90em;
-        padding: 3em;
+        padding: 2em;
         background: #ffffff;
+        li {
+            padding: 0.3em;
+        }
     `;
     const ContentsBox = styled.div`
         margin: 1em;
@@ -44,27 +46,21 @@ const Drawer = ({ state, hide, onToggleClick }) => {
             <DrawerEventBox onClick={onToggleClick} />
             {hide && <DrawerContainer>
                 <DrawerContents>
-                    {state.name}
-                    {<p>임대조건(2,3순위 청년 기준, 보증금 최대전환 시)</p>}
+                    {<h2><b>[LH 청년매입] {state.name}</b></h2>}
+                    {<br/>}
+                    {<p>- 임대조건 (2,3순위 청년 기준, 보증금 최대전환 시)</p>}
+                    {<br/>}
+                    {<br/>}
                     {state.sells &&
                         state.sells.map((home) => (
                             <>
                                 <ul>
-                                    <li>주택정보: {home.classes} </li>
-                                    <li>보증금: {home.totalPrice}</li>
-                                    <li>임대료: {home.monthPay}</li>
+                                    <li>* 주택정보: {home.classes} </li>
+                                    <li>* 보증금: {home.totalPrice}</li>
+                                    <li>* 임대료: {home.monthPay}</li>
                                 </ul>
+                                <br/>
                             </>
-                            
-                            // <ContentsBox>
-                            //     {Object.values(home).map((item) => (
-                            //         <>
-                            //             <p>{item}</p>
-                                        
-                            //         </>
-                            //         // <p>{x}</p>
-                            //     ))}
-                            // </ContentsBox>
                         ))}
                 </DrawerContents>
             </DrawerContainer>}
