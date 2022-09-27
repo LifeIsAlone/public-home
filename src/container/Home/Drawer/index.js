@@ -4,6 +4,8 @@ import styled, { useTheme } from 'styled-components';
 const Drawer = ({ state, hide, onToggleClick }) => {
     const theme = useTheme();
 
+    const drawerOpenIcon = 'https://i.ibb.co/k5qPgfM/725-D4685-A361-4-A36-BE98-14-D3-B2-D3-A369-4-5005-c.jpg';
+    const drawerCloseIcon = 'https://i.ibb.co/858qKcX/AB15-B4-AB-1-EE9-4597-800-B-965-F7-D1460-D7-4-5005-c.jpg';
     const DrawerContainer = styled.div`
         position: fixed;
         display: flex;
@@ -17,11 +19,14 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         position: fixed;
         display: flex;
         flex-flow: row;
-        width: 10em;
+        width: 2em;
         height: 100vh;
         top: 0;
         right: ${hide ? '34rem' : '0'};
-        background: #000;
+        background-image: url(${hide ? drawerOpenIcon : drawerCloseIcon});
+        background-repeat: no-repeat;
+        
+        background-position: center;
     `;
     const DrawerContents = styled.div`
         width: 90em;
