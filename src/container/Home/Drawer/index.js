@@ -28,8 +28,10 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         background-position: center;
     `;
     const DrawerContents = styled.div`
-        width: 90em;
-        padding: 2em;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 2em;
+        padding-left: 2em;
         background: #ffffff;
         li {
             padding: 0.3em;
@@ -41,27 +43,47 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         height: 10em;
         border: 1px grey solid;
     `;
+
+    const InfoWindowScroll = styled.div`
+        overflow: auto;
+        height: 100vh;
+        &::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.4);
+        }
+        &::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 6px;
+        }
+    `;
     return (
         <>
             <DrawerEventBox onClick={onToggleClick} />
             {hide && <DrawerContainer>
                 <DrawerContents>
-                    {<h2><b>[LH 청년매입] {state.name}</b></h2>}
-                    {<br/>}
-                    {<p>- 임대조건 (2,3순위 청년 기준, 보증금 최대전환 시)</p>}
-                    {<br/>}
-                    {<br/>}
-                    {state.sells &&
-                        state.sells.map((home) => (
-                            <>
-                                <ul>
-                                    <li>* 주택정보: {home.classes} </li>
-                                    <li>* 보증금: {home.totalPrice}</li>
-                                    <li>* 임대료: {home.monthPay}</li>
-                                </ul>
-                                <br/>
-                            </>
-                        ))}
+                    <InfoWindowScroll>
+                        <>
+                        <h2><b>[LH 청년매입] {state.name}</b></h2>
+                        <br/>
+                        <p>- 임대조건 (2,3순위 청년 기준, 보증금 최대전환 시)</p>
+                        <br/>
+                        <br/>
+                        {state.sells &&
+                            state.sells.map((home) => (
+                                <>
+                                    <ul>
+                                        <li>* 주택정보: {home.classes} </li>
+                                        <li>* 보증금: {home.totalPrice}</li>
+                                        <li>* 임대료: {home.monthPay}</li>
+                                    </ul>
+                                    <br/>
+                                </>
+                            ))
+                        }
+                        </>
+                    </InfoWindowScroll>
                 </DrawerContents>
             </DrawerContainer>}
         </>
