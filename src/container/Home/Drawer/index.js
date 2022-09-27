@@ -12,6 +12,7 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         flex-flow: row;
         width: 24rem;
         height: 100vh;
+        background: #ffffff;
         top: 0;
         right: ${hide ? '0' : '-30rem'};
     `;
@@ -19,7 +20,7 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         position: fixed;
         display: flex;
         flex-flow: row;
-        width: 2em;
+        width: 2rem;
         height: 100vh;
         top: 0;
         right: ${hide ? '24rem' : '0'};
@@ -30,11 +31,13 @@ const Drawer = ({ state, hide, onToggleClick }) => {
     const DrawerContents = styled.div`
         width: 100vw;
         height: 100vh;
-        padding-top: 2em;
-        padding-left: 2em;
+        padding-left: 2rem;
         background: #ffffff;
         li {
             padding: 0.3em;
+        }
+        p#eof{
+            text-align: center;
         }
     `;
     const ContentsBox = styled.div`
@@ -65,12 +68,12 @@ const Drawer = ({ state, hide, onToggleClick }) => {
                 <DrawerContents>
                     <InfoWindowScroll>
                         <>
+                        <br/>
                         <h2><b>[LH 청년매입] {state.name}</b></h2>
                         <br/>
                         <p>- 승강기 유무 : {state.elevator==="Y"? "있음" : state.elevator==="N"? "없음": "알수없음"}</p>
                         <br/>
                         <p>- 임대조건 (2,3순위 청년 기준, 보증금 최대전환 시)</p>
-                        <br/>
                         <br/>
                         <br/>
                         {state.sells &&
@@ -87,6 +90,7 @@ const Drawer = ({ state, hide, onToggleClick }) => {
                             ))
                         }
                         </>
+                        <p id="eof">이하 빈칸</p>
                     </InfoWindowScroll>
                 </DrawerContents>
             </DrawerContainer>}
