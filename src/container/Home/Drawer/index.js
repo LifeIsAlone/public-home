@@ -29,7 +29,7 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         background-position: center;
     `;
     const DrawerContents = styled.div`
-        width: 100vw;
+        width: 24rem;
         height: 100vh;
         padding-left: 2rem;
         background: #ffffff;
