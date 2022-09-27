@@ -70,10 +70,17 @@ const preprocessingLH = (datas) => {
 
 export default function Home({ spreadSheetData }) {
     const [homes, setHomes] = useState([]);
+    const [hide, setHide] = useState(false);
     const HomeBucket = useMemo(() => {
         return(Object.values(preprocessingLH(spreadSheetData)));
     }, []);
-
+    const handleDrawerHide = () => setHide(true)
+    const handleDrawerEvent = () => setHide((f) => !f)
+    const handleDataSet = (data) => setHomes(data)
+    const handlers = (data) => {
+        handleDataSet(data)
+        handleDrawerHide()
+    }
     return (
         <div>
             <Head>
@@ -88,13 +95,13 @@ export default function Home({ spreadSheetData }) {
             <main>
                 <NaverMap>
                     <Header />
-                    <Drawer state={homes} />
+                    <Drawer state={homes} hide={hide} onToggleClick={handleDrawerEvent}/>
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker
                                 key={`key_${data.lat}${data.lng}`}
                                 data={data}
-                                callback={(data) => setHomes(data)}
+                                onMarkerClick={handlers}
                             />
                         );
                     })}
