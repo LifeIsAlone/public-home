@@ -71,6 +71,8 @@ const Drawer = ({ state, hide, onToggleClick }) => {
                         <br/>
                         <h2><b>[LH 청년매입] {state.name}</b></h2>
                         <br/>
+                        <p>- 주소 : {state.address.split("(")[0]}</p>
+                        <br/>
                         <p>- 승강기 유무 : {state.elevator==="Y"? "있음" : state.elevator==="N"? "없음": "알수없음"}</p>
                         <br/>
                         <p>- 임대조건 (2,3순위 청년 기준, 보증금 최대전환 시)</p>
