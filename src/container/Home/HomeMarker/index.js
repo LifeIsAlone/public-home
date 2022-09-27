@@ -33,9 +33,6 @@ function HomeMarker({ data, callback }) {
     const theme = useTheme();
 
     const SummaryInfoContainer = styled.div`
-        width: 20rem;
-        height: 7rem;
-        border-radius: 3rem;
         background: white;
         display: flex;
         overflow: hidden;
@@ -44,7 +41,7 @@ function HomeMarker({ data, callback }) {
 
     const SummaryInfoContents = styled.div`
         display: flex;
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         flex-flow: column nowrap;
         font-size: ${theme.fontSizes.md};
         h3 {
@@ -58,15 +55,12 @@ function HomeMarker({ data, callback }) {
                 lat: data.lat,
                 lng: data.lng,
             }}
-            onClick={() => callback(data.homes)}
+            onClick={() => callback(data)}
         >
             <SummaryInfoContainer>
                 <SummaryInfoIcon />
                 <SummaryInfoContents>
-                    <h3>{data['주택군 이름']}</h3>
-                    <p>주택유형: {data['주택유형']}</p>
-                    <p>주소: {data['주소']}</p>
-                    <p>승강기: {data['승강기']}</p>
+                    <h3>{data.name}</h3>
                 </SummaryInfoContents>
             </SummaryInfoContainer>
         </Marker>
