@@ -24,7 +24,7 @@ const Drawer = ({ state }) => {
     const DrawerContents = styled.div`
         width: 90em;
         padding: 3em;
-        background: #fffa;
+        background: #ffffff;
     `;
     const ContentsBox = styled.div`
         margin: 1em;
@@ -36,13 +36,26 @@ const Drawer = ({ state }) => {
         <DrawerContainer>
             <DrawerEventBox onClick={() => setHide((f) => !f)} />
             <DrawerContents>
-                {state.length > 0 &&
-                    state.map((home) => (
-                        <ContentsBox>
-                            {Object.values(home).map((x) => (
-                                <p>{x}</p>
-                            ))}
-                        </ContentsBox>
+                {state.name}
+                {state.sells &&
+                    state.sells.map((home) => (
+                        <>
+                            <ul>
+                                <li>주택정보: {home.classes} </li>
+                                <li>보증금: {home.totalPrice}</li>
+                                <li>임대료: {home.monthPay}</li>
+                            </ul>
+                        </>
+                        
+                        // <ContentsBox>
+                        //     {Object.values(home).map((item) => (
+                        //         <>
+                        //             <p>{item}</p>
+                                    
+                        //         </>
+                        //         // <p>{x}</p>
+                        //     ))}
+                        // </ContentsBox>
                     ))}
             </DrawerContents>
         </DrawerContainer>
