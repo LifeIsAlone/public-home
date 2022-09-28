@@ -39,7 +39,8 @@ const preprocessingLH = (datas) => {
                     "호 " +
                     Number(homeObject['전용면적']) +
                     "㎡",
-                roomCount:homeObject['방수'],
+                roomCount: homeObject['방수'] + "개",
+                elevator: homeObject['승강기'],
                 totalPrice: addCommas(convertToNumber(homeObject['임대보증금(원)']) / 10000) + "만원",
                 monthPay: homeObject['월임대료(원)'].trim() + "원",
             }
@@ -55,13 +56,14 @@ const preprocessingLH = (datas) => {
     });
   
     homesList.forEach(
-      ({ lng, lat, keyCoords, address, classes, monthPay, name, totalPrice, roomCount }) => {
+      ({ lng, lat, keyCoords, address, classes, monthPay, name, totalPrice, roomCount, elevator }) => {
         const Obj = homesReuslt.filter((e) => e.keyCoords === keyCoords)[0];
         Obj.gov = "LH 청년매입";
         Obj.name = name;
         Obj.address = address;
-        Obj.lat = lat
-        Obj.lng = lng
+        Obj.lat = lat;
+        Obj.lng = lng;
+        Obj.elevator = elevator;
         Obj.sells.push({ classes, roomCount, totalPrice, monthPay });
       }
     );
@@ -70,10 +72,17 @@ const preprocessingLH = (datas) => {
 
 export default function Home({ spreadSheetData }) {
     const [homes, setHomes] = useState([]);
+    const [hide, setHide] = useState(false);
     const HomeBucket = useMemo(() => {
         return(Object.values(preprocessingLH(spreadSheetData)));
     }, []);
-
+    const handleDrawerHide = () => setHide(true)
+    const handleDrawerEvent = () => setHide((f) => !f)
+    const handleDataSet = (data) => setHomes(data)
+    const handlers = (data) => {
+        handleDataSet(data)
+        handleDrawerHide()
+    }
     return (
         <div>
             <Head>
@@ -88,13 +97,13 @@ export default function Home({ spreadSheetData }) {
             <main>
                 <NaverMap>
                     <Header />
-                    <Drawer state={homes} />
+                    <Drawer state={homes} hide={hide} onToggleClick={handleDrawerEvent}/>
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker
                                 key={`key_${data.lat}${data.lng}`}
                                 data={data}
-                                callback={(data) => setHomes(data)}
+                                onMarkerClick={handlers}
                             />
                         );
                     })}
