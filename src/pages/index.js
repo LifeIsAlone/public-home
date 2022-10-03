@@ -10,79 +10,89 @@ import { useMemo, useState } from 'react';
 import Drawer from '../container/Home/Drawer';
 
 const convertToNumber = (string) => {
-    return parseInt(string.replace(/(,|개|원)/g, ""));
-  };
-  
+    return parseInt(string.replace(/(,|개|원)/g, ''));
+};
+
 const addCommas = (n) => {
-return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 };
 
 const getAddress = (addr) => {
-  const re =
-    /(([가-힣A-Za-z·\d~\-\.]{2,}(로|길).[\d|-\d]+)|([가-힣A-Za-z·\d~\-\.]+(읍|동)\s)[\d]+)/;
-  return re.exec(addr)[0];
+    const re =
+        /(([가-힣A-Za-z·\d~\-\.]{2,}(로|길).[\d|-\d]+)|([가-힣A-Za-z·\d~\-\.]+(읍|동)\s)[\d]+)/;
+    return re.exec(addr)[0];
 };
 
-const preprocessingLH = (datas) => {  
-    const homesList = datas.map((homeObject) => (
-            {
-                lat : homeObject.lat,
-                lng : homeObject.lng,
-                keyCoords: `${homeObject.lat} ${homeObject.lng}`,
-                address: homeObject['주소'],
-                name: homeObject['주택군 이름'],
-                classes:
-                    homeObject['성별용도 구분'] +
-                    " " +
-                    (homeObject['동'] ? homeObject['동'] + "동 " : "") +
-                    homeObject['호'] +
-                    "호 " +
-                    Number(homeObject['전용면적']) +
-                    "㎡",
-                roomCount: homeObject['방수'] + "개",
-                elevator: homeObject['승강기'],
-                totalPrice: addCommas(convertToNumber(homeObject['임대보증금(원)']) / 10000) + "만원",
-                monthPay: homeObject['월임대료(원)'].trim() + "원",
-            }
-        )
-      );
-  
+const preprocessingLH = (datas) => {
+    const homesList = datas.map((homeObject) => ({
+        lat: homeObject.lat,
+        lng: homeObject.lng,
+        keyCoords: `${homeObject.lat} ${homeObject.lng}`,
+        address: homeObject['주소'],
+        name: homeObject['주택군 이름'],
+        classes:
+            homeObject['성별용도 구분'] +
+            ' ' +
+            (homeObject['동'] ? homeObject['동'] + '동 ' : '') +
+            homeObject['호'] +
+            '호 ' +
+            Number(homeObject['전용면적']) +
+            '㎡',
+        roomCount: homeObject['방수'] + '개',
+        elevator: homeObject['승강기'],
+        totalPrice:
+            addCommas(convertToNumber(homeObject['임대보증금(원)']) / 10000) +
+            '만원',
+        monthPay: homeObject['월임대료(원)'].trim() + '원',
+    }));
+
     const homesCoordsList = homesList.map(({ keyCoords }) => keyCoords);
-  
+
     const homesCoordsSetify = Array.from(new Set(homesCoordsList));
-  
+
     const homesReuslt = homesCoordsSetify.map((keyCoords) => {
-      return { keyCoords, sells: [] };
+        return { keyCoords, sells: [] };
     });
-  
+
     homesList.forEach(
-      ({ lng, lat, keyCoords, address, classes, monthPay, name, totalPrice, roomCount, elevator }) => {
-        const Obj = homesReuslt.filter((e) => e.keyCoords === keyCoords)[0];
-        Obj.gov = "LH 청년매입";
-        Obj.name = name;
-        Obj.address = address;
-        Obj.lat = lat;
-        Obj.lng = lng;
-        Obj.elevator = elevator;
-        Obj.sells.push({ classes, roomCount, totalPrice, monthPay });
-      }
+        ({
+            lng,
+            lat,
+            keyCoords,
+            address,
+            classes,
+            monthPay,
+            name,
+            totalPrice,
+            roomCount,
+            elevator,
+        }) => {
+            const Obj = homesReuslt.filter((e) => e.keyCoords === keyCoords)[0];
+            Obj.gov = 'LH 청년매입';
+            Obj.name = name;
+            Obj.address = address;
+            Obj.lat = lat;
+            Obj.lng = lng;
+            Obj.elevator = elevator;
+            Obj.sells.push({ classes, roomCount, totalPrice, monthPay });
+        },
     );
     return homesReuslt;
-  };
+};
 
 export default function Home({ spreadSheetData }) {
     const [homes, setHomes] = useState([]);
     const [hide, setHide] = useState(false);
     const HomeBucket = useMemo(() => {
-        return(Object.values(preprocessingLH(spreadSheetData)));
+        return Object.values(preprocessingLH(spreadSheetData));
     }, []);
-    const handleDrawerHide = () => setHide(true)
-    const handleDrawerEvent = () => setHide((f) => !f)
-    const handleDataSet = (data) => setHomes(data)
+    const handleDrawerHide = () => setHide(true);
+    const handleDrawerEvent = () => setHide((f) => !f);
+    const handleDataSet = (data) => setHomes(data);
     const handlers = (data) => {
-        handleDataSet(data)
-        handleDrawerHide()
-    }
+        handleDataSet(data);
+        handleDrawerHide();
+    };
     return (
         <div>
             <Head>
@@ -97,7 +107,11 @@ export default function Home({ spreadSheetData }) {
             <main>
                 <NaverMap>
                     <Header />
-                    <Drawer state={homes} hide={hide} onToggleClick={handleDrawerEvent}/>
+                    <Drawer
+                        state={homes}
+                        hide={hide}
+                        onToggleClick={handleDrawerEvent}
+                    />
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker

@@ -4,8 +4,10 @@ import styled, { useTheme } from 'styled-components';
 const Drawer = ({ state, hide, onToggleClick }) => {
     const theme = useTheme();
 
-    const drawerOpenIcon = 'https://i.ibb.co/k5qPgfM/725-D4685-A361-4-A36-BE98-14-D3-B2-D3-A369-4-5005-c.jpg';
-    const drawerCloseIcon = 'https://i.ibb.co/858qKcX/AB15-B4-AB-1-EE9-4597-800-B-965-F7-D1460-D7-4-5005-c.jpg';
+    const drawerOpenIcon =
+        'https://i.ibb.co/k5qPgfM/725-D4685-A361-4-A36-BE98-14-D3-B2-D3-A369-4-5005-c.jpg';
+    const drawerCloseIcon =
+        'https://i.ibb.co/858qKcX/AB15-B4-AB-1-EE9-4597-800-B-965-F7-D1460-D7-4-5005-c.jpg';
     const DrawerContainer = styled.div`
         position: fixed;
         display: flex;
@@ -36,7 +38,7 @@ const Drawer = ({ state, hide, onToggleClick }) => {
         li {
             padding: 0.3em;
         }
-        p#eof{
+        p#eof {
             text-align: center;
         }
     `;
@@ -64,38 +66,59 @@ const Drawer = ({ state, hide, onToggleClick }) => {
     return (
         <>
             <DrawerEventBox onClick={onToggleClick} />
-            {hide && <DrawerContainer>
-                <DrawerContents>
-                    <InfoWindowScroll>
-                        <>
-                        <br/>
-                        <h2><b>[LH 청년매입] {state.name}</b></h2>
-                        <br/>
-                        <p>- 주소 : {state.address.split("(")[0]}</p>
-                        <br/>
-                        <p>- 승강기 유무 : {state.elevator==="Y"? "있음" : state.elevator==="N"? "없음": "알수없음"}</p>
-                        <br/>
-                        <p>- 임대조건 (2,3순위 청년 기준, 보증금 최대전환 시)</p>
-                        <br/>
-                        <br/>
-                        {state.sells &&
-                            state.sells.map((home) => (
-                                <>
-                                    <ul>
-                                        <li>* 주택정보: {home.classes} </li>
-                                        <li>* 방수: {home.roomCount} </li>
-                                        <li>* 보증금: {home.totalPrice} </li>
-                                        <li>* 임대료: {home.monthPay} </li>
-                                    </ul>
-                                    <br/>
-                                </>
-                            ))
-                        }
-                        </>
-                        <p id="eof">이하 빈칸</p>
-                    </InfoWindowScroll>
-                </DrawerContents>
-            </DrawerContainer>}
+            {hide && (
+                <DrawerContainer>
+                    <DrawerContents>
+                        <InfoWindowScroll>
+                            <>
+                                <br />
+                                <h2>
+                                    <b>[LH 청년매입] {state.name}</b>
+                                </h2>
+                                <br />
+                                <p>- 주소 : {state.address.split('(')[0]}</p>
+                                <br />
+                                <p>
+                                    - 승강기 유무 :{' '}
+                                    {state.elevator === 'Y'
+                                        ? '있음'
+                                        : state.elevator === 'N'
+                                        ? '없음'
+                                        : '알수없음'}
+                                </p>
+                                <br />
+                                <p>
+                                    - 임대조건 (2,3순위 청년 기준, 보증금
+                                    최대전환 시)
+                                </p>
+                                <br />
+                                <br />
+                                {state.sells &&
+                                    state.sells.map((home) => (
+                                        <>
+                                            <ul>
+                                                <li>
+                                                    * 주택정보: {home.classes}{' '}
+                                                </li>
+                                                <li>
+                                                    * 방수: {home.roomCount}{' '}
+                                                </li>
+                                                <li>
+                                                    * 보증금: {home.totalPrice}{' '}
+                                                </li>
+                                                <li>
+                                                    * 임대료: {home.monthPay}{' '}
+                                                </li>
+                                            </ul>
+                                            <br />
+                                        </>
+                                    ))}
+                            </>
+                            <p id="eof">이하 빈칸</p>
+                        </InfoWindowScroll>
+                    </DrawerContents>
+                </DrawerContainer>
+            )}
         </>
     );
 };
