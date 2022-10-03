@@ -34,8 +34,8 @@ const NaverMap = forwardRef((props, ref) => {
 
 NaverMap.defaultProps = {
     id: 'map',
-    center: { lat: 37.5666103, lng: 126.9783882 },
-    zoom: 12,
+    center: { lat: 36.435469, lng: 128.1582 },
+    zoom: 11,
     width: '100vw',
     height: '100vh',
 };

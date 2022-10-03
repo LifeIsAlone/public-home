@@ -28,24 +28,20 @@ const CreateMarker = (props, ref) => {
             ),
             // {...props.style} but can't use
             icon: {
-                url: 'https://i.ibb.co/f0k0wk9/homeLH.png',
-                scaledSize: new naver.maps.Size(20, 20),
+                url: 'https://i.ibb.co/kcqFcjh/1.png',
+                scaledSize: new naver.maps.Size(18, 18),
             },
         });
         if (props.children) {
             const infowindow = new naver.maps.InfoWindow({
                 content: ReactDOMServer.renderToStaticMarkup(props.children),
             });
-
-            naver.maps.Event.addListener(marker, 'mouseover', (e) => {
-                infowindow.open(map, marker);
-            });
-
-            naver.maps.Event.addListener(marker, 'mouseout', (e) => {
-                infowindow.close();
-            });
             naver.maps.Event.addListener(marker, 'click', (e) => {
-                if (infowindow.getMap()) props.onClick(e);
+                if (infowindow.getMap()) {
+                    infowindow.close();
+                } else {
+                    infowindow.open(map, marker);
+                }
             });
         }
     }, [map]);

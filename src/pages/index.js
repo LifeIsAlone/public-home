@@ -81,23 +81,23 @@ const preprocessingLH = (datas) => {
 };
 
 export default function Home({ spreadSheetData }) {
-    const [homes, setHomes] = useState([]);
-    const [hide, setHide] = useState(false);
+    // const [homes, setHomes] = useState([]);
+    // const [hide, setHide] = useState(false);
     const HomeBucket = useMemo(() => {
-        return Object.values(preprocessingLH(spreadSheetData));
+        return Object.values(spreadSheetData);
     }, []);
-    const handleDrawerHide = () => setHide(true);
-    const handleDrawerEvent = () => setHide((f) => !f);
-    const handleDataSet = (data) => setHomes(data);
-    const handlers = (data) => {
-        handleDataSet(data);
-        handleDrawerHide();
-    };
+    // const handleDrawerHide = () => setHide(true);
+    // const handleDrawerEvent = () => setHide((f) => !f);
+    // const handleDataSet = (data) => setHomes(data);
+    // const handlers = (data) => {
+    //     handleDataSet(data);
+    //     handleDrawerHide();
+    // };
     return (
         <div>
             <Head>
-                <title>청년주택 지도</title>
-                <meta name="description" content="청년주택 지도" />
+                <title>바위구멍 지도</title>
+                <meta name="description" content="바위구멍 지도" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Script
@@ -106,18 +106,18 @@ export default function Home({ spreadSheetData }) {
             ></Script>
             <main>
                 <NaverMap>
-                    <Header />
-                    <Drawer
+                    {/* <Header /> */}
+                    {/* <Drawer
                         state={homes}
                         hide={hide}
                         onToggleClick={handleDrawerEvent}
-                    />
+                    /> */}
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker
                                 key={`key_${data.lat}${data.lng}`}
                                 data={data}
-                                onMarkerClick={handlers}
+                                // onMarkerClick={handlers}
                             />
                         );
                     })}

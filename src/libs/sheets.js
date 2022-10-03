@@ -41,7 +41,7 @@ export async function getSpreadSheetData() {
         const sheets = google.sheets({ version: 'v4', auth: jwt });
         const response = await sheets.spreadsheets.values.get({
             spreadsheetId: process.env.SPREADSHEET_ID,
-            range: '2209청년매입_1', // sheet name
+            range: '바위구멍', // sheet name
         });
 
         const rows = response.data.values;
@@ -56,7 +56,7 @@ export async function getSpreadSheetData() {
             });
             return await Promise.all(
                 result.map(async (row) => {
-                    const coord = await addressToCoord(row.주소);
+                    const coord = await addressToCoord(row.위치);
                     return { ...row, ...coord };
                 }),
             );

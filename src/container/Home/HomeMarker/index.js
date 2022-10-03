@@ -29,7 +29,7 @@ import Marker from '../../../components/NaverMap/Marker';
   }
 */
 
-function HomeMarker({ data, onMarkerClick }) {
+function HomeMarker({ data }) {
     const theme = useTheme();
 
     const SummaryInfoContainer = styled.div`
@@ -55,12 +55,12 @@ function HomeMarker({ data, onMarkerClick }) {
                 lat: data.lat,
                 lng: data.lng,
             }}
-            onClick={() => onMarkerClick(data)}
+            // onClick={() => onMarkerClick(data)}
         >
             <SummaryInfoContainer>
                 <SummaryInfoIcon />
                 <SummaryInfoContents>
-                    <h3>{data.name}</h3>
+                    <h3>{data['명칭']}</h3>
                 </SummaryInfoContents>
             </SummaryInfoContainer>
         </Marker>
