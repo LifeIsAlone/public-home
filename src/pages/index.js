@@ -8,6 +8,7 @@ import HomeMarker from '../container/Home/HomeMarker';
 import { getSpreadSheetData } from '../libs/sheets';
 import { useMemo, useState } from 'react';
 import Drawer from '../container/Home/Drawer';
+import CurrentPositionMarker from '../container/Home/CurrentPositionMarker';
 
 const convertToNumber = (string) => {
     return parseInt(string.replace(/(,|개|원)/g, ''));
@@ -86,6 +87,14 @@ export default function Home({ spreadSheetData }) {
     const HomeBucket = useMemo(() => {
         return Object.values(spreadSheetData);
     }, []);
+    const [currentPositionState, setCurrentPositionState] = useState({
+        center: {
+            lat: 33.450701,
+            lng: 126.570667,
+        },
+        errMsg: null,
+        isLoading: true,
+    });
     // const handleDrawerHide = () => setHide(true);
     // const handleDrawerEvent = () => setHide((f) => !f);
     // const handleDataSet = (data) => setHomes(data);
@@ -112,6 +121,10 @@ export default function Home({ spreadSheetData }) {
                         hide={hide}
                         onToggleClick={handleDrawerEvent}
                     /> */}
+                    <CurrentPositionMarker
+                        state={currentPositionState}
+                        setState={setCurrentPositionState}
+                    ></CurrentPositionMarker>
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker
