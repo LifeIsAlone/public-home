@@ -55,6 +55,8 @@ function HomeMarker({ data }) {
                 lat: data.lat,
                 lng: data.lng,
             }}
+            src={'https://i.ibb.co/kcqFcjh/1.png'}
+            size={18}
             // onClick={() => onMarkerClick(data)}
         >
             <SummaryInfoContainer>

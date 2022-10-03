@@ -28,8 +28,8 @@ const CreateMarker = (props, ref) => {
             ),
             // {...props.style} but can't use
             icon: {
-                url: 'https://i.ibb.co/kcqFcjh/1.png',
-                scaledSize: new naver.maps.Size(18, 18),
+                url: props.src,
+                scaledSize: new naver.maps.Size(props.size, props.size),
             },
         });
         if (props.children) {
