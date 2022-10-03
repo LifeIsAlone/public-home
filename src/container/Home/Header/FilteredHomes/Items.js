@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useHomesState } from '../../../../provider/HomeContext';
-import { setCenterByPosition } from '../../../../util/naverMapHelper';
+import setMapCenter from '../../../../hooks/setMapCenter';
 
 export default function Items({ item }) {
-    const state = useHomesState();
-    const { address, name, sells, position } = item;
+    const setCenter = setMapCenter();
+    const { address, name, sells, lat, lng } = item;
     const handleClick = (e) => {
-        setCenterByPosition(state.map.data, position);
+        setCenter({ lat, lng });
+        // setCenterByPosition(state.map.data, position);
     };
     return (
         <StyledLi key={name} onClick={handleClick}>

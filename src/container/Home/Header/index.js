@@ -3,20 +3,25 @@ import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 
 import icon from '../../../images/happy.png';
+import { createFuzzyMatcher } from '../../../utils/fuzzyMatcher';
+import FilteredHomes from './FilteredHomes';
 
-export default function Header() {
-    const [visibility, setVisibility] = useState(false);
+export default function Header({ data }) {
+    const [visibility, setVisibility] = useState(true);
 
     const [search, setSearch] = useState('');
-    const [searching, setSearching] = useState(false);
+    const [searching, setSearching] = useState(true);
     const [searchedData, setSearchData] = useState([]);
 
     useEffect(() => {
         if (searching && search) {
             setSearching(false);
+            setSearchData(
+                data.filter((x) => x.address.match(createFuzzyMatcher(search))),
+            );
         }
         if (searching && !search) {
-            setSearchData('');
+            setSearchData([]);
         }
     }, [search]);
 
@@ -55,7 +60,9 @@ export default function Header() {
                         <input type="submit" value="검색" />
                     </form>
                 </AsideSearch>
-                <AsideContents>{searchedData}</AsideContents>
+                <AsideContents>
+                    <FilteredHomes data={searchedData} />
+                </AsideContents>
             </div>
         </AsidePosition>
     );
