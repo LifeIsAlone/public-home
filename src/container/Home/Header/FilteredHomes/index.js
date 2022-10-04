@@ -1,16 +1,13 @@
 /* eslint-disable react/jsx-key */
 
-import React, { useRef } from 'react';
-import { useHomesState } from './../../../../provider/HomeContext';
+import React from 'react';
 import Items from './Items';
 import styled from 'styled-components';
 
-export default function FilteredHomes() {
-    const scroll = useRef(null);
-    const state = useHomesState();
+export default function FilteredHomes({ data }) {
     return (
-        <CustomUl ref={scroll}>
-            {state.filteredHomes.map((item) => (
+        <CustomUl>
+            {data.map((item) => (
                 <Items item={item} />
             ))}
         </CustomUl>

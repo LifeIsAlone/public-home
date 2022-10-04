@@ -106,7 +106,7 @@ export default function Home({ spreadSheetData }) {
             ></Script>
             <main>
                 <NaverMap>
-                    <Header />
+                    <Header data={HomeBucket} />
                     <Drawer
                         state={homes}
                         hide={hide}
