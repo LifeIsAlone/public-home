@@ -34,7 +34,7 @@ const CreateMarker = (props, ref) => {
         });
         if (props.children) {
             const infowindow = new naver.maps.InfoWindow({
-                content: ReactDOMServer.renderToStaticMarkup(props.children)
+                content: ReactDOMServer.renderToStaticMarkup(props.children),
             });
 
             naver.maps.Event.addListener(marker, 'mouseover', (e) => {

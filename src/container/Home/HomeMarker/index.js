@@ -55,7 +55,7 @@ function HomeMarker({ data, onMarkerClick }) {
                 lat: data.lat,
                 lng: data.lng,
             }}
-            onClick={()=>onMarkerClick(data)}
+            onClick={() => onMarkerClick(data)}
         >
             <SummaryInfoContainer>
                 <SummaryInfoIcon />
