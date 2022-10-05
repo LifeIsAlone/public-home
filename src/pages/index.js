@@ -33,8 +33,10 @@ const preprocessingLH = (datas) => {
         classes:
             homeObject['성별용도 구분'] +
             ' ' +
-            (homeObject['동'] ? homeObject['동'] + '동 ' : '') +
-            homeObject['호'] +
+            (homeObject['동']
+                ? homeObject['동'].replace('동', '') + '동 '
+                : '') +
+            homeObject['호'].replace('호', '') +
             '호 ' +
             Number(homeObject['전용면적']) +
             '㎡',
