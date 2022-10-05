@@ -73,7 +73,10 @@ const Drawer = ({ state, hide, onToggleClick }) => {
                             <>
                                 <br />
                                 <h2>
-                                    <b>[LH 청년매입] {state.name}</b>
+                                    <b>
+                                        [LH 청년매입-{state.noticeKinds}]{' '}
+                                        {state.name}
+                                    </b>
                                 </h2>
                                 <br />
                                 <p>- 주소 : {state.address.split('(')[0]}</p>
