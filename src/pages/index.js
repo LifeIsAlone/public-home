@@ -8,6 +8,8 @@ import HomeMarker from '../container/Home/HomeMarker';
 import { getSpreadSheetData } from '../libs/sheets';
 import { useMemo, useState } from 'react';
 import Drawer from '../container/Home/Drawer';
+import Header2 from '../container/Drawer';
+import Search from '../container/Search';
 
 const convertToNumber = (string) => {
     return parseInt(string.replace(/(,|개|원)/g, ''));
@@ -105,13 +107,9 @@ export default function Home({ spreadSheetData }) {
                 src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_MAP_KEY}`}
             ></Script>
             <main>
+                <Search />
+                <Header2 />
                 <NaverMap>
-                    <Header data={HomeBucket} />
-                    <Drawer
-                        state={homes}
-                        hide={hide}
-                        onToggleClick={handleDrawerEvent}
-                    />
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker
