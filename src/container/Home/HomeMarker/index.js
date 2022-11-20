@@ -67,4 +67,4 @@ function HomeMarker({ data, onMarkerClick }) {
     );
 }
 
-export default HomeMarker;
+export default React.memo(HomeMarker);

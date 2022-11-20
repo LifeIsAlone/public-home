@@ -12,11 +12,11 @@ function Header2(props) {
 
 const Container = styled.div`
     width: 390px;
-    height: 100%;
+    height: calc(100% - 122px);
     position: absolute;
     background: #ffffff;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-    z-index: 999;
+    z-index: 99999;
 `;
 const SearchArea = styled.div`
     height: 122px;

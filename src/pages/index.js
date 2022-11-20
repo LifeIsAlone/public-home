@@ -10,6 +10,7 @@ import { useMemo, useState } from 'react';
 import Drawer from '../container/Home/Drawer';
 import Header2 from '../container/Drawer';
 import Search from '../container/Search';
+import SearchAutoComplete from '../container/SearchAutoComplete';
 
 const convertToNumber = (string) => {
     return parseInt(string.replace(/(,|개|원)/g, ''));
@@ -109,6 +110,7 @@ export default function Home({ spreadSheetData }) {
             <main>
                 <Search />
                 <Header2 />
+                <SearchAutoComplete />
                 <NaverMap>
                     {HomeBucket.map((data) => {
                         return (

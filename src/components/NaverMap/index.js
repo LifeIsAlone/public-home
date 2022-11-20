@@ -22,7 +22,7 @@ const NaverMap = forwardRef((props, ref) => {
             <div
                 ref={ref}
                 id={props.id}
-                data-testid="map"
+                data-testid="wwwwwmap"
                 style={{ width: props.width, height: props.height }}
             ></div>
             <NaverMapContext.Provider value={map}>
