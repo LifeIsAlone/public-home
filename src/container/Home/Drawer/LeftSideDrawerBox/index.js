@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import Open from '../../../../assets/Open';
 
-function LeftSideDrawerBox({ opening, setOpening }) {
+function LeftSideDrawerBox({ opening, handleDrawerOpening }) {
     return (
         <Container className={opening ? '__open' : '__close'}>
             <SearchArea />
             <ContentsArea />
-            <TriggerBtn onClick={() => setOpening((open) => !open)}>
+            <TriggerBtn onClick={() => handleDrawerOpening()}>
                 <Open />
             </TriggerBtn>
         </Container>

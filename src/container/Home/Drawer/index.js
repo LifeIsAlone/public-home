@@ -3,13 +3,24 @@ import LeftSideDrawerBox from './LeftSideDrawerBox';
 import Search from './Search';
 import SearchAutoComplete from './SearchAutoComplete';
 
-function Drawer() {
-    const [opening, setOpening] = useState(true);
+function Drawer({
+    opening,
+    handleDrawerOpening,
+    searchText,
+    handleSearchText,
+    data,
+}) {
     return (
         <>
-            <LeftSideDrawerBox opening={opening} setOpening={setOpening} />
-            <Search />
-            <SearchAutoComplete />
+            <LeftSideDrawerBox
+                opening={opening}
+                handleDrawerOpening={handleDrawerOpening}
+            />
+            <Search
+                searchText={searchText}
+                handleSearchText={handleSearchText}
+            />
+            <SearchAutoComplete searchText={searchText} data={data} />
         </>
     );
 }

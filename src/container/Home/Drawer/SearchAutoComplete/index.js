@@ -1,46 +1,58 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import { createFuzzyMatcher } from '../../../../utils/fuzzyMatcher';
 import SearchAutoCompleteItem from './SearchAutoCompleteItem';
 
-const MockItem = [
-    { id: 1, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 2, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 3, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 4, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 5, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 6, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 7, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 8, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-    { id: 9, address1: '대구 중구 동덕로 1', address2: '대구 중구 동덕로 1' },
-];
+function SearchAutoComplete({ searchText, data }) {
+    const [autoComplete, setAutoComplete] = useState([]);
+    const [visibility, setVisibility] = useState(false);
 
-function SearchAutoComplete() {
+    useEffect(() => {
+        if (searchText) {
+            setVisibility(true);
+            setAutoComplete(
+                data.filter((x) =>
+                    x.address.match(createFuzzyMatcher(searchText)),
+                ),
+            );
+        }
+        if (searchText === '') {
+            setVisibility(false);
+            setAutoComplete([]);
+        }
+    }, [searchText, visibility]);
+
     return (
-        <Container>
-            {MockItem.map((item) => (
+        <Container className={visibility ? '__find' : '__hide'}>
+            {autoComplete.map((item) => (
                 <SearchAutoCompleteItem
-                    key={item.id}
-                    title={item.address1}
-                    sub={item.address2}
+                    key={`${item.lat} ${item.lng}`}
+                    title={item.address}
+                    sub={item.name}
                 />
             ))}
         </Container>
     );
 }
 
-const Container = styled.div`
+const Container = styled.ul`
     width: 340px;
-    height: 410px;
     position: absolute;
     left: 136px;
     top: 67px;
+    max-height: 410px;
 
     background: white;
     box-sizing: border-box;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-    padding: 45px 24px;
     z-index: 999998;
     overflow: auto;
+    &.__hide: {
+        height: 0px;
+    }
+    &.__find: {
+        height: 410px;
+    }
     &::-webkit-scrollbar {
         width: 8px;
     }

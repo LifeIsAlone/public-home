@@ -1,15 +1,10 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from 'next/head';
 import Script from 'next/script';
-import Image from 'next/image';
 import NaverMap from '../components/NaverMap';
-import Header from '../container/Home/Header2';
 import HomeMarker from '../container/Home/HomeMarker';
 import { getSpreadSheetData } from '../libs/sheets';
 import { useMemo, useState } from 'react';
-import Header2 from '../container/Home/Drawer/LeftSideDrawerBox';
-import Search from '../container/Home/Drawer/Search';
-import SearchAutoComplete from '../container/Home/Drawer/SearchAutoComplete';
 import Navigator from '../components/Navigator';
 import Drawer from '../container/Home/Drawer';
 
@@ -86,19 +81,21 @@ const preprocessingLH = (datas) => {
 
 export default function Home({ spreadSheetData }) {
     const [homes, setHomes] = useState([]);
-    const [hide, setHide] = useState(false);
+    const [opening, setOpening] = useState(true);
+    const [searchText, setSearchText] = useState('');
+
     const HomeBucket = useMemo(() => {
         return Object.values(preprocessingLH(spreadSheetData));
     }, []);
-    const handleDrawerHide = () => setHide(true);
-    const handleDrawerEvent = () => setHide((f) => !f);
+    const handleSearchText = (text) => setSearchText(text);
+    const handleDrawerOpening = () => setOpening((f) => !f);
     const handleDataSet = (data) => setHomes(data);
     const handlers = (data) => {
         handleDataSet(data);
         handleDrawerHide();
     };
     return (
-        <div>
+        <>
             <Head>
                 <title>청년주택 지도</title>
                 <meta name="description" content="청년주택 지도" />
@@ -110,7 +107,13 @@ export default function Home({ spreadSheetData }) {
             ></Script>
             <main>
                 <Navigator />
-                <Drawer />
+                <Drawer
+                    opening={opening}
+                    handleDrawerOpening={handleDrawerOpening}
+                    searchText={searchText}
+                    handleSearchText={handleSearchText}
+                    data={HomeBucket}
+                />
                 <NaverMap>
                     {HomeBucket.map((data) => {
                         return (
@@ -123,7 +126,7 @@ export default function Home({ spreadSheetData }) {
                     })}
                 </NaverMap>
             </main>
-        </div>
+        </>
     );
 }
 

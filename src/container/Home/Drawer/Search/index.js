@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import SearchIcon from '../../../../assets/SearchIcon';
 
-function Search() {
-    const [searchText, setSearchText] = useState();
+function Search({ searchText, handleSearchText }) {
     return (
         <Container>
             <Input
                 value={searchText}
-                onChange={(e) => setSearchText(e.target.value)}
+                onChange={(e) => handleSearchText(e.target.value)}
             />
             <BtnContainer
                 onClick={(e) => {

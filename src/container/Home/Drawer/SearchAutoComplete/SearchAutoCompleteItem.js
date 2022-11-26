@@ -4,18 +4,26 @@ import SearchIcon from '../../../../assets/SearchIcon';
 
 function SearchAutoCompleteItem({ title, sub }) {
     return (
-        <Container>
-            <SearchIcon width={15} height={15} color={'#C4C4C4'} />
-            <Contents>
-                <h3>{title}</h3>
-                <p>{sub}</p>
-            </Contents>
-        </Container>
+        <Effects>
+            <Container>
+                <SearchIcon width={15} height={15} color={'#C4C4C4'} />
+                <Contents>
+                    <h3>{title}</h3>
+                    <p>{sub}</p>
+                </Contents>
+            </Container>
+        </Effects>
     );
 }
+const Effects = styled.li`
+    &:hover {
+        background: #eeeeee;
+    }
+`;
 const Container = styled.div`
-    height: 40px;
+    height: 55px;
     margin: 14px;
+    padding: 7px 0px;
 
     display: flex;
     flex-direction: row;
@@ -31,6 +39,7 @@ const Contents = styled.div`
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
+        text-overflow: ellipsis;
     }
     p {
         font-family: 'Noto Sans KR';
@@ -39,6 +48,7 @@ const Contents = styled.div`
         font-size: 12px;
         line-height: 21px;
         color: #8e8e93;
+        text-overflow: ellipsis;
     }
 `;
 
