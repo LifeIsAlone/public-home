@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import SearchIcon from '../../assets/SearchIcon';
+import SearchIcon from '../../../../assets/SearchIcon';
 
 function SearchAutoCompleteItem({ title, sub }) {
     return (

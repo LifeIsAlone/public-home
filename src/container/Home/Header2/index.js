@@ -1,0 +1,140 @@
+// import Image from 'next/image';
+// import React, { useState, useRef, useEffect } from 'react';
+// import styled from 'styled-components';
+
+import React from 'react';
+
+export default function index() {
+    return <div>index</div>;
+}
+
+// import icon from '../../../images/happy.png';
+// import { createFuzzyMatcher } from '../../../utils/fuzzyMatcher';
+
+// export default function Header({ data }) {
+//     const [visibility, setVisibility] = useState(true);
+
+//     const [search, setSearch] = useState('');
+//     const [searching, setSearching] = useState(true);
+//     const [searchedData, setSearchData] = useState([]);
+
+//     useEffect(() => {
+//         if (searching && search) {
+//             setSearching(false);
+//             setSearchData(
+//                 data.filter((x) => x.address.match(createFuzzyMatcher(search))),
+//             );
+//         }
+//         if (searching && !search) {
+//             setSearchData([]);
+//         }
+//     }, [search]);
+
+//     const onChangeHandler = (e) => {
+//         setSearching(true);
+//         setSearch(e.target.value);
+//     };
+
+//     const visibleHandler = () => {
+//         setVisibility((f) => !f);
+//     };
+//     return (
+//         <AsidePosition>
+//             <div
+//                 className={!visibility ? 'appear-trigger' : 'disappear'}
+//                 onClick={visibleHandler}
+//             >
+//                 <Image alt="아이콘" src={icon} width="80%" height="70%" />
+//             </div>
+//             <div className={visibility ? 'appear-contents' : 'disappear'}>
+//                 <AsideSearch>
+//                     <form onSubmit={(e) => e.preventDefault()}>
+//                         <label htmlFor="address" onClick={visibleHandler}>
+//                             <Image
+//                                 alt="아이콘"
+//                                 src={icon}
+//                                 width="80%"
+//                                 height="70%"
+//                             />
+//                         </label>
+//                         <input
+//                             type="text"
+//                             value={search}
+//                             onChange={onChangeHandler}
+//                         />
+//                         <input type="submit" value="검색" />
+//                     </form>
+//                 </AsideSearch>
+//                 <AsideContents>
+//                     <FilteredHomes data={searchedData} />
+//                 </AsideContents>
+//             </div>
+//         </AsidePosition>
+//     );
+// }
+
+// const AsidePosition = styled.header`
+//     position: fixed;
+//     top: 0;
+//     width: wrap_content;
+//     background: #fffa;
+//     border-radius: 0.6rem 0.3rem 0.3rem 0;
+//     margin-top: 1rem;
+//     margin-left: 1rem;
+//     box-shadow: 1.2px 1.2px 3px #00000033;
+
+//     z-index: 99999;
+//     .appear {
+//         &-trigger {
+//             padding: 0.7rem 0.5rem;
+//             visibility: visible;
+//             opacity: 100;
+//             transition: all 0.6s fade;
+//         }
+//         &-contents {
+//             visibility: visible;
+//             opacity: 100;
+//             transition: all 0.5s fade;
+//         }
+//     }
+//     .disappear {
+//         width: 0;
+//         height: 0;
+//         transition: width, height 0.4s ease;
+//         visibility: hidden;
+//         opacity: 0;
+
+//         &:after {
+//             display: none;
+//         }
+//     }
+// `;
+// const AsideSearch = styled.div`
+//     padding: 0.7rem 0.5rem;
+
+//     & > form {
+//         width: 100%;
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: start;
+//     }
+//     input[type='text'] {
+//         width: 15rem;
+//         background: none;
+//         outline: none;
+//         border: none;
+//         border-bottom: grey solid 0.5px;
+//         padding: 15px 0px 10px 15px;
+//         font-size: 15px;
+//     }
+//     input[type='submit'] {
+//         width: 3rem;
+//         border: none;
+//         margin-left: 0.3rem;
+//         font-size: 15px;
+//     }
+// `;
+
+// const AsideContents = styled.div``;
+
+// const AddressButton = styled.button``;

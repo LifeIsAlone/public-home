@@ -32,14 +32,23 @@ const Container = styled.div`
     width: 340px;
     height: 410px;
     position: absolute;
+    left: 136px;
     top: 67px;
-    left: 24px;
 
+    background: white;
     box-sizing: border-box;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     padding: 45px 24px;
     z-index: 999998;
     overflow: auto;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #8e8e93;
+        border-radius: 100px;
+    }
 `;
 
 export default SearchAutoComplete;

@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import SearchIcon from '../../assets/SearchIcon';
+import SearchIcon from '../../../../assets/SearchIcon';
 
 function Search() {
+    const [searchText, setSearchText] = useState();
     return (
         <Container>
-            <Input />
-            <BtnContainer>
+            <Input
+                value={searchText}
+                onChange={(e) => setSearchText(e.target.value)}
+            />
+            <BtnContainer
+                onClick={(e) => {
+                    e.preventDefault();
+                    alert('test');
+                }}
+            >
                 <SearchIcon />
             </BtnContainer>
         </Container>
@@ -16,7 +25,7 @@ const Container = styled.div`
     position: absolute;
     width: 340px;
     height: 46px;
-    left: 24px;
+    left: 136px;
     top: 27px;
     z-index: 999999;
     background: #ffffff;
