@@ -88,11 +88,13 @@ export default function Home({ spreadSheetData }) {
         return Object.values(preprocessingLH(spreadSheetData));
     }, []);
     const handleSearchText = (text) => setSearchText(text);
-    const handleDrawerOpening = () => setOpening((f) => !f);
+    const handleDrawerClosing = () => setOpening(false);
+    const handleDrawerOpening = () => setOpening(true);
+
     const handleDataSet = (data) => setHomes(data);
     const handlers = (data) => {
         handleDataSet(data);
-        handleDrawerHide();
+        handleDrawerOpening();
     };
     return (
         <>
@@ -109,10 +111,11 @@ export default function Home({ spreadSheetData }) {
                 <Navigator />
                 <Drawer
                     opening={opening}
-                    handleDrawerOpening={handleDrawerOpening}
+                    handleDrawerClosing={handleDrawerClosing}
                     searchText={searchText}
                     handleSearchText={handleSearchText}
                     data={HomeBucket}
+                    homes={homes}
                 />
                 <NaverMap>
                     {HomeBucket.map((data) => {

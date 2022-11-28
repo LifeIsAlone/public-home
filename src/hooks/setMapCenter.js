@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { NaverMapContext } from '../components/NaverMap';
 
 /**
+ * 원하는 좌표로 이동합니다. 스무스하게
  *
  * @param {lat lng} position
  */

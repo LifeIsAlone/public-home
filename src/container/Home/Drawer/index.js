@@ -5,16 +5,18 @@ import SearchAutoComplete from './SearchAutoComplete';
 
 function Drawer({
     opening,
-    handleDrawerOpening,
+    handleDrawerClosing,
     searchText,
     handleSearchText,
     data,
+    homes,
 }) {
     return (
         <>
             <LeftSideDrawerBox
                 opening={opening}
-                handleDrawerOpening={handleDrawerOpening}
+                handleDrawerClosing={handleDrawerClosing}
+                homes={homes}
             />
             <Search
                 searchText={searchText}

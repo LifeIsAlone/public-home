@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Open from '../../../../assets/Open';
 
-function LeftSideDrawerBox({ opening, handleDrawerOpening }) {
+function LeftSideDrawerBox({ homes, opening, handleDrawerClosing }) {
+    useEffect(() => {
+        console.log(homes);
+    }, [homes]);
+
     return (
         <Container className={opening ? '__open' : '__close'}>
             <SearchArea />
-            <ContentsArea />
-            <TriggerBtn onClick={() => handleDrawerOpening()}>
+            <ContentsArea>
+                <nav style={{ height: 39, width: '100%', background: 'grey' }}>
+                    nav
+                </nav>
+                <section>
+                    <header>
+                        <h2>{homes.name}</h2>
+                        <h4>{homes.address}</h4>
+                        <tag>{homes.gov}</tag>
+                        {homes.elevator && <tag>엘리베이터 있음</tag>}
+                    </header>
+                    <article>
+                        <h2>매물</h2>
+                    </article>
+                </section>
+            </ContentsArea>
+            <TriggerBtn onClick={() => handleDrawerClosing()}>
                 <Open />
             </TriggerBtn>
         </Container>
@@ -42,6 +61,16 @@ const ContentsArea = styled.div`
     height: 100%;
 
     background: #fafafa;
+    overflow: auto;
+
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #8e8e93;
+        border-radius: 100px;
+    }
 `;
 
 const TriggerBtn = styled.button`

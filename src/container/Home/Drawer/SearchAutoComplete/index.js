@@ -47,17 +47,18 @@ const Container = styled.ul`
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     z-index: 999998;
     overflow: auto;
-    &.__hide: {
+    __hide: {
         height: 0px;
     }
-    &.__find: {
+
+    __find: {
         height: 410px;
     }
-    &::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: 8px;
     }
 
-    &::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background: #8e8e93;
         border-radius: 100px;
     }
