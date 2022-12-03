@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import styled from 'styled-components';
+import useMapCenter from '../../../../hooks/useMapCenter';
 import { createFuzzyMatcher } from '../../../../utils/fuzzyMatcher';
 import SearchAutoCompleteItem from './SearchAutoCompleteItem';
 
@@ -16,7 +17,7 @@ function SearchAutoComplete({ searchText, data }) {
                 ),
             );
         }
-        if (searchText === '') {
+        if (searchText.trim() === '') {
             setVisibility(false);
             setAutoComplete([]);
         }
@@ -29,6 +30,7 @@ function SearchAutoComplete({ searchText, data }) {
                     key={`${item.lat} ${item.lng}`}
                     title={item.address}
                     sub={item.name}
+                    position={{ lat: item.lat, lng: item.lng }}
                 />
             ))}
         </Container>
@@ -47,6 +49,9 @@ const Container = styled.ul`
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     z-index: 999998;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+
     __hide: {
         height: 0px;
     }

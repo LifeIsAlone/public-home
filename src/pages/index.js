@@ -109,15 +109,15 @@ export default function Home({ spreadSheetData }) {
             ></Script>
             <main>
                 <Navigator />
-                <Drawer
-                    opening={opening}
-                    handleDrawerClosing={handleDrawerClosing}
-                    searchText={searchText}
-                    handleSearchText={handleSearchText}
-                    data={HomeBucket}
-                    homes={homes}
-                />
                 <NaverMap>
+                    <Drawer
+                        opening={opening}
+                        handleDrawerClosing={handleDrawerClosing}
+                        searchText={searchText}
+                        handleSearchText={handleSearchText}
+                        data={HomeBucket}
+                        homes={homes}
+                    />
                     {HomeBucket.map((data) => {
                         return (
                             <HomeMarker

@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import SearchIcon from '../../../../assets/SearchIcon';
+import useMapCenter from '../../../../hooks/useMapCenter';
 
-function SearchAutoCompleteItem({ title, sub }) {
+function SearchAutoCompleteItem({ title, sub, position }) {
+    const { setMapCenter } = useMapCenter();
     return (
         <Effects>
-            <Container>
+            <ItemBtn onClick={() => setMapCenter(position)}>
                 <SearchIcon width={15} height={15} color={'#C4C4C4'} />
                 <Contents>
                     <h3>{title}</h3>
                     <p>{sub}</p>
                 </Contents>
-            </Container>
+            </ItemBtn>
         </Effects>
     );
 }
@@ -20,12 +22,17 @@ const Effects = styled.li`
         background: #eeeeee;
     }
 `;
-const Container = styled.div`
+const ItemBtn = styled.button`
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
+    outline: none;
     height: 55px;
     margin: 14px;
     padding: 7px 0px;
 
     display: flex;
+    text-align: left;
     flex-direction: row;
 
     align-items: center;

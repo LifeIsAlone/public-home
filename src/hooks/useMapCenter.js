@@ -6,12 +6,12 @@ import { NaverMapContext } from '../components/NaverMap';
  *
  * @param {lat lng} position
  */
-function setMapCenterFn() {
+function useMapCenter() {
     const naverMap = useContext(NaverMapContext);
     if (!naverMap) {
         throw new Error(`must exist inside Map Component!`);
     }
-    return ({ lat, lng }) => {
+    const setMapCenter = ({ lat, lng }) => {
         if (!window) return null;
         if (!naverMap) throw new Error(`must exist inside Map Component!`);
 
@@ -22,6 +22,7 @@ function setMapCenterFn() {
 
         naverMap.panToBounds(position);
     };
+    return { setMapCenter };
 }
 
-export default setMapCenterFn;
+export default useMapCenter;
