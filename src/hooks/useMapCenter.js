@@ -2,15 +2,16 @@ import React, { useContext } from 'react';
 import { NaverMapContext } from '../components/NaverMap';
 
 /**
+ * 원하는 좌표로 이동합니다. 스무스하게
  *
  * @param {lat lng} position
  */
-function setMapCenterFn() {
+function useMapCenter() {
     const naverMap = useContext(NaverMapContext);
     if (!naverMap) {
         throw new Error(`must exist inside Map Component!`);
     }
-    return ({ lat, lng }) => {
+    const setMapCenter = ({ lat, lng }) => {
         if (!window) return null;
         if (!naverMap) throw new Error(`must exist inside Map Component!`);
 
@@ -21,6 +22,7 @@ function setMapCenterFn() {
 
         naverMap.panToBounds(position);
     };
+    return { setMapCenter };
 }
 
-export default setMapCenterFn;
+export default useMapCenter;

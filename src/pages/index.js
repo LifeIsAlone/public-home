@@ -1,12 +1,11 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from 'next/head';
 import Script from 'next/script';
-import Image from 'next/image';
 import NaverMap from '../components/NaverMap';
-import Header from '../container/Home/Header';
 import HomeMarker from '../container/Home/HomeMarker';
 import { getSpreadSheetData } from '../libs/sheets';
 import { useMemo, useState } from 'react';
+import Navigator from '../components/Navigator';
 import Drawer from '../container/Home/Drawer';
 
 const convertToNumber = (string) => {
@@ -87,19 +86,23 @@ const preprocessingLH = (datas) => {
 
 export default function Home({ spreadSheetData }) {
     const [homes, setHomes] = useState([]);
-    const [hide, setHide] = useState(false);
+    const [opening, setOpening] = useState(true);
+    const [searchText, setSearchText] = useState('');
+
     const HomeBucket = useMemo(() => {
         return Object.values(preprocessingLH(spreadSheetData));
     }, []);
-    const handleDrawerHide = () => setHide(true);
-    const handleDrawerEvent = () => setHide((f) => !f);
+    const handleSearchText = (text) => setSearchText(text);
+    const handleDrawerClosing = () => setOpening(false);
+    const handleDrawerOpening = () => setOpening(true);
+
     const handleDataSet = (data) => setHomes(data);
     const handlers = (data) => {
         handleDataSet(data);
-        handleDrawerHide();
+        handleDrawerOpening();
     };
     return (
-        <div>
+        <>
             <Head>
                 <title>청년주택 지도</title>
                 <meta name="description" content="청년주택 지도" />
@@ -110,12 +113,15 @@ export default function Home({ spreadSheetData }) {
                 src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_MAP_KEY}`}
             ></Script>
             <main>
+                <Navigator />
                 <NaverMap>
-                    <Header data={HomeBucket} />
                     <Drawer
-                        state={homes}
-                        hide={hide}
-                        onToggleClick={handleDrawerEvent}
+                        opening={opening}
+                        handleDrawerClosing={handleDrawerClosing}
+                        searchText={searchText}
+                        handleSearchText={handleSearchText}
+                        data={HomeBucket}
+                        homes={homes}
                     />
                     {HomeBucket.map((data) => {
                         return (
@@ -128,7 +134,7 @@ export default function Home({ spreadSheetData }) {
                     })}
                 </NaverMap>
             </main>
-        </div>
+        </>
     );
 }
 
