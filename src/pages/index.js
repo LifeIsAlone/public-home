@@ -26,14 +26,17 @@ const preprocessingLH = (datas) => {
     const homesList = datas.map((homeObject) => ({
         lat: homeObject.lat,
         lng: homeObject.lng,
+        noticeKinds: homeObject['지역본부'],
         keyCoords: `${homeObject.lat} ${homeObject.lng}`,
         address: homeObject['주소'],
         name: homeObject['주택군 이름'],
         classes:
             homeObject['성별용도 구분'] +
             ' ' +
-            (homeObject['동'] ? homeObject['동'] + '동 ' : '') +
-            homeObject['호'] +
+            (homeObject['동']
+                ? homeObject['동'].replace('동', '') + '동 '
+                : '') +
+            homeObject['호'].replace('호', '') +
             '호 ' +
             Number(homeObject['전용면적']) +
             '㎡',
@@ -57,6 +60,7 @@ const preprocessingLH = (datas) => {
         ({
             lng,
             lat,
+            noticeKinds,
             keyCoords,
             address,
             classes,
@@ -68,6 +72,7 @@ const preprocessingLH = (datas) => {
         }) => {
             const Obj = homesReuslt.filter((e) => e.keyCoords === keyCoords)[0];
             Obj.gov = 'LH 청년매입';
+            Obj.noticeKinds = noticeKinds;
             Obj.name = name;
             Obj.address = address;
             Obj.lat = lat;
